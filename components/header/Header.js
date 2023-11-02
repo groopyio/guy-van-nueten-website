@@ -18,7 +18,9 @@ export default function Header() {
   return (
     <div className={styles["category-selection-list"]}>
       {genres.map((genre) => (
-        <p key={genre}>{genre}</p>
+        <button className={styles["category-button"]} key={genre}>
+          {genre}
+        </button>
       ))}
     </div>
   );
