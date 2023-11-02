@@ -3,5 +3,5 @@
   display: flex;
   gap: var(--space-l);
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
