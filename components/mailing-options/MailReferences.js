@@ -17,8 +17,21 @@ export default function MailReferences() {
     { country: "Territories", email: "hendrik@rockoco.be" },
   ];
   return (
-    <div className={styles["container"]}>
-      <Mail onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
+    <div className={styles["mail-references-container"]}>
+      <div
+        className={styles["icon-and-placeholder"]}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <Mail />
+        <p
+          className={`${styles["contact-placeholder"]} ${
+            !isHovered && styles["visible"]
+          }`}
+        >
+          Contact
+        </p>
+      </div>
       <div
         className={`${styles["countries-container"]} ${
           isHovered && styles["visible"]
