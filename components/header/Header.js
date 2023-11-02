@@ -1,3 +1,5 @@
+import styles from "./Header.module.css";
+
 export default function Header() {
   const genres = [
     "piano",
@@ -14,7 +16,7 @@ export default function Header() {
     "all",
   ];
   return (
-    <div className="genres">
+    <div className={styles["category-selection-list"]}>
       {genres.map((genre) => (
         <p key={genre}>{genre}</p>
       ))}
