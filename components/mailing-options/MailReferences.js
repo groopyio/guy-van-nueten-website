@@ -13,7 +13,9 @@ export default function mailReferences() {
       <Mail />
       <div className={styles["countries-container"]}>
         {mailReferences.map((reference) => (
-          <Link href={`mailto:${reference.email}`}>{reference.country}</Link>
+          <Link href={`mailto:${reference.email}`}>
+            <p className={styles["country"]}>{reference.country}</p>
+          </Link>
         ))}
       </div>
     </div>

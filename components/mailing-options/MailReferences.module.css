@@ -7,5 +7,14 @@
 
 .countries-container {
   display: flex;
+  gap: var(--space-xs);
   flex-direction: column;
+}
+
+.country {
+  all: unset;
+}
+
+.country:hover {
+  cursor: pointer;
 }
