@@ -9,6 +9,17 @@
   display: flex;
   gap: var(--space-xs);
   flex-direction: column;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: opacity 0.6s, transform 0.6s;
+  transition-delay: 0.3s;
+}
+
+.countries-container.visible {
+  opacity: 1;
+  transform: scaleY(1);
+  transition-delay: 0s;
 }
 
 .country {

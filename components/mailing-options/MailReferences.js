@@ -1,8 +1,16 @@
 import { Mail } from "iconoir-react";
 import Link from "next/link";
+import { useState } from "react";
 import styles from "./MailReferences.module.css";
 
-export default function mailReferences() {
+export default function MailReferences() {
+  const [isHovered, setIsHovered] = useState(false);
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   const mailReferences = [
     { country: "Belgium", email: "daan@toutpartout.be" },
     { country: "Netherlands", email: "b.jansen@mojo.nl" },
@@ -10,10 +18,16 @@ export default function mailReferences() {
   ];
   return (
     <div className={styles["container"]}>
-      <Mail />
-      <div className={styles["countries-container"]}>
+      <Mail onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
+      <div
+        className={`${styles["countries-container"]} ${
+          isHovered && styles["visible"]
+        }`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         {mailReferences.map((reference) => (
-          <Link href={`mailto:${reference.email}`}>
+          <Link href={`mailto:${reference.email}`} key={reference.country}>
             <p className={styles["country"]}>{reference.country}</p>
           </Link>
         ))}
