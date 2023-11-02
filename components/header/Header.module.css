@@ -1,0 +1,20 @@
+.category-selection-list {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-l);
+}
+
+.category-button {
+  all: unset;
+  color: var(--gray-300);
+}
+
+.category-button:hover {
+  all: unset;
+  color: var(--gray-700);
+  cursor: pointer;
+}
+
+.category-button:focus {
+  outline: revert;
+}
