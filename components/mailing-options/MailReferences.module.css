@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: var(--space-s);
+  align-items: center;
+}
+
+.countries-container {
+  display: flex;
+  flex-direction: column;
+}
