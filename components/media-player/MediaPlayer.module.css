@@ -1,0 +1,26 @@
+.mediaplayer-container {
+  display: flex;
+  gap: var(--space-l);
+  align-items: center;
+  align-items: flex-end;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xs);
+}
+
+.music-info,
+.song-details,
+.production-info {
+  display: flex;
+  gap: var(--space-s);
+}
+
+.controls,
+.sources {
+  display: flex;
+  gap: var(--space-s);
+}

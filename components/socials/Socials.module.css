@@ -1,0 +1,8 @@
+.icon-container {
+  display: flex;
+  gap: var(--space-s);
+}
+
+.icon-container:hover {
+  cursor: pointer;
+}

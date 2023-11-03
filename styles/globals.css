@@ -30,7 +30,6 @@ body {
 }
 
 main {
-  padding: var(--space-m) 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -39,6 +38,7 @@ main {
 }
 
 .container {
+  padding: var(--space-m) 0;
   height: 100vh;
   display: flex;
   flex-direction: column;

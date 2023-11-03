@@ -1,0 +1,7 @@
+.footer {
+  width: 100%;
+  display: flex;
+  gap: var(--space-xl);
+  justify-content: center;
+  align-items: flex-end;
+}
