@@ -4,7 +4,7 @@ import styles from "./Socials.module.css";
 
 export default function Socials() {
   return (
-    <div className={styles["icon-container"]}>
+    <nav className={styles["icon-container"]}>
       <Link href="https://www.facebook.com/guyvannueten/">
         <Facebook />
       </Link>
@@ -14,6 +14,6 @@ export default function Socials() {
       <Link href="https://www.instagram.com/guy.van.nueten/">
         <Instagram />
       </Link>
-    </div>
+    </nav>
   );
 }

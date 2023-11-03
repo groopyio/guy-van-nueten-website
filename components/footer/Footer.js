@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer className={styles["footer"]}>
       <Socials />
-      <Contact />
       <MediaPlayer />
+      <Contact />
     </footer>
   );
 }
