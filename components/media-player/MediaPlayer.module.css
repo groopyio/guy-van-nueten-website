@@ -1,4 +1,5 @@
 .mediaplayer-container {
+  z-index: 2;
   display: flex;
   gap: var(--space-l);
   align-items: center;

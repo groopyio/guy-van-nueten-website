@@ -1,3 +1,4 @@
+import Canvas from "@components/canvas/Canvas";
 import Footer from "@components/footer/Footer";
 import Header from "@components/header/Header";
 import Head from "next/head";
@@ -12,10 +13,8 @@ export default function Home() {
 
       <main>
         <Header />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
       </main>
+      <Canvas />
 
       <Footer />
     </div>
