@@ -23,7 +23,6 @@ export default function Canvas() {
 
     const initialImages = () => {
       const images = [];
-
       const refs = [
         { src: "box028-2.png", url: "https://www.youtube.com/user/GuyVN" },
         {
@@ -48,6 +47,7 @@ export default function Canvas() {
           dy: (Math.random() < 0.5 ? 1 : -1) * getRandomNumber(0, 3),
           url: ref.url,
           element: img,
+          frozen: false,
         });
       });
 
@@ -64,8 +64,8 @@ export default function Canvas() {
     const updateAllImages = () => {
       const updateImagePosition = (image) => {
         ctx.drawImage(image.element, image.x, image.y);
-        image.x += image.dx;
-        image.y += image.dy;
+        !image.frozen && (image.x += image.dx);
+        !image.frozen && (image.y += image.dy);
       };
 
       const handleBoundaryCollisions = (image) => {
@@ -126,17 +126,47 @@ export default function Canvas() {
       clearCanvas();
       updateAllImages();
     };
+
+    canvas.addEventListener("click", (e) => {
+      const clickX = e.clientX - canvas.getBoundingClientRect().left;
+      const clickY = e.clientY - canvas.getBoundingClientRect().top;
+
+      images.forEach((image) => {
+        if (
+          clickX >= image.x &&
+          clickX <= image.x + image.element.width &&
+          clickY >= image.y &&
+          clickY <= image.y + image.element.height
+        ) {
+          window.open(image.url, "_blank");
+        }
+      });
+    });
+
+    canvas.addEventListener("mousemove", (e) => {
+      const canvasX = e.clientX - canvas.getBoundingClientRect().left;
+      const canvasY = e.clientY - canvas.getBoundingClientRect().top;
+      canvas.style.cursor = "default";
+      images.forEach((image) => {
+        image.frozen = false;
+        if (
+          canvasX >= image.x &&
+          canvasX <= image.x + image.element.width &&
+          canvasY >= image.y &&
+          canvasY <= image.y + image.element.height
+        ) {
+          image.frozen = true;
+          canvas.style.cursor = "pointer";
+        }
+      });
+    });
+
     const updateCanvas = () => {
       drawImages();
       requestAnimationFrame(updateCanvas);
     };
 
-    const initializeCanvas = () => {
-      setImages(initialImages());
-      updateCanvas();
-    };
-
-    initializeCanvas();
+    requestAnimationFrame(updateCanvas);
   }, [initialisedImages]);
 
   return <canvas className={styles["canvas"]} ref={canvasRef} />;
