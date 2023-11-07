@@ -2,29 +2,28 @@ import { useEffect, useRef, useState } from "react";
 import styles from "./Canvas.module.css";
 
 export default function Canvas() {
+  const [images, setImages] = useState([]);
   const canvasRef = useRef(null);
-  const [balls, setBalls] = useState([]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
-    function resizeCanvas() {
+    const resizeCanvas = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-    }
+    };
 
-    // Initial canvas setup and resize
     resizeCanvas();
 
-    const ballRadius = 20;
-    const initialBalls = [
+    const imageWidth = 20;
+    const initialImages = [
       {
         x: 100,
         y: 100,
         dx: 2,
         dy: 2,
-        color: "red",
+        src: "box028-2.png",
         url: "https://www.google.com",
       },
       {
@@ -32,7 +31,7 @@ export default function Canvas() {
         y: 200,
         dx: -2,
         dy: -2,
-        color: "blue",
+        src: "CC_JB_ill-2022.png",
         url: "https://www.facebook.com",
       },
       {
@@ -40,86 +39,77 @@ export default function Canvas() {
         y: 300,
         dx: 1,
         dy: -1,
-        color: "green",
+        src: "CC2_JB_ill-3023.png",
+        url: "https://www.instagram.com",
+      },
+      {
+        x: 400,
+        y: 400,
+        dx: 3,
+        dy: 3,
+        src: "Intonarumorus.png",
+        url: "https://www.instagram.com",
+      },
+      {
+        x: 500,
+        y: 500,
+        dx: 3,
+        dy: 3,
+        src: "Synth.png",
         url: "https://www.instagram.com",
       },
     ];
 
-    setBalls(initialBalls);
+    setImages(initialImages);
 
-    function drawBall(ball) {
-      ctx.beginPath();
-      ctx.arc(ball.x, ball.y, ballRadius, 0, Math.PI * 2);
-      ctx.fillStyle = ball.color;
-      ctx.fill();
-      ctx.closePath();
-    }
-
-    function updateCanvas() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      balls.forEach((ball, index) => {
-        drawBall(ball);
-        ball.x += ball.dx;
-        ball.y += ball.dy;
-
+    const drawImages = () => {
+      images.forEach((image, index) => {
+        const img = new Image();
+        img.onload = () => {
+          index === 0 && ctx.clearRect(0, 0, canvas.width, canvas.height);
+          ctx.drawImage(img, image.x, image.y);
+        };
+        img.src = image.src;
+        image.x += image.dx;
+        image.y += image.dy;
         if (
-          ball.x + ball.dx > canvas.width - ballRadius ||
-          ball.x + ball.dx < ballRadius
+          image.x + image.dx > canvas.width - img.naturalWidth ||
+          image.x + image.dx < 0
         ) {
-          ball.dx = -ball.dx;
+          image.dx = -image.dx;
         }
         if (
-          ball.y + ball.dy > canvas.height - ballRadius ||
-          ball.y + ball.dy < ballRadius
+          image.y + image.dy > canvas.height - img.naturalHeight ||
+          image.y + image.dy < 0
         ) {
-          ball.dy = -ball.dy;
+          image.dy = -image.dy;
         }
 
-        for (let i = index + 1; i < balls.length; i++) {
-          const otherBall = balls[i];
-          const dx = otherBall.x - ball.x;
-          const dy = otherBall.y - ball.y;
+        for (let i = index + 1; i < images.length; i++) {
+          const otherImage = images[i];
+          const dx = otherImage.x - image.x;
+          const dy = otherImage.y - image.y;
           const distance = Math.sqrt(dx * dx + dy * dy);
 
-          if (distance < 2 * ballRadius) {
-            const tempDx = ball.dx;
-            const tempDy = ball.dy;
+          if (distance < 2 * imageWidth) {
+            const tempDx = image.dx;
+            const tempDy = image.dy;
 
-            ball.dx = otherBall.dx;
-            ball.dy = otherBall.dy;
+            image.dx = otherImage.dx;
+            image.dy = otherImage.dy;
 
-            otherBall.dx = tempDx;
-            otherBall.dy = tempDy;
+            otherImage.dx = tempDx;
+            otherImage.dy = tempDy;
           }
         }
-
-        canvas.addEventListener("click", (event) => {
-          const rect = canvas.getBoundingClientRect();
-          const clickX = event.clientX - rect.left;
-          const clickY = event.clientY - rect.top;
-
-          if (
-            clickX > ball.x - ballRadius &&
-            clickX < ball.x + ballRadius &&
-            clickY > ball.y - ballRadius &&
-            clickY < ball.y + ballRadius
-          ) {
-            window.open(ball.url, "_blank");
-          }
-        });
       });
-
-      requestAnimationFrame(updateCanvas);
-    }
-
-    window.addEventListener("resize", resizeCanvas);
-
-    updateCanvas();
-
-    return () => {
-      window.removeEventListener("resize", resizeCanvas);
     };
+
+    const updateCanvas = () => {
+      drawImages();
+      requestAnimationFrame(updateCanvas);
+    };
+    requestAnimationFrame(updateCanvas);
   }, []);
 
   return <canvas className={styles["canvas"]} ref={canvasRef} />;
