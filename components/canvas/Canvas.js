@@ -8,6 +8,7 @@ export default function Canvas() {
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
+    const imageWidth = 20;
 
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
@@ -16,70 +17,59 @@ export default function Canvas() {
 
     resizeCanvas();
 
-    const imageWidth = 20;
-    const initialImages = [
-      {
-        x: Math.random() * (canvas.width - imageWidth),
-        y: Math.random() * (canvas.height - imageWidth),
-        dx: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        dy: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        src: "box028-2.png",
-        url: "https://www.google.com",
-      },
-      {
-        x: Math.random() * (canvas.width - imageWidth),
-        y: Math.random() * (canvas.height - imageWidth),
-        dx: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        dy: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        src: "CC_JB_ill-2022.png",
-        url: "https://www.facebook.com",
-      },
-      {
-        x: Math.random() * (canvas.width - imageWidth),
-        y: Math.random() * (canvas.height - imageWidth),
-        dx: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        dy: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        src: "CC2_JB_ill-3023.png",
-        url: "https://www.instagram.com",
-      },
-      {
-        x: Math.random() * (canvas.width - imageWidth),
-        y: Math.random() * (canvas.height - imageWidth),
-        dx: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        dy: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        src: "Intonarumorus.png",
-        url: "https://www.instagram.com",
-      },
-      {
-        x: Math.random() * (canvas.width - imageWidth),
-        y: Math.random() * (canvas.height - imageWidth),
-        dx: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        dy: (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 3),
-        src: "Synth.png",
-        url: "https://www.instagram.com",
-      },
-    ];
+    const getRandomNumber = (min, max) => {
+      return Math.random() * (max - min) + min;
+    };
 
-    setImages(initialImages);
+    const initialImages = () => {
+      const images = [];
+
+      const refs = [
+        { src: "box028-2.png", url: "https://www.youtube.com/user/GuyVN" },
+        {
+          src: "CC_JB_ill-2022.png",
+          url: "https://www.facebook.com/guyvannueten/",
+        },
+        { src: "CC2_JB_ill-3023.png", url: "http://rockoco.be" },
+        { src: "Intonarumorus.png", url: "https://sonyclassical.com" },
+        {
+          src: "Synth.png",
+          url: "https://open.spotify.com/artist/6LQRyga459hm5w9HCzARFu?si=5EZBv86GTnuViiYJsEQyvQ",
+        },
+      ];
+
+      refs.forEach((ref) => {
+        const img = new Image();
+        img.src = ref.src;
+        images.push({
+          x: getRandomNumber(0, canvas.width - img.naturalWidth),
+          y: getRandomNumber(0, canvas.height - img.naturalHeight),
+          dx: (Math.random() < 0.5 ? 1 : -1) * getRandomNumber(0, 3),
+          dy: (Math.random() < 0.5 ? 1 : -1) * getRandomNumber(0, 3),
+          url: ref.url,
+          element: img,
+        });
+      });
+
+      return images;
+    };
+
+    setImages(initialImages());
 
     const drawImages = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
       images.forEach((image, index) => {
-        const img = new Image();
-        img.onload = () => {
-          index === 0 && ctx.clearRect(0, 0, canvas.width, canvas.height);
-          ctx.drawImage(img, image.x, image.y);
-        };
-        img.src = image.src;
+        ctx.drawImage(image.element, image.x, image.y);
         image.x += image.dx;
         image.y += image.dy;
         if (
-          image.x + image.dx > canvas.width - img.naturalWidth ||
+          image.x + image.dx > canvas.width - image.element.naturalWidth ||
           image.x + image.dx < 0
         ) {
           image.dx = -image.dx;
         }
         if (
-          image.y + image.dy > canvas.height - img.naturalHeight ||
+          image.y + image.dy > canvas.height - image.element.naturalHeight ||
           image.y + image.dy < 0
         ) {
           image.dy = -image.dy;
