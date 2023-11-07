@@ -1,4 +1,5 @@
 .contact-container {
+  z-index: 2;
   position: relative;
   display: flex;
   gap: var(--space-s);

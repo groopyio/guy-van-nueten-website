@@ -1,17 +1,23 @@
 import { Play, SkipNext, SkipPrev, Spotify, Youtube } from "iconoir-react";
+import { MetaContext } from "pages";
+import { useContext, useEffect } from "react";
 import styles from "./MediaPlayer.module.css";
 
 export default function MediaPlayer() {
-  const metadata = {
-    title: "title",
-    composer: "composer",
-    author: "author",
-    album: "album",
-    publisher: "publisher",
-    year: "year",
-    production: "production",
-    live: "live",
-  };
+  const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
+  useEffect(() => {
+    setSongMeta({
+      title: "title",
+      composer: "composer",
+      author: "author",
+      album: "album",
+      publisher: "publisher",
+      year: "year",
+      production: "production",
+      live: "live",
+    });
+  }, []);
+
   return (
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
@@ -20,20 +26,28 @@ export default function MediaPlayer() {
         <SkipNext />
       </div>
       <div className={styles["metadata"]}>
-        <div className={styles["music-info"]}>
-          <samp>{metadata.title}</samp>
-          <samp>{metadata.composer}</samp>
-        </div>
-        <div className={styles["song-details"]}>
-          <samp>{metadata.author}</samp>
-          <samp>{metadata.album}</samp>
-          <samp>{metadata.publisher}</samp>
-          <samp>{metadata.year}</samp>
-        </div>
-        <div className={styles["production-info"]}>
-          <samp>{metadata.production}</samp>
-          <samp>{metadata.live}</samp>
-        </div>
+        {!urlMeta && songMeta ? (
+          <>
+            <div className={styles["music-info"]}>
+              <samp>{songMeta.title}</samp>
+              <samp>{songMeta.composer}</samp>
+            </div>
+            <div className={styles["song-details"]}>
+              <samp>{songMeta.author}</samp>
+              <samp>{songMeta.album}</samp>
+              <samp>{songMeta.publisher}</samp>
+              <samp>{songMeta.year}</samp>
+            </div>
+            <div className={styles["production-info"]}>
+              <samp>{songMeta.production}</samp>
+              <samp>{songMeta.live}</samp>
+            </div>
+          </>
+        ) : (
+          <div className={styles["url"]}>
+            <samp>{urlMeta}</samp>
+          </div>
+        )}
       </div>
       <div className={styles["sources"]}>
         <Spotify />

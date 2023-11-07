@@ -1,4 +1,5 @@
 .icon-container {
+  z-index: 2;
   display: flex;
   gap: var(--space-s);
 }
