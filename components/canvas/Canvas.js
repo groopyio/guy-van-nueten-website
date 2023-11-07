@@ -129,6 +129,8 @@ export default function Canvas() {
       updateAllImages();
     };
 
+    window.addEventListener("resize", resizeCanvas);
+
     canvas.addEventListener("click", (e) => {
       const clickX = e.clientX - canvas.getBoundingClientRect().left;
       const clickY = e.clientY - canvas.getBoundingClientRect().top;
