@@ -57,12 +57,18 @@ export default function Canvas() {
     setImages(initialImages());
     setInitialisedImages(true);
 
-    const drawImages = () => {
+    const clearCanvas = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      images.forEach((image, index) => {
+    };
+
+    const updateAllImages = () => {
+      const updateImagePosition = (image) => {
         ctx.drawImage(image.element, image.x, image.y);
         image.x += image.dx;
         image.y += image.dy;
+      };
+
+      const handleBoundaryCollisions = (image) => {
         if (
           image.x + image.dx > canvas.width - image.element.naturalWidth ||
           image.x + image.dx < 0
@@ -75,36 +81,51 @@ export default function Canvas() {
         ) {
           image.dy = -image.dy;
         }
+      };
 
-        for (let i = index + 1; i < images.length; i++) {
-          const otherImage = images[i];
-          const dx = otherImage.x - image.x;
-          const dy = otherImage.y - image.y;
-          const offset = 10;
+      const handleImageCollisions = (image, otherImages) => {
+        for (const otherImage of otherImages) {
+          if (image !== otherImage) {
+            const dx = otherImage.x - image.x;
+            const dy = otherImage.y - image.y;
+            const offset = 10;
 
-          const combinedHalfWidth =
-            (image.element.width + otherImage.element.width) / 2;
+            const combinedHalfWidth =
+              (image.element.width + otherImage.element.width) / 2;
 
-          const combinedHalfHeight =
-            (image.element.height + otherImage.element.height) / 2;
+            const combinedHalfHeight =
+              (image.element.height + otherImage.element.height) / 2;
 
-          const distanceX = Math.abs(dx) + offset;
-          const distanceY = Math.abs(dy) + offset;
+            const distanceX = Math.abs(dx) + offset;
+            const distanceY = Math.abs(dy) + offset;
 
-          if (distanceX < combinedHalfWidth && distanceY < combinedHalfHeight) {
-            const tempDx = image.dx;
-            const tempDy = image.dy;
+            if (
+              distanceX < combinedHalfWidth &&
+              distanceY < combinedHalfHeight
+            ) {
+              const tempDx = image.dx;
+              const tempDy = image.dy;
 
-            image.dx = otherImage.dx;
-            image.dy = otherImage.dy;
+              image.dx = otherImage.dx;
+              image.dy = otherImage.dy;
 
-            otherImage.dx = tempDx;
-            otherImage.dy = tempDy;
+              otherImage.dx = tempDx;
+              otherImage.dy = tempDy;
+            }
           }
         }
+      };
+      images.forEach((image) => {
+        updateImagePosition(image);
+        handleBoundaryCollisions(image);
+        handleImageCollisions(image, images);
       });
     };
 
+    const drawImages = () => {
+      clearCanvas();
+      updateAllImages();
+    };
     const updateCanvas = () => {
       drawImages();
       requestAnimationFrame(updateCanvas);
