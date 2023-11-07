@@ -3,12 +3,12 @@ import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const [images, setImages] = useState([]);
+  const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
-    const imageWidth = 20;
 
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
@@ -55,6 +55,7 @@ export default function Canvas() {
     };
 
     setImages(initialImages());
+    setInitialisedImages(true);
 
     const drawImages = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -79,7 +80,7 @@ export default function Canvas() {
           const otherImage = images[i];
           const dx = otherImage.x - image.x;
           const dy = otherImage.y - image.y;
-          const offset = 5;
+          const offset = 10;
 
           const combinedHalfWidth =
             (image.element.width + otherImage.element.width) / 2;
@@ -108,8 +109,14 @@ export default function Canvas() {
       drawImages();
       requestAnimationFrame(updateCanvas);
     };
-    requestAnimationFrame(updateCanvas);
-  }, []);
+
+    const initializeCanvas = () => {
+      setImages(initialImages());
+      updateCanvas();
+    };
+
+    initializeCanvas();
+  }, [initialisedImages]);
 
   return <canvas className={styles["canvas"]} ref={canvasRef} />;
 }
