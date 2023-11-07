@@ -4,7 +4,7 @@ import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const [images, setImages] = useState([]);
-  const { urlMeta, setUrlMeta } = useContext(MetaContext);
+  const { setUrlMeta } = useContext(MetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
 
@@ -117,6 +117,7 @@ export default function Canvas() {
           }
         }
       };
+
       images.forEach((image) => {
         updateImagePosition(image);
         handleBoundaryCollisions(image);
