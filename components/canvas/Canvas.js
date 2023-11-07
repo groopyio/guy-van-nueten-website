@@ -79,9 +79,18 @@ export default function Canvas() {
           const otherImage = images[i];
           const dx = otherImage.x - image.x;
           const dy = otherImage.y - image.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
+          const offset = 5;
 
-          if (distance < 2 * imageWidth) {
+          const combinedHalfWidth =
+            (image.element.width + otherImage.element.width) / 2;
+
+          const combinedHalfHeight =
+            (image.element.height + otherImage.element.height) / 2;
+
+          const distanceX = Math.abs(dx) + offset;
+          const distanceY = Math.abs(dy) + offset;
+
+          if (distanceX < combinedHalfWidth && distanceY < combinedHalfHeight) {
             const tempDx = image.dx;
             const tempDy = image.dy;
 
