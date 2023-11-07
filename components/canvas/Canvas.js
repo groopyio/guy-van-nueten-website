@@ -1,8 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import { MetaContext } from "pages";
+import { useContext, useEffect, useRef, useState } from "react";
 import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const [images, setImages] = useState([]);
+  const { urlMeta, setUrlMeta } = useContext(MetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
 
@@ -147,6 +149,7 @@ export default function Canvas() {
       const canvasX = e.clientX - canvas.getBoundingClientRect().left;
       const canvasY = e.clientY - canvas.getBoundingClientRect().top;
       canvas.style.cursor = "default";
+      setUrlMeta(null);
       images.forEach((image) => {
         image.frozen = false;
         if (
@@ -157,6 +160,8 @@ export default function Canvas() {
         ) {
           image.frozen = true;
           canvas.style.cursor = "pointer";
+          console.log("hello");
+          setUrlMeta(image.url);
         }
       });
     });

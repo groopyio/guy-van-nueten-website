@@ -11,11 +11,30 @@
   flex-direction: column;
   gap: var(--space-xs);
   margin-bottom: var(--space-xs);
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.metadata .url {
+  display: inline;
+  animation: scroll 5s linear infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .music-info,
 .song-details,
-.production-info {
+.production-info,
+.url {
   display: flex;
   gap: var(--space-s);
 }
