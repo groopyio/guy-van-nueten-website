@@ -1,81 +1,13 @@
 import { Play, SkipNext, SkipPrev, Spotify, Youtube } from "iconoir-react";
 import jsmediatags from "jsmediatags";
 import { MetaContext } from "pages";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import styles from "./MediaPlayer.module.css";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
   const [audioUrl, setAudioUrl] = useState("");
   const [isPlaying, setIsPlaying] = useState(false);
-
-  useEffect(() => {
-    const SCOPE = "https://www.googleapis.com/auth/drive.readonly";
-    const DISCOVERY_DOC =
-      "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest";
-    let tokenClient;
-    const authClient =
-      "908602024669-vlfrc7vbqvtkc4mu0t9dc8kms13r102d.apps.googleusercontent.com";
-
-    const initGapi = () => {
-      gapi.load("client", initializeGapiClient);
-    };
-
-    async function initializeGapiClient() {
-      await gapi.client.init({
-        apiKey: "",
-        discoveryDocs: [DISCOVERY_DOC],
-      });
-    }
-
-    const initClient = () => {
-      tokenClient = google.accounts.oauth2.initTokenClient({
-        client_id: authClient,
-        scope: SCOPE,
-        prompt: "",
-        callback: async (response) => {
-          if (response.error !== undefined) {
-            throw response;
-          }
-          await listAudioFiles();
-        },
-      });
-      tokenClient.requestAccessToken();
-    };
-
-    async function listAudioFiles() {
-      let response;
-      try {
-        response = await gapi.client.drive.files.list({
-          pageSize: 100,
-          fields: "files(id, name)",
-        });
-      } catch (err) {
-        return;
-      }
-      const files = response.result.files;
-    }
-
-    const apiScript = document.createElement("script");
-    const clientScript = document.createElement("script");
-
-    apiScript.src = "https://apis.google.com/js/api.js";
-    apiScript.async = true;
-    apiScript.defer = true;
-    apiScript.onload = initGapi;
-
-    clientScript.src = "https://accounts.google.com/gsi/client";
-    clientScript.async = true;
-    clientScript.defer = true;
-    clientScript.onload = initClient;
-
-    document.body.appendChild(apiScript);
-    document.body.appendChild(clientScript);
-    return () => {
-      document.body.removeChild(apiScript);
-      document.body.appendChild(clientScript);
-    };
-  }, []);
 
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
