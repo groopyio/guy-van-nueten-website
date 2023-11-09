@@ -1,28 +1,60 @@
 import { Play, SkipNext, SkipPrev, Spotify, Youtube } from "iconoir-react";
+import jsmediatags from "jsmediatags";
 import { MetaContext } from "pages";
-import { useContext, useEffect } from "react";
+import { useContext, useState } from "react";
 import styles from "./MediaPlayer.module.css";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
-  useEffect(() => {
-    setSongMeta({
-      title: "title",
-      composer: "composer",
-      author: "author",
-      album: "album",
-      publisher: "publisher",
-      year: "year",
-      production: "production",
-      live: "live",
+  const [audioUrl, setAudioUrl] = useState("");
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    const player = document.getElementById("audioplayer");
+    if (isPlaying) {
+      player.pause();
+    } else {
+      player.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
+  const handleAudioChange = (e) => {
+    const file = e.target.files[0];
+    jsmediatags?.read(file, {
+      onSuccess: (meta) => {
+        const isTXXXArray = Array.isArray(meta.tags.TXXX);
+        const getCustomTag = (userDescription) => {
+          isTXXXArray
+            ? meta.tags.TXXX?.find(
+                (tag) => tag.user_description === userDescription
+              )?.data
+            : meta.tags.TXXX?.data.user_description === userDescription &&
+              meta.tags.TXXX?.data.data;
+        };
+        setSongMeta({
+          title: meta.tags.title,
+          composer: meta.tags.TCOM?.data,
+          artist: meta.tags.artist,
+          album: meta.tags.album,
+          publisher: meta.tags.TPUB?.data,
+          year: meta.tags.year,
+          contentType: getCustomTag("CONTENT_TYPE"),
+          live: getCustomTag("LIVE"),
+        });
+        console.log(songMeta);
+      },
+      onError: (error) => {
+        console.log(error);
+      },
     });
-  }, []);
+  };
 
   return (
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
         <SkipPrev />
-        <Play />
+        <Play onClick={handlePlay} />
         <SkipNext />
       </div>
       <div className={styles["metadata"]}>
@@ -33,13 +65,13 @@ export default function MediaPlayer() {
               <samp>{songMeta.composer}</samp>
             </div>
             <div className={styles["song-details"]}>
-              <samp>{songMeta.author}</samp>
+              <samp>{songMeta.artist}</samp>
               <samp>{songMeta.album}</samp>
               <samp>{songMeta.publisher}</samp>
               <samp>{songMeta.year}</samp>
             </div>
             <div className={styles["production-info"]}>
-              <samp>{songMeta.production}</samp>
+              <samp>{songMeta.contentType}</samp>
               <samp>{songMeta.live}</samp>
             </div>
           </>
@@ -53,6 +85,11 @@ export default function MediaPlayer() {
         <Spotify />
         <Youtube />
       </div>
+      <input type="file" accept="audio/*" onChange={handleAudioChange} />
+      <audio id="audioplayer" controls>
+        <source src={audioUrl} type="audio/mpeg" />
+        Your browser does not support the audio format.
+      </audio>
     </div>
   );
 }
