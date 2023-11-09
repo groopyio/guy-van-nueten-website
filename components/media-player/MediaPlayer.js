@@ -11,31 +11,69 @@ export default function MediaPlayer() {
 
   useEffect(() => {
     const SCOPE = "https://www.googleapis.com/auth/drive.readonly";
-    let client;
-    const initClient = () => {
-      client = google.accounts.oauth2.initTokenClient({
-        client_id:
-          "908602024669-vlfrc7vbqvtkc4mu0t9dc8kms13r102d.apps.googleusercontent.com",
-        scope: SCOPE,
-        prompt: "",
-        callback: (response) => {
-          console.log(response);
-        },
-      });
-      client.requestAccessToken();
+    const DISCOVERY_DOC =
+      "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest";
+    let tokenClient;
+    const authClient =
+      "908602024669-vlfrc7vbqvtkc4mu0t9dc8kms13r102d.apps.googleusercontent.com";
+
+    const initGapi = () => {
+      gapi.load("client", initializeGapiClient);
     };
 
-    const script = document.createElement("script");
+    async function initializeGapiClient() {
+      await gapi.client.init({
+        apiKey: "",
+        discoveryDocs: [DISCOVERY_DOC],
+      });
+    }
 
-    script.src = "https://accounts.google.com/gsi/client";
-    script.async = true;
-    script.defer = true;
-    script.onload = initClient;
+    const initClient = () => {
+      tokenClient = google.accounts.oauth2.initTokenClient({
+        client_id: authClient,
+        scope: SCOPE,
+        prompt: "",
+        callback: async (response) => {
+          if (response.error !== undefined) {
+            throw response;
+          }
+          await listAudioFiles();
+        },
+      });
+      tokenClient.requestAccessToken();
+    };
 
-    document.body.appendChild(script);
+    async function listAudioFiles() {
+      let response;
+      try {
+        response = await gapi.client.drive.files.list({
+          pageSize: 100,
+          fields: "files(id, name)",
+        });
+      } catch (err) {
+        return;
+      }
+      const files = response.result.files;
+    }
 
+    const apiScript = document.createElement("script");
+    const clientScript = document.createElement("script");
+
+    apiScript.src = "https://apis.google.com/js/api.js";
+    apiScript.async = true;
+    apiScript.defer = true;
+    apiScript.onload = initGapi;
+
+    clientScript.src = "https://accounts.google.com/gsi/client";
+    clientScript.async = true;
+    clientScript.defer = true;
+    clientScript.onload = initClient;
+
+    document.body.appendChild(apiScript);
+    document.body.appendChild(clientScript);
     return () => {
-      document.body.removeChild(script);
+      document.body.removeChild(apiScript);
+      document.body.appendChild(clientScript);
     };
   }, []);
 
