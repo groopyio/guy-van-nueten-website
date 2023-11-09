@@ -1,13 +1,39 @@
 import { Play, SkipNext, SkipPrev, Spotify, Youtube } from "iconoir-react";
 import jsmediatags from "jsmediatags";
 import { MetaContext } from "pages";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
+import audioList from "./audio_list.json";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
   const [audioUrl, setAudioUrl] = useState("");
   const [isPlaying, setIsPlaying] = useState(false);
+  const [indexList, setIndexList] = useState("");
+  const audioFiles = audioList["files"];
+  const audioListLength = audioFiles.length;
+
+  useEffect(() => {
+    const randomiseIndexOrder = (index) => {
+      if (Number.isInteger(index) && index >= 0) {
+        const indexList = Array.from({ length: index + 1 }, (_, i) => i);
+        for (let i = indexList.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [indexList[i], indexList[j]] = [indexList[j], indexList[i]];
+        }
+        return indexList;
+      } else {
+        console.error(
+          "Invalid input. Please provide a non-negative integer as the index."
+        );
+        return null;
+      }
+    };
+
+    setIndexList(randomiseIndexOrder(audioListLength));
+  }, []);
+
+  console.log(indexList);
 
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
