@@ -1,13 +1,43 @@
 import { Play, SkipNext, SkipPrev, Spotify, Youtube } from "iconoir-react";
 import jsmediatags from "jsmediatags";
 import { MetaContext } from "pages";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
   const [audioUrl, setAudioUrl] = useState("");
   const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    const SCOPE = "https://www.googleapis.com/auth/drive.readonly";
+    let client;
+    const initClient = () => {
+      client = google.accounts.oauth2.initTokenClient({
+        client_id:
+          "908602024669-vlfrc7vbqvtkc4mu0t9dc8kms13r102d.apps.googleusercontent.com",
+        scope: SCOPE,
+        prompt: "",
+        callback: (response) => {
+          console.log(response);
+        },
+      });
+      client.requestAccessToken();
+    };
+
+    const script = document.createElement("script");
+
+    script.src = "https://accounts.google.com/gsi/client";
+    script.async = true;
+    script.defer = true;
+    script.onload = initClient;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
@@ -42,10 +72,9 @@ export default function MediaPlayer() {
           contentType: getCustomTag("CONTENT_TYPE"),
           live: getCustomTag("LIVE"),
         });
-        console.log(songMeta);
       },
       onError: (error) => {
-        console.log(error);
+        console.error(error);
       },
     });
   };
@@ -85,7 +114,12 @@ export default function MediaPlayer() {
         <Spotify />
         <Youtube />
       </div>
-      <input type="file" accept="audio/*" onChange={handleAudioChange} />
+      <input
+        id="audioinput"
+        type="file"
+        accept="audio/*"
+        onChange={handleAudioChange}
+      />
       <audio id="audioplayer" controls>
         <source src={audioUrl} type="audio/mpeg" />
         Your browser does not support the audio format.
