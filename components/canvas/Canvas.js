@@ -163,7 +163,6 @@ export default function Canvas() {
         ) {
           image.frozen = true;
           canvas.style.cursor = "pointer";
-          console.log("hello");
           setUrlMeta(image.url);
         }
       });
