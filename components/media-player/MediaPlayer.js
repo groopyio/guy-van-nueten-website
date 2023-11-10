@@ -7,9 +7,10 @@ import audioList from "./audio_list.json";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
-  const [audioUrl, setAudioUrl] = useState("");
+  const [audioUrl, setAudioUrl] = useState();
   const [isPlaying, setIsPlaying] = useState(false);
-  const [indexList, setIndexList] = useState("");
+  const [shuffledIndexes, setShuffledIndexes] = useState();
+  const [currentIndex, setCurrentIndex] = useState(0);
   const audioFiles = audioList["files"];
   const audioListLength = audioFiles.length;
 
@@ -29,11 +30,15 @@ export default function MediaPlayer() {
         return null;
       }
     };
-
-    setIndexList(randomiseIndexOrder(audioListLength));
+    setShuffledIndexes(randomiseIndexOrder(audioListLength));
   }, []);
 
-  console.log(indexList);
+  useEffect(() => {
+    shuffledIndexes &&
+      setAudioUrl(
+        `audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`
+      );
+  }, [shuffledIndexes]);
 
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
@@ -117,7 +122,7 @@ export default function MediaPlayer() {
         onChange={handleAudioChange}
       />
       <audio id="audioplayer" controls>
-        <source src={audioUrl} type="audio/mpeg" />
+        {audioUrl && <source src={audioUrl} type="audio/mpeg" />}
         Your browser does not support the audio format.
       </audio>
     </div>
