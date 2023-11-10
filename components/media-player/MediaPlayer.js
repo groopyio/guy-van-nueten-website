@@ -54,15 +54,8 @@ export default function MediaPlayer() {
       const file = new File([blob], audioUrl, { type: "audio/*" });
       jsmediatags?.read(file, {
         onSuccess: (meta) => {
-          const isTXXXArray = Array.isArray(meta.tags.TXXX);
-          const getCustomTag = (userDescription) => {
-            isTXXXArray
-              ? meta.tags.TXXX?.find(
-                  (tag) => tag.user_description === userDescription
-                )?.data
-              : meta.tags.TXXX?.data.user_description === userDescription &&
-                meta.tags.TXXX?.data.data;
-          };
+          const userDescription = meta.tags.TXXX?.data?.user_description;
+          const data = meta.tags.TXXX?.data?.data;
           setSongMeta({
             title: meta.tags.title,
             composer: meta.tags.TCOM?.data,
@@ -70,8 +63,8 @@ export default function MediaPlayer() {
             album: meta.tags.album,
             publisher: meta.tags.TPUB?.data,
             year: meta.tags.year,
-            contentType: getCustomTag("CONTENT_TYPE"),
-            live: getCustomTag("LIVE"),
+            contentType: userDescription === "CONTENT_TYPE" && data,
+            live: userDescription === "LIVE" && data,
           });
         },
         onError: (error) => {
@@ -118,31 +111,55 @@ export default function MediaPlayer() {
   return (
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
-        <SkipPrev onClick={handlePrevious} />
+        <SkipPrev className={styles["control"]} onClick={handlePrevious} />
         {isPlaying ? (
-          <Pause onClick={handlePlay} />
+          <Pause className={styles["control"]} onClick={handlePlay} />
         ) : (
-          <Play onClick={handlePlay} />
+          <Play className={styles["control"]} onClick={handlePlay} />
         )}
-        <SkipNext onClick={handleNext} />
+        <SkipNext className={styles["control"]} onClick={handleNext} />
       </div>
       <div className={styles["metadata"]}>
         {!urlMeta && songMeta ? (
           <>
             <div className={styles["music-info"]}>
-              <samp>{songMeta.title}</samp>
-              <samp>{songMeta.composer}</samp>
+              {songMeta.title && <samp>{songMeta.title}</samp>}
+              {songMeta.composer && <samp>{`| ${songMeta.composer}`}</samp>}
             </div>
             <div className={styles["song-details"]}>
-              <samp>{songMeta.artist}</samp>
-              <samp>{songMeta.album}</samp>
-              <samp>{songMeta.publisher}</samp>
-              <samp>{songMeta.year}</samp>
+              {songMeta.artist && <samp>{songMeta.artist}</samp>}
+              {songMeta.album && (
+                <samp>
+                  {songMeta.artist ? `| ${songMeta.album}` : songMeta.album}
+                </samp>
+              )}
+              {songMeta.publisher && (
+                <samp>
+                  {songMeta.artist || songMeta.album
+                    ? `| ${songMeta.publisher}`
+                    : songMeta.publisher}
+                </samp>
+              )}
+              {songMeta.year && (
+                <samp>
+                  {songMeta.artist || songMeta.album || songMeta.publisher
+                    ? `| ${songMeta.year}`
+                    : songMeta.year}
+                </samp>
+              )}
             </div>
-            <div className={styles["production-info"]}>
-              <samp>{songMeta.contentType}</samp>
-              <samp>{songMeta.live}</samp>
-            </div>
+            {(songMeta.contentType || songMeta.live) && (
+              <div className={styles["production-info"]}>
+                {songMeta.contentType && <samp>{songMeta.contentType}</samp>}
+                {songMeta.live && (
+                  <samp>
+                    {songMeta.contentType
+                      ? `| ${songMeta.live}`
+                      : songMeta.live}
+                  </samp>
+                )}
+              </div>
+            )}
           </>
         ) : (
           <div className={styles["url"]}>

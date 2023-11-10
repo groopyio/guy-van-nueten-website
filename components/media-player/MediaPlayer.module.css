@@ -45,6 +45,10 @@
   gap: var(--space-s);
 }
 
+.control:hover {
+  cursor: pointer;
+}
+
 .audioplayer {
   display: none;
 }
