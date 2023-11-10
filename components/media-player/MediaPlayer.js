@@ -1,4 +1,11 @@
-import { Play, SkipNext, SkipPrev, Spotify, Youtube } from "iconoir-react";
+import {
+  Pause,
+  Play,
+  SkipNext,
+  SkipPrev,
+  Spotify,
+  Youtube,
+} from "iconoir-react";
 import jsmediatags from "jsmediatags";
 import { MetaContext } from "pages";
 import { useContext, useEffect, useState } from "react";
@@ -40,6 +47,42 @@ export default function MediaPlayer() {
       );
   }, [shuffledIndexes]);
 
+  useEffect(() => {
+    const loadId3Tags = async () => {
+      const response = await fetch(audioUrl);
+      const blob = await response.blob();
+      const file = new File([blob], audioUrl, { type: "audio/*" });
+      jsmediatags?.read(file, {
+        onSuccess: (meta) => {
+          const isTXXXArray = Array.isArray(meta.tags.TXXX);
+          const getCustomTag = (userDescription) => {
+            isTXXXArray
+              ? meta.tags.TXXX?.find(
+                  (tag) => tag.user_description === userDescription
+                )?.data
+              : meta.tags.TXXX?.data.user_description === userDescription &&
+                meta.tags.TXXX?.data.data;
+          };
+          setSongMeta({
+            title: meta.tags.title,
+            composer: meta.tags.TCOM?.data,
+            artist: meta.tags.artist,
+            album: meta.tags.album,
+            publisher: meta.tags.TPUB?.data,
+            year: meta.tags.year,
+            contentType: getCustomTag("CONTENT_TYPE"),
+            live: getCustomTag("LIVE"),
+          });
+        },
+        onError: (error) => {
+          console.error(error);
+        },
+      });
+    };
+
+    audioUrl && loadId3Tags();
+  }, [audioUrl]);
+
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
     if (isPlaying) {
@@ -50,42 +93,38 @@ export default function MediaPlayer() {
     setIsPlaying(!isPlaying);
   };
 
-  const handleAudioChange = (e) => {
-    const file = e.target.files[0];
-    jsmediatags?.read(file, {
-      onSuccess: (meta) => {
-        const isTXXXArray = Array.isArray(meta.tags.TXXX);
-        const getCustomTag = (userDescription) => {
-          isTXXXArray
-            ? meta.tags.TXXX?.find(
-                (tag) => tag.user_description === userDescription
-              )?.data
-            : meta.tags.TXXX?.data.user_description === userDescription &&
-              meta.tags.TXXX?.data.data;
-        };
-        setSongMeta({
-          title: meta.tags.title,
-          composer: meta.tags.TCOM?.data,
-          artist: meta.tags.artist,
-          album: meta.tags.album,
-          publisher: meta.tags.TPUB?.data,
-          year: meta.tags.year,
-          contentType: getCustomTag("CONTENT_TYPE"),
-          live: getCustomTag("LIVE"),
-        });
-      },
-      onError: (error) => {
-        console.error(error);
-      },
-    });
+  const handleNext = () => {
+    const player = document.getElementById("audioplayer");
+    setCurrentIndex((currentIndex += 1));
+    player.pause();
+    setAudioUrl(`audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`);
+    player.load();
+    if (isPlaying) {
+      player.play();
+    }
+  };
+
+  const handlePrevious = () => {
+    const player = document.getElementById("audioplayer");
+    setCurrentIndex((currentIndex -= 1));
+    player.pause();
+    setAudioUrl(`audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`);
+    player.load();
+    if (isPlaying) {
+      player.play();
+    }
   };
 
   return (
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
-        <SkipPrev />
-        <Play onClick={handlePlay} />
-        <SkipNext />
+        <SkipPrev onClick={handlePrevious} />
+        {isPlaying ? (
+          <Pause onClick={handlePlay} />
+        ) : (
+          <Play onClick={handlePlay} />
+        )}
+        <SkipNext onClick={handleNext} />
       </div>
       <div className={styles["metadata"]}>
         {!urlMeta && songMeta ? (
@@ -115,12 +154,6 @@ export default function MediaPlayer() {
         <Spotify />
         <Youtube />
       </div>
-      <input
-        id="audioinput"
-        type="file"
-        accept="audio/*"
-        onChange={handleAudioChange}
-      />
       <audio id="audioplayer" controls>
         {audioUrl && <source src={audioUrl} type="audio/mpeg" />}
         Your browser does not support the audio format.
