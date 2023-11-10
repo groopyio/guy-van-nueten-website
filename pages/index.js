@@ -4,13 +4,12 @@ import Header from "@components/header/Header";
 import Head from "next/head";
 import { createContext, useState } from "react";
 export const MetaContext = createContext(null);
-export const songIndexContext = createContext(null);
+export const genreContext = createContext(null);
 
 export default function Home() {
   const [songMeta, setSongMeta] = useState(null);
   const [urlMeta, setUrlMeta] = useState(null);
-  const [shuffledIndexes, setShuffledIndexes] = useState();
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [genre, setGenre] = useState("All");
 
   return (
     <div className="container">
@@ -18,12 +17,10 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <songIndexContext.Provider
+      <genreContext.Provider
         value={{
-          shuffledIndexes,
-          setShuffledIndexes,
-          currentIndex,
-          setCurrentIndex,
+          genre,
+          setGenre,
         }}
       >
         <main>
@@ -40,7 +37,7 @@ export default function Home() {
           <Canvas />
           <Footer />
         </MetaContext.Provider>
-      </songIndexContext.Provider>
+      </genreContext.Provider>
     </div>
   );
 }

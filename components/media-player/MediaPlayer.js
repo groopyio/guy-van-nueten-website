@@ -7,15 +7,16 @@ import {
   Youtube,
 } from "iconoir-react";
 import jsmediatags from "jsmediatags";
-import { MetaContext, songIndexContext } from "pages";
+import { MetaContext, genreContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
 import audioList from "./audio_list.json";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
-  const { currentIndex, setCurrentIndex, shuffledIndexes, setShuffledIndexes } =
-    useContext(songIndexContext);
+  const { genre } = useContext(genreContext);
+  const [shuffledIndexes, setShuffledIndexes] = useState();
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [audioUrl, setAudioUrl] = useState();
   const [isPlaying, setIsPlaying] = useState(false);
   const audioFiles = audioList["files"];
@@ -76,6 +77,21 @@ export default function MediaPlayer() {
     audioUrl && loadId3Tags();
   }, [audioUrl]);
 
+  useEffect(() => {
+    if (shuffledIndexes) {
+      console.log(audioFiles[shuffledIndexes[currentIndex]]?.filename);
+      const player = document.getElementById("audioplayer");
+      player.pause();
+      setAudioUrl(
+        `audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`
+      );
+      player.load();
+      if (isPlaying) {
+        player.play();
+      }
+    }
+  }, [currentIndex]);
+
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
     if (isPlaying) {
@@ -87,24 +103,36 @@ export default function MediaPlayer() {
   };
 
   const handleNext = () => {
-    const player = document.getElementById("audioplayer");
-    setCurrentIndex((currentIndex += 1));
-    player.pause();
-    setAudioUrl(`audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`);
-    player.load();
-    if (isPlaying) {
-      player.play();
+    if (genre !== "All") {
+      const remainingIndexes = shuffledIndexes.slice(currentIndex + 1);
+      const newIndex =
+        currentIndex +
+        remainingIndexes.findIndex((indexValue, i) => {
+          if (audioFiles[remainingIndexes[i]]?.genres.includes(genre)) {
+            return true;
+          }
+        });
+      setCurrentIndex(newIndex + 1);
+    } else {
+      setCurrentIndex(currentIndex + 1);
     }
   };
 
   const handlePrevious = () => {
-    const player = document.getElementById("audioplayer");
-    setCurrentIndex((currentIndex -= 1));
-    player.pause();
-    setAudioUrl(`audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`);
-    player.load();
-    if (isPlaying) {
-      player.play();
+    if (genre !== "All") {
+      const remainingIndexes = shuffledIndexes.slice(0, currentIndex);
+      const newIndex =
+        currentIndex -
+        remainingIndexes.reverse().findIndex((indexValue, i) => {
+          if (audioFiles[remainingIndexes[i]]?.genres.includes(genre)) {
+            console.log(audioFiles[remainingIndexes[i]]?.genres);
+            console.log(audioFiles[remainingIndexes[i]]?.filename);
+            return true;
+          }
+        });
+      setCurrentIndex(newIndex - 1);
+    } else {
+      setCurrentIndex((currentIndex) => currentIndex - 1);
     }
   };
 

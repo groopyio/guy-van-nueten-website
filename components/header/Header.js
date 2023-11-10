@@ -1,36 +1,35 @@
-import { songIndexContext } from "pages";
-import { useContext, useState } from "react";
+import { genreContext } from "pages";
+import { useContext } from "react";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const [activeGenre, setActiveGenre] = useState("all");
-  const { currentIndex, setCurrentIndex, shuffledIndexes, setShuffledIndexes } =
-    useContext(songIndexContext);
+  const { genre, setGenre } = useContext(genreContext);
 
   const genres = [
-    "piano",
-    "electronic",
-    "orchestral",
-    "song",
-    "contemporary",
-    "old styles",
-    "pop",
-    "live",
-    "stage",
-    "film",
-    "minimal",
-    "all",
+    "Piano",
+    "Electronic",
+    "Orchestral",
+    "Song",
+    "Contemporary",
+    "Old Styles",
+    "Pop",
+    "Live",
+    "Stage",
+    "Film",
+    "Minimal",
+    "All",
   ];
   return (
     <div className={styles["category-selection-list"]}>
-      {genres.map((genre) => (
+      {genres.map((genreItem) => (
         <button
           className={`${styles["category-button"]} ${
-            genre === activeGenre ? styles["active"] : ""
+            genreItem === genre ? styles["active"] : ""
           }`}
-          key={genre}
+          onClick={() => setGenre(genreItem)}
+          key={genreItem}
         >
-          {genre}
+          {genreItem}
         </button>
       ))}
     </div>
