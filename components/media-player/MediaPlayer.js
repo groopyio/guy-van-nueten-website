@@ -112,7 +112,9 @@ export default function MediaPlayer() {
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
         <SkipPrev
-          className={currentIndex > 0 ? styles["control"] : styles["disabled"]}
+          className={`${styles["control"]} ${
+            currentIndex === 0 ? styles["disabled"] : ""
+          }`}
           onClick={currentIndex > 0 ? handlePrevious : () => {}}
         />
         {isPlaying ? (

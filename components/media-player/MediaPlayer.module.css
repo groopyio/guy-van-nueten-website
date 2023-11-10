@@ -50,8 +50,11 @@
 }
 
 .disabled {
-  cursor: not-allowed;
   color: var(--gray-300);
+}
+
+.disabled:hover {
+  cursor: not-allowed;
 }
 
 .audioplayer {
