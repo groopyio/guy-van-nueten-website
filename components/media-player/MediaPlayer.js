@@ -154,7 +154,12 @@ export default function MediaPlayer() {
         <Spotify />
         <Youtube />
       </div>
-      <audio id="audioplayer" onEnded={handleNext} controls>
+      <audio
+        id="audioplayer"
+        className={styles["audioplayer"]}
+        onEnded={handleNext}
+        controls
+      >
         {audioUrl && <source src={audioUrl} type="audio/mpeg" />}
         Your browser does not support the audio format.
       </audio>
