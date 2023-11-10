@@ -20,6 +20,7 @@ export default function MediaPlayer() {
   const [audioUrl, setAudioUrl] = useState();
   const [isPlaying, setIsPlaying] = useState(false);
   const [repeatLoop, setRepeatLoop] = useState(false);
+  const [isOnFirstIndex, setIsOnFirstIndex] = useState(true);
   const audioFiles = audioList["files"];
   const audioListLength = audioFiles.length;
 
@@ -80,6 +81,7 @@ export default function MediaPlayer() {
 
   useEffect(() => {
     if (shuffledIndexValues) {
+      !currentIndex && setIsOnFirstIndex(true);
       const player = document.getElementById("audioplayer");
       player.pause();
       setAudioUrl(
@@ -116,6 +118,7 @@ export default function MediaPlayer() {
   };
 
   const handleNext = () => {
+    setIsOnFirstIndex(false);
     if (genre !== "All") {
       const remainingIndexValues = shuffledIndexValues.slice(currentIndex + 1);
       const remainingIndexValuesIndex = remainingIndexValues.findIndex(
@@ -134,16 +137,19 @@ export default function MediaPlayer() {
 
   const handlePrevious = () => {
     if (genre !== "All") {
-      const remainingIndexValues = shuffledIndexValues.slice(0, currentIndex);
-      const previousIndexValuesIndex = remainingIndexValues
+      const previousIndexValues = shuffledIndexValues.slice(0, currentIndex);
+      const previousIndex = previousIndexValues
         .reverse()
         .findIndex((indexValue, i) =>
-          audioFiles[remainingIndexValues[i]]?.genres.includes(genre)
+          audioFiles[previousIndexValues[i]]?.genres.includes(genre)
         );
-      const newIndex = currentIndex - previousIndexValuesIndex;
-      setCurrentIndex(newIndex - 1);
+      const newIndex = currentIndex - previousIndex;
+      console.log(previousIndex);
+      previousIndex === -1
+        ? setIsOnFirstIndex(true)
+        : setCurrentIndex(newIndex - 1);
     } else {
-      setCurrentIndex((currentIndex) => currentIndex - 1);
+      setCurrentIndex(currentIndex - 1);
     }
   };
 
@@ -152,9 +158,9 @@ export default function MediaPlayer() {
       <div className={styles["controls"]}>
         <SkipPrev
           className={`${styles["control"]} ${
-            currentIndex === 0 ? styles["disabled"] : ""
+            isOnFirstIndex ? styles["disabled"] : ""
           }`}
-          onClick={currentIndex > 0 ? handlePrevious : () => {}}
+          onClick={!isOnFirstIndex ? handlePrevious : () => {}}
         />
         {isPlaying ? (
           <Pause className={styles["control"]} onClick={handlePlay} />
