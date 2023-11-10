@@ -7,17 +7,17 @@ import {
   Youtube,
 } from "iconoir-react";
 import jsmediatags from "jsmediatags";
-import { MetaContext } from "pages";
+import { MetaContext, songIndexContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
 import audioList from "./audio_list.json";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
+  const { currentIndex, setCurrentIndex, shuffledIndexes, setShuffledIndexes } =
+    useContext(songIndexContext);
   const [audioUrl, setAudioUrl] = useState();
   const [isPlaying, setIsPlaying] = useState(false);
-  const [shuffledIndexes, setShuffledIndexes] = useState();
-  const [currentIndex, setCurrentIndex] = useState(0);
   const audioFiles = audioList["files"];
   const audioListLength = audioFiles.length;
 
@@ -111,7 +111,10 @@ export default function MediaPlayer() {
   return (
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
-        <SkipPrev className={styles["control"]} onClick={handlePrevious} />
+        <SkipPrev
+          className={currentIndex > 0 ? styles["control"] : styles["disabled"]}
+          onClick={currentIndex > 0 ? handlePrevious : () => {}}
+        />
         {isPlaying ? (
           <Pause className={styles["control"]} onClick={handlePlay} />
         ) : (

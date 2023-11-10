@@ -49,6 +49,11 @@
   cursor: pointer;
 }
 
+.disabled {
+  cursor: not-allowed;
+  color: var(--gray-300);
+}
+
 .audioplayer {
   display: none;
 }
