@@ -49,6 +49,14 @@
   cursor: pointer;
 }
 
+.disabled {
+  color: var(--gray-300);
+}
+
+.disabled:hover {
+  cursor: not-allowed;
+}
+
 .audioplayer {
   display: none;
 }

@@ -18,3 +18,7 @@
 .category-button:focus {
   outline: revert;
 }
+
+.active {
+  color: var(--gray-700);
+}

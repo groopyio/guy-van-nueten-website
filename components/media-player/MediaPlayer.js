@@ -7,17 +7,20 @@ import {
   Youtube,
 } from "iconoir-react";
 import jsmediatags from "jsmediatags";
-import { MetaContext } from "pages";
+import { MetaContext, genreContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
 import audioList from "./audio_list.json";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
+  const { genre } = useContext(genreContext);
+  const [shuffledIndexValues, setShuffledIndexValues] = useState();
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [audioUrl, setAudioUrl] = useState();
   const [isPlaying, setIsPlaying] = useState(false);
-  const [shuffledIndexes, setShuffledIndexes] = useState();
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [repeatLoop, setRepeatLoop] = useState(false);
+  const [isOnFirstIndex, setIsOnFirstIndex] = useState(true);
   const audioFiles = audioList["files"];
   const audioListLength = audioFiles.length;
 
@@ -37,15 +40,15 @@ export default function MediaPlayer() {
         return null;
       }
     };
-    setShuffledIndexes(randomiseIndexOrder(audioListLength));
+    setShuffledIndexValues(randomiseIndexOrder(audioListLength));
   }, []);
 
   useEffect(() => {
-    shuffledIndexes &&
+    shuffledIndexValues &&
       setAudioUrl(
-        `audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`
+        `audio/${audioFiles[shuffledIndexValues[currentIndex]].filename}`
       );
-  }, [shuffledIndexes]);
+  }, [shuffledIndexValues]);
 
   useEffect(() => {
     const loadId3Tags = async () => {
@@ -76,6 +79,34 @@ export default function MediaPlayer() {
     audioUrl && loadId3Tags();
   }, [audioUrl]);
 
+  useEffect(() => {
+    if (shuffledIndexValues) {
+      !currentIndex && setIsOnFirstIndex(true);
+      const player = document.getElementById("audioplayer");
+      player.pause();
+      setAudioUrl(
+        `audio/${audioFiles[shuffledIndexValues[currentIndex]].filename}`
+      );
+      player.load();
+      if (isPlaying) {
+        player.play();
+      }
+    }
+  }, [currentIndex]);
+
+  useEffect(() => {
+    if (genre !== "All") {
+      const shuffledIndexValuesIndex = shuffledIndexValues.findIndex(
+        (indexValue, i) =>
+          audioFiles[shuffledIndexValues[i]]?.genres.includes(genre)
+      );
+      setCurrentIndex(shuffledIndexValuesIndex);
+    } else {
+      setCurrentIndex(0);
+    }
+    setRepeatLoop(false);
+  }, [repeatLoop]);
+
   const handlePlay = () => {
     const player = document.getElementById("audioplayer");
     if (isPlaying) {
@@ -87,31 +118,50 @@ export default function MediaPlayer() {
   };
 
   const handleNext = () => {
-    const player = document.getElementById("audioplayer");
-    setCurrentIndex((currentIndex += 1));
-    player.pause();
-    setAudioUrl(`audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`);
-    player.load();
-    if (isPlaying) {
-      player.play();
+    setIsOnFirstIndex(false);
+    if (genre !== "All") {
+      const remainingIndexValues = shuffledIndexValues.slice(currentIndex + 1);
+      const remainingIndexValuesIndex = remainingIndexValues.findIndex(
+        (indexValue, i) =>
+          audioFiles[remainingIndexValues[i]]?.genres.includes(genre)
+      );
+      const newIndex = currentIndex + remainingIndexValuesIndex;
+
+      remainingIndexValuesIndex === -1
+        ? setRepeatLoop(true)
+        : setCurrentIndex(newIndex + 1);
+    } else {
+      setCurrentIndex(currentIndex + 1);
     }
   };
 
   const handlePrevious = () => {
-    const player = document.getElementById("audioplayer");
-    setCurrentIndex((currentIndex -= 1));
-    player.pause();
-    setAudioUrl(`audio/${audioFiles[shuffledIndexes[currentIndex]].filename}`);
-    player.load();
-    if (isPlaying) {
-      player.play();
+    if (genre !== "All") {
+      const previousIndexValues = shuffledIndexValues.slice(0, currentIndex);
+      const previousIndex = previousIndexValues
+        .reverse()
+        .findIndex((indexValue, i) =>
+          audioFiles[previousIndexValues[i]]?.genres.includes(genre)
+        );
+      const newIndex = currentIndex - previousIndex;
+      console.log(previousIndex);
+      previousIndex === -1
+        ? setIsOnFirstIndex(true)
+        : setCurrentIndex(newIndex - 1);
+    } else {
+      setCurrentIndex(currentIndex - 1);
     }
   };
 
   return (
     <div className={styles["mediaplayer-container"]}>
       <div className={styles["controls"]}>
-        <SkipPrev className={styles["control"]} onClick={handlePrevious} />
+        <SkipPrev
+          className={`${styles["control"]} ${
+            isOnFirstIndex ? styles["disabled"] : ""
+          }`}
+          onClick={!isOnFirstIndex ? handlePrevious : () => {}}
+        />
         {isPlaying ? (
           <Pause className={styles["control"]} onClick={handlePlay} />
         ) : (
