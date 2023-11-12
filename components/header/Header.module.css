@@ -6,7 +6,7 @@
 
 .category-button {
   all: unset;
-  color: var(--gray-300);
+  color: white;
 }
 
 .category-button:hover {

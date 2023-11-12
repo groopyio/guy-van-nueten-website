@@ -4,10 +4,10 @@ import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const [images, setImages] = useState([]);
+  const [albumCover, setAlbumCover] = useState();
   const { setUrlMeta } = useContext(MetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
-  let centeredImage;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -25,8 +25,6 @@ export default function Canvas() {
     };
 
     const initialImages = () => {
-      centeredImage = new Image();
-      centeredImage.src = "Blank-LP-Cover.png";
       const images = [];
       const refs = [
         { src: "box028-2.png", url: "https://www.youtube.com/user/GuyVN" },
@@ -45,6 +43,7 @@ export default function Canvas() {
       refs.forEach((ref) => {
         const img = new Image();
         img.src = ref.src;
+        img.style.zIndex = "2";
         images.push({
           x: getRandomNumber(0, canvas.width - img.naturalWidth),
           y: getRandomNumber(0, canvas.height - img.naturalHeight),
@@ -121,11 +120,6 @@ export default function Canvas() {
         }
       };
 
-      const x = (canvas.width - centeredImage?.width) / 2;
-      const y = (canvas.height - centeredImage?.height) / 2;
-
-      centeredImage && ctx.drawImage(centeredImage, x, y);
-
       images.forEach((image) => {
         updateImagePosition(image);
         handleBoundaryCollisions(image);
@@ -184,5 +178,15 @@ export default function Canvas() {
     requestAnimationFrame(updateCanvas);
   }, [initialisedImages]);
 
-  return <canvas className={styles["canvas"]} ref={canvasRef} />;
+  return (
+    <>
+      <canvas className={styles["bouncing-images"]} ref={canvasRef} />
+      <img className={styles["album-cover"]} src="Merg.jpg" alt="album cover" />
+      <img
+        className={styles["background-image"]}
+        src="Blank-LP-Cover.png"
+        alt="Blank LP Cover"
+      />
+    </>
+  );
 }
