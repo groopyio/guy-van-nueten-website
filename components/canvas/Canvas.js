@@ -7,6 +7,7 @@ export default function Canvas() {
   const { setUrlMeta } = useContext(MetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
+  let centeredImage;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -24,6 +25,8 @@ export default function Canvas() {
     };
 
     const initialImages = () => {
+      centeredImage = new Image();
+      centeredImage.src = "Blank-LP-Cover.png";
       const images = [];
       const refs = [
         { src: "box028-2.png", url: "https://www.youtube.com/user/GuyVN" },
@@ -117,6 +120,11 @@ export default function Canvas() {
           }
         }
       };
+
+      const x = (canvas.width - centeredImage?.width) / 2;
+      const y = (canvas.height - centeredImage?.height) / 2;
+
+      centeredImage && ctx.drawImage(centeredImage, x, y);
 
       images.forEach((image) => {
         updateImagePosition(image);
