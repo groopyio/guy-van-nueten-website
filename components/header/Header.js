@@ -21,17 +21,20 @@ export default function Header() {
   ];
   return (
     <div className={styles["category-selection-list"]}>
-      {genres.map((genreItem) => (
-        <button
-          id={styles[genreItem.replace(/\s/g, "-").toLowerCase()]}
-          className={`${styles["category-button"]} ${
-            genreItem === genre ? styles["active"] : ""
-          }`}
-          onClick={() => setGenre(genreItem)}
-          key={genreItem}
-        >
-          {genreItem}
-        </button>
+      {genres.map((genreItem, index) => (
+        <>
+          <button
+            id={styles[genreItem.replace(/\s/g, "-").toLowerCase()]}
+            className={`${styles["category-button"]} ${
+              genreItem === genre ? styles["active"] : ""
+            }`}
+            onClick={() => setGenre(genreItem)}
+            key={genreItem}
+          >
+            {genreItem}
+          </button>
+          {index !== genres.length - 1 && <span>|</span>}
+        </>
       ))}
     </div>
   );

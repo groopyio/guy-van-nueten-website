@@ -1,7 +1,9 @@
 .category-selection-list {
   z-index: 3;
   display: flex;
-  gap: var(--space-l);
+  gap: var(--space-m);
+  align-items: center;
+  align-items: center;
   font-size: 14px;
   height: 40px;
 }
