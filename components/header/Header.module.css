@@ -11,12 +11,14 @@
 .category-button {
   all: unset;
   color: var(--gray-700);
+  transition: font-size 0.3s ease;
 }
 
 .category-button:hover {
   all: unset;
   color: var(--gray-700);
   cursor: pointer;
+  font-size: 16px;
 }
 
 .category-button:focus {
@@ -30,34 +32,4 @@
 
 .active:hover {
   font-weight: 800;
-}
-
-#piano,
-#electronic,
-#orchestral,
-#song,
-#contemporary,
-#old-styles,
-#pop,
-#live,
-#stage,
-#film,
-#minimal,
-#all {
-  transition: font-size 0.3s ease;
-}
-
-#piano:hover,
-#electronic:hover,
-#orchestral:hover,
-#song:hover,
-#contemporary:hover,
-#old-styles:hover,
-#pop:hover,
-#live:hover,
-#stage:hover,
-#film:hover,
-#minimal:hover,
-#all:hover {
-  font-size: 16px;
 }

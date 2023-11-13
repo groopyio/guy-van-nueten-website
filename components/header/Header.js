@@ -24,7 +24,6 @@ export default function Header() {
       {genres.map((genreItem, index) => (
         <>
           <button
-            id={styles[genreItem.replace(/\s/g, "-").toLowerCase()]}
             className={`${styles["category-button"]} ${
               genreItem === genre ? styles["active"] : ""
             }`}
