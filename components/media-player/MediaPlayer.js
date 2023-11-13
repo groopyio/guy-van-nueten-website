@@ -7,14 +7,14 @@ import {
   Youtube,
 } from "iconoir-react";
 import jsmediatags from "jsmediatags";
-import { MetaContext, genreContext } from "pages";
+import { AudioMetaContext, GenreContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
-import audioList from "./audio_list.json";
+import audioList from "/public/audio_list.json";
 
 export default function MediaPlayer() {
-  const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
-  const { genre } = useContext(genreContext);
+  const { song, setSong, url, setAlbumCover } = useContext(AudioMetaContext);
+  const { genre } = useContext(GenreContext);
   const [shuffledIndexValues, setShuffledIndexValues] = useState();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [audioUrl, setAudioUrl] = useState();
@@ -40,7 +40,7 @@ export default function MediaPlayer() {
         return null;
       }
     };
-    setShuffledIndexValues(randomiseIndexOrder(audioListLength));
+    setShuffledIndexValues(randomiseIndexOrder(audioListLength - 1));
   }, []);
 
   useEffect(() => {
@@ -59,7 +59,7 @@ export default function MediaPlayer() {
         onSuccess: (meta) => {
           const userDescription = meta.tags.TXXX?.data?.user_description;
           const data = meta.tags.TXXX?.data?.data;
-          setSongMeta({
+          setSong({
             title: meta.tags.title,
             composer: meta.tags.TCOM?.data,
             artist: meta.tags.artist,
@@ -81,6 +81,7 @@ export default function MediaPlayer() {
 
   useEffect(() => {
     if (shuffledIndexValues) {
+      setAlbumCover(audioFiles[shuffledIndexValues[currentIndex]].album);
       !currentIndex && setIsOnFirstIndex(true);
       const player = document.getElementById("audioplayer");
       player.pause();
@@ -144,7 +145,6 @@ export default function MediaPlayer() {
           audioFiles[previousIndexValues[i]]?.genres.includes(genre)
         );
       const newIndex = currentIndex - previousIndex;
-      console.log(previousIndex);
       previousIndex === -1
         ? setIsOnFirstIndex(true)
         : setCurrentIndex(newIndex - 1);
@@ -170,50 +170,44 @@ export default function MediaPlayer() {
         <SkipNext className={styles["control"]} onClick={handleNext} />
       </div>
       <div className={styles["metadata"]}>
-        {!urlMeta && songMeta ? (
+        {!url && song ? (
           <>
             <div className={styles["music-info"]}>
-              {songMeta.title && <samp>{songMeta.title}</samp>}
-              {songMeta.composer && <samp>{`| ${songMeta.composer}`}</samp>}
+              {song.title && <samp>{song.title}</samp>}
+              {song.composer && <samp>{`| ${song.composer}`}</samp>}
             </div>
             <div className={styles["song-details"]}>
-              {songMeta.artist && <samp>{songMeta.artist}</samp>}
-              {songMeta.album && (
+              {song.artist && <samp>{song.artist}</samp>}
+              {song.album && (
+                <samp>{song.artist ? `| ${song.album}` : song.album}</samp>
+              )}
+              {song.publisher && (
                 <samp>
-                  {songMeta.artist ? `| ${songMeta.album}` : songMeta.album}
+                  {song.artist || song.album
+                    ? `| ${song.publisher}`
+                    : song.publisher}
                 </samp>
               )}
-              {songMeta.publisher && (
+              {song.year && (
                 <samp>
-                  {songMeta.artist || songMeta.album
-                    ? `| ${songMeta.publisher}`
-                    : songMeta.publisher}
-                </samp>
-              )}
-              {songMeta.year && (
-                <samp>
-                  {songMeta.artist || songMeta.album || songMeta.publisher
-                    ? `| ${songMeta.year}`
-                    : songMeta.year}
+                  {song.artist || song.album || song.publisher
+                    ? `| ${song.year}`
+                    : song.year}
                 </samp>
               )}
             </div>
-            {(songMeta.contentType || songMeta.live) && (
+            {(song.contentType || song.live) && (
               <div className={styles["production-info"]}>
-                {songMeta.contentType && <samp>{songMeta.contentType}</samp>}
-                {songMeta.live && (
-                  <samp>
-                    {songMeta.contentType
-                      ? `| ${songMeta.live}`
-                      : songMeta.live}
-                  </samp>
+                {song.contentType && <samp>{song.contentType}</samp>}
+                {song.live && (
+                  <samp>{song.contentType ? `| ${song.live}` : song.live}</samp>
                 )}
               </div>
             )}
           </>
         ) : (
           <div className={styles["url"]}>
-            <samp>{urlMeta}</samp>
+            <samp>{url}</samp>
           </div>
         )}
       </div>

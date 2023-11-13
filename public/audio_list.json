@@ -1,0 +1,3523 @@
+{
+  "files": [
+    {
+      "filename": "Death of Neon1.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Where Neon Goes To Die.jpeg"
+    },
+    {
+      "filename": "Death of Neon2 (256kbps).mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Where Neon Goes To Die.jpeg"
+    },
+    {
+      "filename": "Death Of Neon3.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Where Neon Goes To Die.jpeg"
+    },
+    {
+      "filename": "Living The Way You Should1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Welcome to the Blue House.jpeg"
+    },
+    {
+      "filename": "Living The Way You Should2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Welcome to the Blue House.jpeg"
+    },
+    {
+      "filename": "Popular Culture1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Vantage Point.jpeg"
+    },
+    {
+      "filename": "Popular Culture2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Vantage Point.jpeg"
+    },
+    {
+      "filename": "Intrigue 1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "To Play, To Dream, To Drift, An Anthology.jpg"
+    },
+    {
+      "filename": "Intrigue 2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "To Play, To Dream, To Drift, An Anthology.jpg"
+    },
+    {
+      "filename": "Intrigue 3.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "To Play, To Dream, To Drift, An Anthology.jpg"
+    },
+    {
+      "filename": "Candy.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Change.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Hey Babe 1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Hey Babe 2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Kristine 1.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Kristine 2.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Lullaby 1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Lullaby 2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Sail Your Ship.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Sky Is Blue.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Sometimes.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "The Season Song.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "When Fever Hits 1.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "When Fever Hits 2.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "The Sands.jpeg"
+    },
+    {
+      "filename": "Everybody's Weird.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "The Ideal Crash.jpeg"
+    },
+    {
+      "filename": "Too Dark To Dream.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Talking in the Dark.jpeg"
+    },
+    {
+      "filename": "Boots.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Profools.jpeg"
+    },
+    {
+      "filename": "Convertible Chaos.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Profools.jpeg"
+    },
+    {
+      "filename": "Include Me Out1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Pocket Revolution.jpeg"
+    },
+    {
+      "filename": "Include Me Out2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Pocket Revolution.jpeg"
+    },
+    {
+      "filename": "Pocket Revolution.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Pocket Revolution.jpeg"
+    },
+    {
+      "filename": "Pocket Revolution A.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Pocket Revolution.jpeg"
+    },
+    {
+      "filename": "Pocket Revolution B.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Pocket Revolution.jpeg"
+    },
+    {
+      "filename": "Caitlin's Trampoline.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "De Beste Componist is de Dode Componist.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Een Andere Droom.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Inventio 6.mp3",
+      "genres": [
+        "Piano",
+        "Baroque",
+        "Old Styles"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Isomorfie nr3 III Middeleeuws Naspel.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary",
+        "Baroque"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Korte Metaalstudie.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Metal"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Otesánek.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Otesánek Variatie.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Pacman I Tijdelijke Controle.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Pacman II Wederopstanding.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Pacman III Droefheid.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Pacman IV Glorierijk Einde.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Pacman.jpeg"
+    },
+    {
+      "filename": "Caitlin's Trampoline (orch).mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Cream Routine1.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Cream Routine2.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Darkscape.mp3",
+      "genres": [
+        "Film",
+        "Orchestral",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Dysfunctional Family Climax.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Dysfunctional Family Climax1.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Dysfunctional Family Theme.mp3",
+      "genres": [
+        "Contemporary",
+        "Electronic",
+        "Minimal",
+        "Film"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Inevitable Conclusion.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Mickey's Ruins1.mp3",
+      "genres": [
+        "Film",
+        "Orchestral",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Mickey's Ruins2.mp3",
+      "genres": [
+        "Film",
+        "Orchestral",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Milo Confrontatie papa.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Milo Vechtpartij.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Milo Vechtpartij (normaal).mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Mixed Celtic Emotions.mp3",
+      "genres": [
+        "Film",
+        "Orchestral",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Nightfall.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Reprimand1.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Reprimand2.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Talking to the Police.mp3",
+      "genres": [
+        "Piano",
+        "Solo",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Target Practice1.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Target Practice2.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "The Reveal.mp3",
+      "genres": [
+        "Piano",
+        "Orchestral",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Thirty Silver Coins1.mp3",
+      "genres": [
+        "Film",
+        "Orchestral",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Thirty Silver Coins2.mp3",
+      "genres": [
+        "Film",
+        "Orchestral",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "We're Seeing Him Home.mp3",
+      "genres": [
+        "Piano",
+        "Solo",
+        "Film",
+        "Contemporary"
+      ],
+      "album": "Music for a Small Orchestra.jpeg"
+    },
+    {
+      "filename": "Adagio niet in B.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary"
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Agressie.mp3",
+      "genres": [
+        "Piano"
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Bach IV.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles"
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Bach IV 2.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles"
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "De Droom.mp3",
+      "genres": [
+        " "
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Eva 1.mp3",
+      "genres": [
+        " "
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Eva 2.mp3",
+      "genres": [
+        " "
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Inventio 13.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles"
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Merg Var II.mp3",
+      "genres": [
+        " "
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "Sarabande.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Baroque"
+      ],
+      "album": "Merg.jpg"
+    },
+    {
+      "filename": "After Midnight1.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "After Midnight2.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "HarryIrene.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "Le Poinçonneurs des Lilas (duo).mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "Memory of a Free Festival.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "Nothing Really Ends (duo).mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "River Man (duo).mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "Serpentine1.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "Serpentine2.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": "Live.jpeg"
+    },
+    {
+      "filename": "Pegasus God Cloth.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "III"
+    },
+    {
+      "filename": "Sirens.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Following Sea.jpeg"
+    },
+    {
+      "filename": "Contact I. Contact.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Contact II. Largo.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Contact III Sudden and Unexpected Return of the Pacman1.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Contact III Sudden and Unexpected Return of the Pacman2.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Contact IV More Contact.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Dolor Y Pasión I Trop is Teveel1.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Dolor Y Pasión I Trop is Teveel2.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Dolor Y Pasión II Les Papillons1.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Dolor Y Pasión II Les Papillons2.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Dolor y Pasión II. Les Papillons (demo version).mp3",
+      "genres": [
+        "Piano",
+        "Solo",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Hulde aan Dimitri.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary",
+        "Stage"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Isomorfie Nr.2.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Isomorfie nr.3 II Afrikaans Allegro.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Lento Pacifico.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Mijnheer X.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "The Night I. Finis Mundi.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "The Night II. Weeping Song.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary",
+        "Minimal"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Wals met Briljanten I. Rubato.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Wals met Briljanten II. Allegro Vivace.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Wals met Briljanten III. Allegretto.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Contact.jpeg"
+    },
+    {
+      "filename": "Too Good To Be True.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "Chitlin' Fooks.jpeg"
+    },
+    {
+      "filename": "Bruxelles Circulation.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Ca c'est Bruxelles1.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Ca c'est Bruxelles2.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Durch Brüssel.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Durch Brüssel2.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Politieke Promenades.mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Promio.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Saïda.mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Shopping.mp3",
+      "genres": [
+        "Piano",
+        "Minimal",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Toto.mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": "Bruxelles, Ville en Images.webp"
+    },
+    {
+      "filename": "Appetite1.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Appetite2.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Bridge Burner.jpeg.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Fireproof1.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Fireproof2.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Fuel1.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Fuel2.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Sons of Grey1.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Sons of Grey2.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Sunchild1.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Sunchild2.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "Bridge Burner.jpeg"
+    },
+    {
+      "filename": "Beer1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Beer2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Mitsoobishy Jacson.mp3",
+      "genres": [
+        " "
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Mitsoobsishy Jacson2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Put Your Love Jacket On1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Put Your Love Jacket On2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Put Your Love Jacket On3.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Boys Together Outrageously.jpeg"
+    },
+    {
+      "filename": "Annie1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Blind Man's Son.jpeg"
+    },
+    {
+      "filename": "Annie2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Blind Man's Son.jpeg"
+    },
+    {
+      "filename": "Balalaika's 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Balalaika's 2.mp3",
+      "genres": [
+        "Contemporary",
+        "Electronic",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Cleaning 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Electronic",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Cleaning 2.mp3",
+      "genres": [
+        "Contemporary",
+        "Electronic",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Corpus Christi Carol 1.mp3",
+      "genres": [
+        "Song",
+        "Old",
+        "Styles",
+        "Stage",
+        "Minimal"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Folklore 1.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Hark! The E'ching Air.mp3",
+      "genres": [
+        "Song",
+        "Old Styles",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Here Let My Life 1.mp3",
+      "genres": [
+        "Song",
+        "Old Styles",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Mr. Stoffer's Solo 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Music for a While 1.mp3",
+      "genres": [
+        "Song",
+        "Old Styles",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "O Solitude.mp3",
+      "genres": [
+        "Song",
+        "Electronic",
+        "Old Styles",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "The Final Workout 1.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "The Final Workout 2.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "The Goldbird has flown 1.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "The Sally Gardens 1.mp3",
+      "genres": [
+        "Old Styles",
+        "Song",
+        "Stage"
+      ],
+      "album": "bâche.png"
+    },
+    {
+      "filename": "Alibies 1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Admiral Freebee.jpeg"
+    },
+    {
+      "filename": "Alibies 2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Admiral Freebee.jpeg"
+    },
+    {
+      "filename": "Rags 'n' Run 1.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Admiral Freebee.jpeg"
+    },
+    {
+      "filename": "Rags 'n' Run 2.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Admiral Freebee.jpeg"
+    },
+    {
+      "filename": "Rags 'n' Run 3.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Admiral Freebee.jpeg"
+    },
+    {
+      "filename": "Rebound Love.mp3",
+      "genres": [
+        "Song",
+        "Pop"
+      ],
+      "album": "Admiral Freebee.jpeg"
+    },
+    {
+      "filename": "A Trip Too Far.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "500€ Coctail.jpeg"
+    },
+    {
+      "filename": "Cry.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Electronic"
+      ],
+      "album": "500€ Coctail.jpeg"
+    },
+    {
+      "filename": "April & June 1.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "…And Other True Stories.jpeg.jpeg"
+    },
+    {
+      "filename": "April & June 2.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "…And Other True Stories.jpeg"
+    },
+    {
+      "filename": "Grain of Sand.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "…And Other True Stories.jpeg"
+    },
+    {
+      "filename": "Hungry Again 1.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "…And Other True Stories.jpeg"
+    },
+    {
+      "filename": "Hungry Again 2.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "…And Other True Stories.jpeg"
+    },
+    {
+      "filename": "Josephine Baker.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": "…And Other True Stories.jpeg"
+    },
+    {
+      "filename": "Love.mp3",
+      "genres": [
+        " "
+      ],
+      "album": "…And Other True Stories.jpeg"
+    },
+    {
+      "filename": "'s Morgens vroeg.mp3",
+      "genres": [
+        "Pop",
+        "Stage",
+        "Song",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "2 gitaren.mp3",
+      "genres": [
+        "Pop",
+        "Stage",
+        "Electronic"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "2 meisjes.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Aar en Bie.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Rock"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Afraid.mp3",
+      "genres": [
+        "Contemporary",
+        "Piano",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Afraid Impro.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "All I Need.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Another Parasite.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Avaritia 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Axa 1.mp3",
+      "genres": [
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Axa 2.mp3",
+      "genres": [
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Babysitteuse Dub.mp3",
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Song",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Backscratcher.mp3",
+      "genres": [
+        "Live",
+        "Rock",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bad Timing extension 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Piano",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Barcelona Loop.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bearded Men.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bearded Men 2.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bearded Men 3.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bearded Men 4.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Between The Bars.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bevrijd Ons van het Nationalisme.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bird of Death Intro.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Bird of Death Outro.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Black Swan.mp3",
+      "genres": [
+        "Electronic",
+        "Classical",
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Botermelk.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Song",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Boudewijn.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Box-Shaped Lullaby.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Brand en zn Pa sample.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Cabb 1.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Can't You Hear Me Cryin'.mp3",
+      "genres": [
+        "Live",
+        "Rock",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Carrousel.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Corporate 1.mp3",
+      "genres": [
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Corporate 2.mp3",
+      "genres": [
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Crystalised.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Dansstudie II 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Dansstudie II 2.mp3",
+      "genres": [
+        "Contemporary",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Dansstudie II 3.mp3",
+      "genres": [
+        "Contemporary",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Dansstudie II 4.mp3",
+      "genres": [
+        "Contemporary",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "David+Chairdance1.mp3",
+      "genres": [
+        "Electronic",
+        "Minimal",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "David+Chairdance2.mp3",
+      "genres": [
+        "Electronic",
+        "Minimal",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "De Vadertjes.mp3",
+      "genres": [
+        "Song",
+        "Pop",
+        "Stage",
+        "Live",
+        "Classical"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Diabo do Belho.mp3",
+      "genres": [
+        "Stage",
+        "Traditional",
+        "Orchestral"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Diabo do Belho1.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Song",
+        "Orchestral",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Diabo do Belho2.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "DiscoMisdaadAfraid1.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "DiscoMisdaadAfraid2.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Dit is Oorlog! 1.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Divina Commedia 1.mp3",
+      "genres": [
+        "Classical",
+        "Contemporary",
+        "Orchestral"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Divina Commedia1.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Doe de Doodlig.mp3",
+      "genres": [
+        "Live",
+        "Stage",
+        "Song",
+        "Contemporary"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Doll Parts.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Donny Boy1.mp3",
+      "genres": [
+        "Electronic",
+        "Song",
+        "Pop",
+        "Rock",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Donny Boy2.mp3",
+      "genres": [
+        "Electronic",
+        "Song",
+        "Pop",
+        "Rock",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Drops.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Drops2.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Eindeloze Reverb.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Epiloog.mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Epiloog (Begingeneriek).mp3",
+      "genres": [
+        "Piano",
+        "Old Styles",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Epiloog2.mp3",
+      "genres": [
+        "Piano",
+        "Neo-classical",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Fed-Up 1.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Fed-Up 2.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Fin du Générique de Fin.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Firewall.mp3",
+      "genres": [
+        "Piano",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Ford Mustang.mp3",
+      "genres": [
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Fruit Tree 1.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Fruit Tree 2.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "GarageElectroEnnioSurf.mp3",
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Garden of Weeds.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Générique de Fin1.mp3",
+      "genres": [
+        "Electronic",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Générique de Fin2.mp3",
+      "genres": [
+        "Electronic",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Gentle Creature 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Film",
+        "Orchestral"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Gentle Creature 2.mp3",
+      "genres": [
+        "Contemporary",
+        "Film",
+        "Orchestral"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Goeie Golf 1.mp3",
+      "genres": [
+        "Electronic",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Gooi Weg Die Schone Jeugd 1.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Gooi Weg Die Schone Jeugd 2.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Guillaume et Guy.mp3",
+      "genres": [
+        "Electronic",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Happy Family.mp3",
+      "genres": [
+        "Electronic",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Happy Family2.mp3",
+      "genres": [
+        "Electronic",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Helende Loop.mp3",
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Hello Quincy.mp3",
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "HipHop 'The Fucker'.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Holltone.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "How Many More Years.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Hulde aan Dimitri (demo version).mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "I Want You Too.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "I'm on My Way.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Rock"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Interludium 2 1.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Into the Woods.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Into The Woods (alt version.mp3",
+      "genres": [
+        "Contemporary",
+        "Film",
+        "Orchestral"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Intro thuiskomst.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Iokanan 2.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Iokanan 7A.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Iokanan 8.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Iokanan 14.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Iokanan 18.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "IPlus.mp3",
+      "genres": [
+        "Electronic",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "It's not the Drug1.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "It's not the Drug2.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Jaguar 1.mp3",
+      "genres": [
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Klaaglied.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "La Vie Continue.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Laat Me Nu Toch Niet Alleen.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Lalalàla 1.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Le Poinçonneur des Lilas 1.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Le Poinçonneur des Lilas 2.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Le Poinçonneur des Lilas 3.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Leer Mij Dansen.mp3",
+      "genres": [
+        "Electronic",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Lento Pacifico (demo version).mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": "Lento Pacifico.jpeg"
+    },
+    {
+      "filename": "Lichtlied.mp3",
+      "genres": [
+        "Pop",
+        "Old Styles",
+        "Stage",
+        "Song",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Lied van de Fee.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Little Girl Blue.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Magritte.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Maria Klimop.mp3",
+      "genres": [
+        "Pop",
+        "Stage",
+        "Song",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Maurice.mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Maurice (korter).mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Meester Luc.mp3",
+      "genres": [
+        "Pop",
+        "Stage",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Merk Toch Hoe Sterk 1.mp3",
+      "genres": [
+        "Old Styles",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Merk Toch Hoe Sterk 2.mp3",
+      "genres": [
+        "Old Styles",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Milo en Sterre.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Milo Exit Music.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Milo's Theme1.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Milo's Theme2.mp3",
+      "genres": [
+        "Old Styles",
+        "Contemporary",
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Moleirinha house.mp3",
+      "genres": [
+        " "
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Montage 1.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "MoogPuls.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "MoogPuls 4.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Mummified.mp3",
+      "genres": [
+        "Electronic",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Mummy.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "My Funny Valentine 1.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "My Funny Valentine 2.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nachtwandeling 1.mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nel Mezzo del Camin.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nel Mezzo del Camin 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Orchestral",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nightmare1.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nightmare2.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nothing.mp3",
+      "genres": [
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Nothing Really Ends.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Ombre de Mon Amant 1.mp3",
+      "genres": [
+        "Old Styles",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Opening Stereo 1.mp3",
+      "genres": [
+        "Electronic",
+        "Minimal",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Orkest 1 take 2.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Ouverture.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Paques au Tisons (Thema 2).mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Patriciascape.mp3",
+      "genres": [
+        " "
+      ],
+      "album": ""
+    },
+    {
+      "filename": "PianoBarbeAube.mp3",
+      "genres": [
+        "Piano",
+        "Minimal",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Prequel.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Pulsar1.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Pulsar2.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "PulsTrioKraak1.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "PulsTrioKraak2.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Quincy.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Rock",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Dessine (Prise 1).mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Dessine1.mp3",
+      "genres": [
+        "Piano",
+        "Minimal",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Générique 1ère prise.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Loop.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Minimal",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Montage.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Montage Piano.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Raoul Variation Optimiste.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Reggae Geel.mp3",
+      "genres": [
+        "Piano",
+        "Stage",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Repelsteeltje after Dark.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Repelsteeltje Deel 3.mp3",
+      "genres": [
+        "Piano",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "River Man.mp3",
+      "genres": [
+        "Song",
+        "Orchestral",
+        "Pop",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Roeskapoeskaprot.mp3",
+      "genres": [
+        "Pop",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "S.O.S. 2.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "S.O.S.1.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Séance.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Sekwens Nr.1.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "She's so Beautiful.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Six o'Clock Blues.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Slomo.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Solitary Space.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Some Kinda Love 1.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Some Kinda Love 2.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Some Refuse the Treatment+VO.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Sometimes I Wanna Run.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Soul Decoder.mp3",
+      "genres": [
+        "Piano",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Syncdelay.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Take Me Home1.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Take Me Home2.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Takhiti.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tell Me.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "The Build Up.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "The Night.mp3",
+      "genres": [
+        "Electronic",
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "The Parasite.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Minimal",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema 1.mp3",
+      "genres": [
+        "Electronic",
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema 1 piano.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema 1+voice-over.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema Driehoek.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema Q.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema Z.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema Z naar Thema 1 pp.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema Z naar Thema 2.mp3",
+      "genres": [
+        "Electronic",
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema Z naar Thema 2 ff.mp3",
+      "genres": [
+        "Electronic",
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema1 ext+VO.mp3",
+      "genres": [
+        "Electronic",
+        "Piano",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thema1 extended.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thème Lent et Vide.mp3",
+      "genres": [
+        "Piano",
+        "Minimal",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "This Place 1.mp3",
+      "genres": [
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "This Place 2.mp3",
+      "genres": [
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "This Place 3.mp3",
+      "genres": [
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thru.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Thunder.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tigerpants1.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tigerpants2.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tigerpants3.mp3",
+      "genres": [
+        "Rock",
+        "Live",
+        "Pop"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tiptoe through the Tulips.mp3",
+      "genres": [
+        "Live",
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "To Hit A Dog Just Find A 1.mp3",
+      "genres": [
+        "Contemporary",
+        "Chamber",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "To Hit A Dog Just Find A 2.mp3",
+      "genres": [
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "To Hit A Dog Just Find A 3.mp3",
+      "genres": [
+        "Contemporary",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tobydrone.mp3",
+      "genres": [
+        "Electronic",
+        "Minimal",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Tortel.mp3",
+      "genres": [
+        "Piano",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Transformatie 1.mp3",
+      "genres": [
+        "Orchestral",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Trap.mp3",
+      "genres": [
+        "Electronic",
+        "Contemporary",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Troostlied.mp3",
+      "genres": [
+        "Pop",
+        "Song",
+        "Live"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Trust and Control.mp3",
+      "genres": [
+        "Electronic",
+        "Film",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Une Femme Comme Moi 1.mp3",
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Verb3.mp3",
+      "genres": [
+        "Electronic",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Verveling.mp3",
+      "genres": [
+        "Piano",
+        "Contemporary",
+        "Electronic",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Vide un peu effrayant.mp3",
+      "genres": [
+        "Piano",
+        "Minimal",
+        "Contemporary",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Vos Mépris 1.mp3",
+      "genres": [
+        "Old Styles",
+        "Arrangement",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Vos Mépris 2.mp3",
+      "genres": [
+        "Old Styles",
+        "Arrangement",
+        "Stage"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Waves The Mermaid.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Who Am I.mp3",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Wiegelied.mp3",
+      "genres": [
+        "Piano"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Wilde Take.mp3",
+      "genres": [
+        "Electronic",
+        "Stage",
+        "Minimal"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Zij 1.mp3",
+      "genres": [
+        "Minimal",
+        "Pop",
+        "Film"
+      ],
+      "album": ""
+    },
+    {
+      "filename": "Zomerstranden.mp3",
+      "genres": [
+        "Pop",
+        "Song"
+      ],
+      "album": ""
+    }
+  ]
+}

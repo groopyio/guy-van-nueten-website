@@ -1,9 +1,9 @@
-import { genreContext } from "pages";
+import { GenreContext } from "pages";
 import { useContext } from "react";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const { genre, setGenre } = useContext(genreContext);
+  const { genre, setGenre } = useContext(GenreContext);
 
   const genres = [
     "Piano",

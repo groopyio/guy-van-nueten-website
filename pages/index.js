@@ -3,12 +3,13 @@ import Footer from "@components/footer/Footer";
 import Header from "@components/header/Header";
 import Head from "next/head";
 import { createContext, useState } from "react";
-export const MetaContext = createContext(null);
-export const genreContext = createContext(null);
+export const AudioMetaContext = createContext(null);
+export const GenreContext = createContext(null);
 
 export default function Home() {
-  const [songMeta, setSongMeta] = useState(null);
-  const [urlMeta, setUrlMeta] = useState(null);
+  const [song, setSong] = useState(null);
+  const [url, setUrl] = useState(null);
+  const [albumCover, setAlbumCover] = useState(null);
   const [genre, setGenre] = useState("All");
 
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <genreContext.Provider
+      <GenreContext.Provider
         value={{
           genre,
           setGenre,
@@ -26,18 +27,20 @@ export default function Home() {
         <main>
           <Header />
         </main>
-        <MetaContext.Provider
+        <AudioMetaContext.Provider
           value={{
-            songMeta,
-            setSongMeta,
-            urlMeta,
-            setUrlMeta,
+            song,
+            setSong,
+            url,
+            setUrl,
+            albumCover,
+            setAlbumCover,
           }}
         >
           <Canvas />
           <Footer />
-        </MetaContext.Provider>
-      </genreContext.Provider>
+        </AudioMetaContext.Provider>
+      </GenreContext.Provider>
     </div>
   );
 }
