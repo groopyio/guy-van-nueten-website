@@ -12,6 +12,7 @@
   margin-bottom: 16px;
   border-radius: 3px;
   height: 614px;
+  width: 614px;
   opacity: 1;
   transform: perspective(1600px) rotateY(-40deg);
 }

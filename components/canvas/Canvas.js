@@ -1,11 +1,10 @@
-import { MetaContext } from "pages";
+import { AudioMetaContext } from "pages";
 import { useContext, useEffect, useRef, useState } from "react";
 import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const [images, setImages] = useState([]);
-  const [albumCover, setAlbumCover] = useState();
-  const { setUrlMeta } = useContext(MetaContext);
+  const { setUrl, song, albumCover } = useContext(AudioMetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
 
@@ -154,7 +153,7 @@ export default function Canvas() {
       const canvasX = e.clientX - canvas.getBoundingClientRect().left;
       const canvasY = e.clientY - canvas.getBoundingClientRect().top;
       canvas.style.cursor = "default";
-      setUrlMeta(null);
+      setUrl(null);
       images.forEach((image) => {
         image.frozen = false;
         if (
@@ -165,7 +164,7 @@ export default function Canvas() {
         ) {
           image.frozen = true;
           canvas.style.cursor = "pointer";
-          setUrlMeta(image.url);
+          setUrl(image.url);
         }
       });
     });
@@ -181,7 +180,13 @@ export default function Canvas() {
   return (
     <>
       <canvas className={styles["bouncing-images"]} ref={canvasRef} />
-      <img className={styles["album-cover"]} src="Merg.jpg" alt="album cover" />
+      {albumCover && (
+        <img
+          className={styles["album-cover"]}
+          src={albumCover}
+          alt="album cover"
+        />
+      )}
       <img
         className={styles["background-image"]}
         src="Blank-LP-Cover.png"
