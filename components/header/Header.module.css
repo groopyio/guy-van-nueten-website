@@ -1,5 +1,5 @@
 .category-selection-list {
-  z-index: 2;
+  z-index: 3;
   display: flex;
   gap: var(--space-l);
 }
