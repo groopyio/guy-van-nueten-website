@@ -40,7 +40,7 @@ export default function MediaPlayer() {
         return null;
       }
     };
-    setShuffledIndexValues(randomiseIndexOrder(audioListLength));
+    setShuffledIndexValues(randomiseIndexOrder(audioListLength - 1));
   }, []);
 
   useEffect(() => {
@@ -145,7 +145,6 @@ export default function MediaPlayer() {
           audioFiles[previousIndexValues[i]]?.genres.includes(genre)
         );
       const newIndex = currentIndex - previousIndex;
-      console.log(previousIndex);
       previousIndex === -1
         ? setIsOnFirstIndex(true)
         : setCurrentIndex(newIndex - 1);
