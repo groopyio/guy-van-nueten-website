@@ -10,17 +10,16 @@
   all: unset;
   color: var(--gray-700);
   font-size: 14px;
-  transition-property: font-size, font-weight;
+  transform: scale(1);
+  transition-property: transform, font-weight;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
 
 .category-button:hover {
-  all: unset;
-  color: var(--primary);
   cursor: pointer;
-  font-size: 16px;
-  transition-property: color, font-size;
+  transform: scale(1.15);
+  transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
@@ -32,7 +31,7 @@
 .active {
   color: var(--gray-700);
   font-weight: 800;
-  transition-property: font-size, font-weight;
+  transition-property: transform, font-weight;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
@@ -40,7 +39,7 @@
 .active:hover {
   font-weight: 800;
   color: var(--gray-700);
-  transition-property: font-size, font-weight;
+  transition-property: transform, font-weight;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }

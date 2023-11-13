@@ -3,7 +3,10 @@
   display: flex;
   gap: var(--space-l);
   align-items: center;
-  align-items: flex-end;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: var(--space-m);
 }
 
 .metadata {
