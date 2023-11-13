@@ -10,7 +10,7 @@ import jsmediatags from "jsmediatags";
 import { MetaContext, genreContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
-import audioList from "./audio_list.json";
+import audioList from "/public/audio_list.json";
 
 export default function MediaPlayer() {
   const { songMeta, setSongMeta, urlMeta } = useContext(MetaContext);
