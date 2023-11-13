@@ -2,11 +2,12 @@
   z-index: 3;
   display: flex;
   gap: var(--space-l);
+  font-size: 14px;
 }
 
 .category-button {
   all: unset;
-  color: white;
+  color: var(--gray-700);
 }
 
 .category-button:hover {
