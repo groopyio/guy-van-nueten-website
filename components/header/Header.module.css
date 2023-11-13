@@ -3,22 +3,26 @@
   display: flex;
   gap: var(--space-m);
   align-items: center;
-  align-items: center;
-  font-size: 14px;
   height: 40px;
 }
 
 .category-button {
   all: unset;
   color: var(--gray-700);
-  transition: font-size 0.3s ease;
+  font-size: 14px;
+  transition-property: font-size, font-weight;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .category-button:hover {
   all: unset;
-  color: var(--gray-700);
+  color: var(--primary);
   cursor: pointer;
   font-size: 16px;
+  transition-property: color, font-size;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 
 .category-button:focus {
@@ -28,8 +32,15 @@
 .active {
   color: var(--gray-700);
   font-weight: 800;
+  transition-property: font-size, font-weight;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .active:hover {
   font-weight: 800;
+  color: var(--gray-700);
+  transition-property: font-size, font-weight;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }

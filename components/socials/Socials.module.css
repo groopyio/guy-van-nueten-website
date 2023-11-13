@@ -1,9 +1,22 @@
 .icon-container {
   z-index: 2;
   display: flex;
+  align-items: center;
   gap: var(--space-s);
+  stroke: black;
 }
 
-.icon-container:hover {
+.icon {
+  transition-property: color, stroke;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.icon:hover {
   cursor: pointer;
+  stroke: var(--primary);
+  color: var(--primary);
+  transition-property: color, stroke;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
