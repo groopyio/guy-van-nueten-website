@@ -23,6 +23,7 @@ export default function Header() {
     <div className={styles["category-selection-list"]}>
       {genres.map((genreItem) => (
         <button
+          id={styles[genreItem.replace(/\s/g, "-").toLowerCase()]}
           className={`${styles["category-button"]} ${
             genreItem === genre ? styles["active"] : ""
           }`}

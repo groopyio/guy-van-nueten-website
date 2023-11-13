@@ -3,6 +3,7 @@
   display: flex;
   gap: var(--space-l);
   font-size: 14px;
+  height: 40px;
 }
 
 .category-button {
@@ -22,4 +23,39 @@
 
 .active {
   color: var(--gray-700);
+  font-weight: 800;
+}
+
+.active:hover {
+  font-weight: 800;
+}
+
+#piano,
+#electronic,
+#orchestral,
+#song,
+#contemporary,
+#old-styles,
+#pop,
+#live,
+#stage,
+#film,
+#minimal,
+#all {
+  transition: font-size 0.3s ease;
+}
+
+#piano:hover,
+#electronic:hover,
+#orchestral:hover,
+#song:hover,
+#contemporary:hover,
+#old-styles:hover,
+#pop:hover,
+#live:hover,
+#stage:hover,
+#film:hover,
+#minimal:hover,
+#all:hover {
+  font-size: 16px;
 }
