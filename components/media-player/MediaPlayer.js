@@ -52,7 +52,7 @@ export default function MediaPlayer() {
 
       <SongMetadata song={song} url={url} />
 
-      <SourceLinks song={song} />
+      <SourceLinks song={song} genre={genre} />
 
       <audio
         ref={audioRef}

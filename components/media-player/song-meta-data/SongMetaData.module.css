@@ -1,14 +1,10 @@
 .metadata {
   display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 100%;
-  margin-bottom: var(--space-xs);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   border-left: 1px solid var(--gray-400);
   border-right: 1px solid var(--gray-400);
   padding: 0 var(--space-m);
@@ -27,6 +23,26 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+.song-meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.song-genre {
+  background-color: var(--gray-700);
+  color: white;
+  padding: var(--space-xs) var(--space-s);
+  border-radius: 16px;
+  font-size: 12px;
 }
 
 .music-info,
