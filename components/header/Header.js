@@ -1,5 +1,5 @@
 import { GenreContext } from "pages";
-import { useContext } from "react";
+import React, { useContext } from "react";
 import styles from "./Header.module.css";
 
 export default function Header() {
@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <div className={styles["category-selection-list"]}>
       {genres.map((genreItem, index) => (
-        <>
+        <React.Fragment key={genreItem}>
           <button
             className={`${styles["category-button"]} ${
               genreItem === genre ? styles["active"] : ""
@@ -33,7 +33,7 @@ export default function Header() {
             {genreItem}
           </button>
           {index !== genres.length - 1 && <span>|</span>}
-        </>
+        </React.Fragment>
       ))}
     </div>
   );
