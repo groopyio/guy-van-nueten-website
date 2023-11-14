@@ -1,60 +1,14 @@
 .mediaplayer-container {
   z-index: 2;
   display: flex;
-  gap: var(--space-l);
+  gap: var(--space-m);
   align-items: center;
-  align-items: flex-end;
-}
-
-.metadata {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-  margin-bottom: var(--space-xs);
-  width: 425px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.metadata .url {
-  display: inline;
-  animation: scroll 5s linear infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.music-info,
-.song-details,
-.production-info,
-.url {
-  display: flex;
-  gap: var(--space-s);
-}
-
-.controls,
-.sources {
-  display: flex;
-  gap: var(--space-s);
-}
-
-.control:hover {
-  cursor: pointer;
-}
-
-.disabled {
-  color: var(--gray-300);
-}
-
-.disabled:hover {
-  cursor: not-allowed;
+  background-color: white;
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  height: 91px;
+  width: 100%;
+  padding: var(--space-m);
 }
 
 .audioplayer {

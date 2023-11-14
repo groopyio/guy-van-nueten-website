@@ -1,20 +1,25 @@
-.icon-container {
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  gap: var(--space-s);
-  stroke: black;
+.disabled {
+  color: var(--gray-300);
 }
 
-.icon {
-  height: 24px;
+.disabled:hover {
+  cursor: not-allowed;
   transform: scale(1);
   transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
 
-.icon:hover {
+.controls {
+  display: flex;
+  gap: var(--space-s);
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.control:hover {
   cursor: pointer;
   transform: scale(1.15);
   transition-property: transform;

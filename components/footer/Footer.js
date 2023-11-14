@@ -6,9 +6,11 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles["footer"]}>
-      <Socials />
+      <div className={styles["footer-icons"]}>
+        <Socials />
+        <Contact />
+      </div>
       <MediaPlayer />
-      <Contact />
     </footer>
   );
 }

@@ -8,18 +8,18 @@
 .album-cover {
   z-index: 1;
   position: absolute;
-  margin-right: 310px;
-  margin-bottom: 16px;
-  border-radius: 3px;
-  height: 614px;
-  width: 614px;
+  margin-right: 280px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  width: 572px;
+  height: 632px;
   opacity: 1;
-  transform: perspective(1600px) rotateY(-40deg);
+  transform: perspective(940px) skewY(1deg) rotateY(-31deg) scale(0.73);
 }
 
 .background-image {
   position: absolute;
   height: 100%;
-  min-width: 994px;
-  min-height: 994px;
+  width: 750px;
+  height: 750px;
 }
