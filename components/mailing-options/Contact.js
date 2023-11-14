@@ -17,34 +17,29 @@ export default function MailReferences() {
     { country: "Territories", email: "hendrik@rockoco.be" },
   ];
   return (
-    <div className={styles["contact-container"]}>
-      <div
-        className={styles["mail-icon-container"]}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <Mail />
-        <p
-          className={`${styles["contact-placeholder"]} ${
-            !isHovered && styles["visible"]
+    <div
+      className={styles["contact-container"]}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      {isHovered ? (
+        <div
+          className={`${styles["country-email-container"]} ${
+            isHovered && styles["visible"]
           }`}
         >
-          Contact
-        </p>
-      </div>
-      <div
-        className={`${styles["country-email-container"]} ${
-          isHovered && styles["visible"]
-        }`}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        {mailReferences.map((reference) => (
-          <Link href={`mailto:${reference.email}`} key={reference.country}>
-            <p className={styles["country-link"]}>{reference.country}</p>
-          </Link>
-        ))}
-      </div>
+          {mailReferences.map((reference) => (
+            <Link href={`mailto:${reference.email}`} key={reference.country}>
+              <p className={styles["country-link"]}>{reference.country}</p>
+            </Link>
+          ))}
+        </div>
+      ) : (
+        <p className={styles["placeholder"]}>Contact</p>
+      )}
+      <Mail
+        className={`${styles["mail-icon"]} ${isHovered && styles["on-bottom"]}`}
+      />
     </div>
   );
 }

@@ -1,7 +1,18 @@
 .footer {
   width: 100%;
   display: flex;
-  gap: var(--space-xl);
+  flex-direction: column;
+  gap: var(--space-m);
   justify-content: center;
   align-items: flex-end;
+  width: 925px;
+}
+
+.contact-icons {
+  width: 100%;
+  display: flex;
+  gap: var(--space-xl);
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
 }
