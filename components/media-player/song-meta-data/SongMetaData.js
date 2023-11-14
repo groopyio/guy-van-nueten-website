@@ -1,4 +1,4 @@
-import styles from "./SongMetadata.module.css";
+import styles from "./SongMetaData.module.css";
 export function SongMetadata({ song, url }) {
   return (
     <div className={styles["metadata"]}>
