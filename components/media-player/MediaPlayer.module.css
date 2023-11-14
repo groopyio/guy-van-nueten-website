@@ -68,6 +68,22 @@
   transition-timing-function: ease;
 }
 
+.enabled {
+  cursor: pointer;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.enabled:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
 .disabled {
   color: var(--gray-300);
 }
@@ -75,6 +91,9 @@
 .disabled:hover {
   cursor: not-allowed;
   transform: scale(1);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .audioplayer {

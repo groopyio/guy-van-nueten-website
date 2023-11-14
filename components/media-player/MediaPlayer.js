@@ -7,6 +7,7 @@ import {
   Youtube,
 } from "iconoir-react";
 import jsmediatags from "jsmediatags";
+import Link from "next/link";
 import { AudioMetaContext, GenreContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 import styles from "./MediaPlayer.module.css";
@@ -59,6 +60,7 @@ export default function MediaPlayer() {
         onSuccess: (meta) => {
           const userDescription = meta.tags.TXXX?.data?.user_description;
           const data = meta.tags.TXXX?.data?.data;
+          console.log(meta.tags);
           setSong({
             title: meta.tags.title,
             composer: meta.tags.TCOM?.data,
@@ -68,6 +70,8 @@ export default function MediaPlayer() {
             year: meta.tags.year,
             contentType: userDescription === "CONTENT_TYPE" && data,
             live: userDescription === "LIVE" && data,
+            spotify: meta.tags.TOPE?.data,
+            youtube: meta.tags.TCOP?.data,
           });
         },
         onError: (error) => {
@@ -212,8 +216,21 @@ export default function MediaPlayer() {
         )}
       </div>
       <div className={styles["sources"]}>
-        <Spotify />
-        <Youtube />
+        {song?.spotify ? (
+          <Link href={song.spotify}>
+            <Spotify className={styles["enabled"]} />
+          </Link>
+        ) : (
+          <Spotify className={styles["disabled"]} />
+        )}
+
+        {song?.youtube ? (
+          <Link href={song.youtube}>
+            <Youtube className={styles["enabled"]} />
+          </Link>
+        ) : (
+          <Youtube className={styles["disabled"]} />
+        )}
       </div>
       <audio
         id="audioplayer"
