@@ -10,7 +10,9 @@ export default function Socials() {
         <FacebookTag className={styles["icon"]} />
       </Link>
       <Link href="https://www.discogs.com/artist/385715-Guy-Van-Nueten?filter_anv=0&type=Credits">
-        <DiscogsIcon className={styles["icon"]} />
+        <a className={styles["icon"]}>
+          <DiscogsIcon className={styles["icon"]} />
+        </a>
       </Link>
       <Link href="https://www.instagram.com/guy.van.nueten/">
         <Instagram className={styles["icon"]} />
