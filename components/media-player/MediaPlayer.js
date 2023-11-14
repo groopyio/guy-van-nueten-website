@@ -1,16 +1,10 @@
-import {
-  Pause,
-  Play,
-  SkipNext,
-  SkipPrev,
-  Spotify,
-  Youtube,
-} from "iconoir-react";
 import jsmediatags from "jsmediatags";
-import Link from "next/link";
 import { AudioMetaContext, GenreContext } from "pages";
 import { useContext, useEffect, useState } from "react";
+import { MediaControls } from "./MediaControls";
 import styles from "./MediaPlayer.module.css";
+import { SongMetadata } from "./SongMetaData";
+import { SourceLinks } from "./SourceLinks";
 import audioList from "/public/audio_list.json";
 
 export default function MediaPlayer() {
@@ -60,7 +54,6 @@ export default function MediaPlayer() {
         onSuccess: (meta) => {
           const userDescription = meta.tags.TXXX?.data?.user_description;
           const data = meta.tags.TXXX?.data?.data;
-          console.log(meta.tags);
           setSong({
             title: meta.tags.title,
             composer: meta.tags.TCOM?.data,
@@ -159,79 +152,15 @@ export default function MediaPlayer() {
 
   return (
     <div className={styles["mediaplayer-container"]}>
-      <div className={styles["controls"]}>
-        <SkipPrev
-          className={`${styles["control"]} ${
-            isOnFirstIndex ? styles["disabled"] : ""
-          }`}
-          onClick={!isOnFirstIndex ? handlePrevious : () => {}}
-        />
-        {isPlaying ? (
-          <Pause className={styles["control"]} onClick={handlePlay} />
-        ) : (
-          <Play className={styles["control"]} onClick={handlePlay} />
-        )}
-        <SkipNext className={styles["control"]} onClick={handleNext} />
-      </div>
-      <div className={styles["metadata"]}>
-        {!url && song ? (
-          <>
-            <div className={styles["music-info"]}>
-              {song.title && <samp>{song.title}</samp>}
-              {song.composer && <samp>{`| ${song.composer}`}</samp>}
-            </div>
-            <div className={styles["song-details"]}>
-              {song.artist && <samp>{song.artist}</samp>}
-              {song.album && (
-                <samp>{song.artist ? `| ${song.album}` : song.album}</samp>
-              )}
-              {song.publisher && (
-                <samp>
-                  {song.artist || song.album
-                    ? `| ${song.publisher}`
-                    : song.publisher}
-                </samp>
-              )}
-              {song.year && (
-                <samp>
-                  {song.artist || song.album || song.publisher
-                    ? `| ${song.year}`
-                    : song.year}
-                </samp>
-              )}
-            </div>
-            {(song.contentType || song.live) && (
-              <div className={styles["production-info"]}>
-                {song.contentType && <samp>{song.contentType}</samp>}
-                {song.live && (
-                  <samp>{song.contentType ? `| ${song.live}` : song.live}</samp>
-                )}
-              </div>
-            )}
-          </>
-        ) : (
-          <div className={styles["url"]}>
-            <samp>{url}</samp>
-          </div>
-        )}
-      </div>
-      <div className={styles["sources"]}>
-        {song?.spotify ? (
-          <Link href={song.spotify}>
-            <Spotify className={styles["enabled"]} />
-          </Link>
-        ) : (
-          <Spotify className={styles["disabled"]} />
-        )}
-
-        {song?.youtube ? (
-          <Link href={song.youtube}>
-            <Youtube className={styles["enabled"]} />
-          </Link>
-        ) : (
-          <Youtube className={styles["disabled"]} />
-        )}
-      </div>
+      <MediaControls
+        isPlaying={isPlaying}
+        isOnFirstIndex={isOnFirstIndex}
+        handlePlay={handlePlay}
+        handleNext={handleNext}
+        handlePrevious={handlePrevious}
+      />
+      <SongMetadata song={song} url={url} />
+      <SourceLinks song={song} />
       <audio
         id="audioplayer"
         className={styles["audioplayer"]}
