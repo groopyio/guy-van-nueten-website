@@ -1,6 +1,7 @@
 .sources {
   display: flex;
   gap: var(--space-s);
+  height: 24px;
   transform: scale(1);
   transition-property: transform;
   transition-duration: 0.3s;

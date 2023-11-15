@@ -12,9 +12,9 @@ export default function MailReferences() {
     setIsHovered(false);
   };
   const mailReferences = [
-    { country: "Belgium", email: "daan@toutpartout.be" },
+    { country: "Belgium", email: "daan@daan.agency" },
     { country: "Netherlands", email: "b.jansen@mojo.nl" },
-    { country: "Territories", email: "hendrik@rockoco.be" },
+    { country: "Territories", email: "w.swinnen@telenet.be" },
   ];
   return (
     <div
