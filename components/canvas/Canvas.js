@@ -180,7 +180,7 @@ export default function Canvas() {
   return (
     <>
       <canvas className={styles["bouncing-images"]} ref={canvasRef} />
-      {albumCover && (
+      {/* {albumCover && (
         <img
           className={styles["album-cover"]}
           src={albumCover}
@@ -191,7 +191,7 @@ export default function Canvas() {
         className={styles["background-image"]}
         src="Blank-LP-Cover.png"
         alt="Blank LP Cover"
-      />
+      /> */}
     </>
   );
 }
