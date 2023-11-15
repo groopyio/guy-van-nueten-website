@@ -1,5 +1,3 @@
-# README for Guy van Nueten's Music Website Repository
-
 ## Introduction
 
 This README provides guidance on managing the MP3 files in the `public/audio` folder of the music website repository for Guy van Nueten. It includes instructions for updating ID3 tags, adding or removing MP3 files, updating the `audio_list.json` file, and how to commit these changes using GitHub Desktop.
