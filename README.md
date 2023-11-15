@@ -1,90 +1,108 @@
-# Next + Netlify Starter
+# README for Guy van Nueten's Music Website Repository
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
+## Introduction
 
-This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+This README provides guidance on managing the MP3 files in the `public/audio` folder of the music website repository for Guy van Nueten. It includes instructions for updating ID3 tags, adding or removing MP3 files, updating the `audio_list.json` file, and how to commit these changes using GitHub Desktop.
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
+## Setting Up GitHub Desktop
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+1. **Download and Install GitHub Desktop:**
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+   - Visit the [GitHub Desktop download page](https://desktop.github.com/) and download the installer.
+   - Follow the installation instructions.
 
-## Table of Contents:
+2. **Cloning the Repository:**
+   - Open GitHub Desktop and sign in with your GitHub account.
+   - Go to `File > Clone Repository` and select the repository for Guy van Nueten's music website.
+   - Choose a local path on your computer to save the repository and click `Clone`.
 
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+## Managing MP3 Files with Mp3tag
 
-## Getting Started
+1. **Download and Install Mp3tag:**
 
-First, run the development server:
+   - Download Mp3tag from [here](https://www.mp3tag.de/en/download.html).
+   - Follow the installation instructions.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+2. **Editing ID3 Tags for MP3 Files:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   - Open Mp3tag and navigate to the `public/audio` folder in the cloned repository.
+   - Select an MP3 file to edit.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+   **For Live Performances:**
 
-### Installation options
+   - Use the following tag structure:
+     - Title: `{TITLE} ({COMPOSER})`
+     - Add a custom tag `LIVE`: `{location}, {date}`
+     - Comment: `Live at {LIVE}`
 
-**Option one:** One-click deploy
+   **For Non-Live Tracks:**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+   - Use the following tag structure:
+     - Title: `{TITLE} ({COMPOSER})`
+     - Artist: `{ARTIST}`
+     - Add a custom tag `CONTENT_TYPE`: `{CONTENT_TYPE}`
+     - Year: `{YEAR}`
+     - Publisher: `{PUBLISHER}`
 
-**Option two:** Manual clone
+3. **Adding New MP3s:**
 
-1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
-2. Navigate to the directory and run `npm install`
-3. Run `npm run dev`
-4. Make your changes
-5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+   - To add a new MP3, place it in the `public/audio` folder.
+   - Edit its ID3 tags following the steps above.
+   - Update `audio_list.json` as described in the next section.
 
-## Testing
+4. **Deleting MP3s:**
+   - Remove the MP3 file from the `public/audio` folder.
+   - Update `audio_list.json` accordingly.
 
-### Included Default Testing
+## Updating audio_list.json
 
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
+1. **Modifying the JSON File:**
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
+   - Open `audio_list.json` located in `/public`.
 
-If your team is not interested in this tooling, you can remove them with ease!
+   **On Adding a New Song:**
 
-### Removing Renovate
+   - Add a new object to the `files` array with the format:
+     ```
+     {
+       "filename": "new-song.mp3",
+       "genres": ["genre1", "genre2"],
+       "album": "album-name.jpeg"
+     }
+     ```
 
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+   **On Deleting a Song:**
 
-### Removing Cypress
+   - Remove the corresponding object from the `files` array.
 
-For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
+2. **Adding New Album Images:**
+   - Place the new album image file in the `/public` folder.
+   - Update the `album` field in the `audio_list.json` file accordingly.
 
-```diff
-[[plugins]]
-  package = "netlify-plugin-cypress"
--  [plugins.inputs.postBuild]
--    enable = true
--
--  [plugins.inputs]
--    enable = false 
-```
+## Committing Changes with GitHub Desktop
 
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
+1. **Reviewing Changes:**
 
-```bash
-npm uninstall -D netlify-plugin-cypress
-```
+   - Open GitHub Desktop. Changes made in the local repository will appear.
+   - Review the list of changed files.
 
-And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
+2. **Committing Changes:**
 
-```bash
-npm uninstall -S cypress
-```
+   - Enter a summary of the changes in the `Summary` field.
+   - Optionally, add more details in the `Description` field.
+   - Click `Commit to main` (or the name of your branch).
+
+3. **Pushing Changes to GitHub:**
+   - Click the `Push origin` button to upload your changes to the GitHub repository.
+
+## Reporting Issues or Feature Requests
+
+1. **Creating an Issue on GitHub:**
+   - In the GitHub repository, click on `Issues`.
+   - Click `New Issue`.
+   - Provide a title and a detailed description of the bug or feature request.
+   - Click `Submit new issue`.
+
+## Conclusion
+
+These instructions should guide you through managing the MP3 files and related data for Guy van Nueten's music website. For any additional help, feel free to create an issue in the GitHub repository.
