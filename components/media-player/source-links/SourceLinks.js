@@ -7,7 +7,7 @@ export function SourceLinks({ song }) {
     <div className={styles["sources"]}>
       {song?.spotify ? (
         <Link href={song.spotify}>
-          <Spotify className={styles["enabled"]} />
+          <Spotify className={styles["enabled"]} color="#1db954" />
         </Link>
       ) : (
         <Spotify className={styles["disabled"]} />
@@ -15,7 +15,7 @@ export function SourceLinks({ song }) {
 
       {song?.youtube ? (
         <Link href={song.youtube}>
-          <Youtube className={styles["enabled"]} />
+          <Youtube className={styles["enabled"]} color="#ff0000" />
         </Link>
       ) : (
         <Youtube className={styles["disabled"]} />
