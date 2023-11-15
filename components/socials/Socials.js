@@ -1,22 +1,25 @@
 import DiscogsIcon from "@components/icons/DiscogsIcon";
 import { FacebookTag, Instagram } from "iconoir-react";
-import Link from "next/link";
 import styles from "./Socials.module.css";
 
 export default function Socials() {
   return (
     <nav className={styles["icon-container"]}>
-      <Link href="https://www.facebook.com/guyvannueten/">
+      <a href="https://www.facebook.com/guyvannueten/" target="_blank">
         <FacebookTag className={styles["icon"]} />
-      </Link>
-      <Link href="https://www.discogs.com/artist/385715-Guy-Van-Nueten?filter_anv=0&type=Credits">
-        <a className={styles["icon"]}>
-          <DiscogsIcon className={styles["icon"]} />
-        </a>
-      </Link>
-      <Link href="https://www.instagram.com/guy.van.nueten/">
+      </a>
+
+      <a
+        className={styles["icon"]}
+        href="https://www.discogs.com/artist/385715-Guy-Van-Nueten?filter_anv=0&type=Credits"
+        target="_blank"
+      >
+        <DiscogsIcon className={styles["icon"]} />
+      </a>
+
+      <a href="https://www.instagram.com/guy.van.nueten/" target="_blank">
         <Instagram className={styles["icon"]} />
-      </Link>
+      </a>
     </nav>
   );
 }

@@ -43,6 +43,10 @@ main {
   align-items: center;
 }
 
+a {
+  all: unset;
+}
+
 .container {
   padding: var(--space-m) 0;
   height: 100vh;
