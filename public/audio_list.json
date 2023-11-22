@@ -7,7 +7,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Where Neon Goes To Die.jpeg"
+      "album": "Where Neon Goes To Die.jpeg",
+      "title": "Death of Neon",
+      "composer": "Barman-Bolland",
+      "artist": "Magnus",
+      "publisher": "Caroline/Universal",
+      "year": "2014"
     },
     {
       "filename": "Death of Neon2 (256kbps).mp3",
@@ -16,7 +21,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Where Neon Goes To Die.jpeg"
+      "album": "Where Neon Goes To Die.jpeg",
+      "title": "Death of Neon",
+      "composer": "Barman-Bolland",
+      "artist": "Magnus",
+      "publisher": "Caroline/Universal",
+      "year": "2014"
     },
     {
       "filename": "Death Of Neon3.mp3",
@@ -25,7 +35,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Where Neon Goes To Die.jpeg"
+      "album": "Where Neon Goes To Die.jpeg",
+      "title": "Death Of Neon",
+      "composer": "Barman-Bolland",
+      "artist": "Magnus",
+      "publisher": "Caroline/Universal",
+      "year": "2014"
     },
     {
       "filename": "Living The Way You Should1.mp3",
@@ -33,7 +48,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Welcome to the Blue House.jpeg"
+      "album": "Welcome to the Blue House.jpeg",
+      "title": "Living The Way You Should",
+      "composer": "Vanhamel",
+      "artist": "Tim Vanhamel",
+      "publisher": "PIAS",
+      "year": "2008"
     },
     {
       "filename": "Living The Way You Should2.mp3",
@@ -41,7 +61,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Welcome to the Blue House.jpeg"
+      "album": "Welcome to the Blue House.jpeg",
+      "title": "Living The Way You Should",
+      "composer": "Vanhamel",
+      "artist": "Tim Vanhamel",
+      "publisher": "PIAS",
+      "year": "2008"
     },
     {
       "filename": "Popular Culture1.mp3",
@@ -49,7 +74,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Vantage Point.jpeg"
+      "album": "Vantage Point.jpeg",
+      "title": "Popular Culture",
+      "composer": "Barman-Pawlowski",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2008"
     },
     {
       "filename": "Popular Culture2.mp3",
@@ -57,7 +87,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Vantage Point.jpeg"
+      "album": "Vantage Point.jpeg",
+      "title": "Popular Culture",
+      "composer": "Barman-Pawlowski",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2008"
     },
     {
       "filename": "Intrigue 1.mp3",
@@ -65,7 +100,12 @@
         "Song",
         "Pop"
       ],
-      "album": "To Play, To Dream, To Drift, An Anthology.jpg"
+      "album": "To Play, To Dream, To Drift, An Anthology.jpg",
+      "title": "Intrigue",
+      "composer": "Carlens",
+      "artist": "Zita Swoon",
+      "publisher": "Chicaree Records",
+      "year": "2009"
     },
     {
       "filename": "Intrigue 2.mp3",
@@ -73,7 +113,12 @@
         "Song",
         "Pop"
       ],
-      "album": "To Play, To Dream, To Drift, An Anthology.jpg"
+      "album": "To Play, To Dream, To Drift, An Anthology.jpg",
+      "title": "Intrigue",
+      "composer": "Carlens",
+      "artist": "Zita Swoon",
+      "publisher": "Chicaree Records",
+      "year": "2009"
     },
     {
       "filename": "Intrigue 3.mp3",
@@ -81,10 +126,20 @@
         "Song",
         "Pop"
       ],
-      "album": "To Play, To Dream, To Drift, An Anthology.jpg"
+      "album": "To Play, To Dream, To Drift, An Anthology.jpg",
+      "title": "Intrigue",
+      "composer": "Carlens",
+      "artist": "Zita Swoon",
+      "publisher": "Chicaree Records",
+      "year": "2009"
     },
     {
       "filename": "Candy.mp3",
+      "title": "Candy",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Song",
         "Pop"
@@ -93,6 +148,11 @@
     },
     {
       "filename": "Change.mp3",
+      "title": "Change",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Song",
         "Pop"
@@ -101,6 +161,11 @@
     },
     {
       "filename": "Hey Babe 1.mp3",
+      "title": "Hey Babe",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Song",
         "Pop"
@@ -109,6 +174,11 @@
     },
     {
       "filename": "Hey Babe 2.mp3",
+      "title": "Hey Babe",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Song",
         "Pop"
@@ -117,6 +187,11 @@
     },
     {
       "filename": "Kristine 1.mp3",
+      "title": "Kristine",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -125,6 +200,11 @@
     },
     {
       "filename": "Kristine 2.mp3",
+      "title": "Kristine",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -133,6 +213,11 @@
     },
     {
       "filename": "Lullaby 1.mp3",
+      "title": "Lullaby",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Song",
         "Pop"
@@ -141,6 +226,11 @@
     },
     {
       "filename": "Lullaby 2.mp3",
+      "title": "Lullaby",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Song",
         "Pop"
@@ -149,6 +239,11 @@
     },
     {
       "filename": "Sail Your Ship.mp3",
+      "title": "Sail Your Ship",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -157,6 +252,11 @@
     },
     {
       "filename": "Sky Is Blue.mp3",
+      "title": "Sky is Blue",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -165,6 +265,11 @@
     },
     {
       "filename": "Sometimes.mp3",
+      "title": "Sometimes",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "year": "1995",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
       "genres": [
         "Song",
         "Pop"
@@ -173,6 +278,11 @@
     },
     {
       "filename": "The Season Song.mp3",
+      "title": "The Season Song",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -181,6 +291,11 @@
     },
     {
       "filename": "When Fever Hits 1.mp3",
+      "title": "When Fever Hits",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -189,6 +304,11 @@
     },
     {
       "filename": "When Fever Hits 2.mp3",
+      "title": "When Fever Hits",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1995",
       "genres": [
         "Pop",
         "Song"
@@ -201,7 +321,12 @@
         "Song",
         "Pop"
       ],
-      "album": "The Ideal Crash.jpeg"
+      "album": "The Ideal Crash.jpeg",
+      "title": "Everybody's Weird",
+      "composer": "Barman-Ward",
+      "artist": "dEUS",
+      "publisher": "Island",
+      "year": "1999"
     },
     {
       "filename": "Too Dark To Dream.mp3",
@@ -209,7 +334,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Talking in the Dark.jpeg"
+      "album": "Talking in the Dark.jpeg",
+      "title": "Too Dark To Dream",
+      "composer": "Deweze",
+      "artist": "Sukilove",
+      "publisher": "Hidden Agenda Records",
+      "year": "2002"
     },
     {
       "filename": "Boots.mp3",
@@ -218,7 +348,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Profools.jpeg"
+      "album": "Profools.jpeg",
+      "title": "Boots",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Convertible Chaos.mp3",
@@ -227,7 +362,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Profools.jpeg"
+      "album": "Profools.jpeg",
+      "title": "Convertible Chaos",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Include Me Out1.mp3",
@@ -235,7 +375,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Pocket Revolution.jpeg"
+      "album": "Pocket Revolution.jpeg",
+      "title": "Include Me Out",
+      "composer": "Barman",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2005"
     },
     {
       "filename": "Include Me Out2.mp3",
@@ -243,7 +388,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Pocket Revolution.jpeg"
+      "album": "Pocket Revolution.jpeg",
+      "title": "Include Me Out",
+      "composer": "Barman",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2005"
     },
     {
       "filename": "Pocket Revolution.mp3",
@@ -251,7 +401,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Pocket Revolution.jpeg"
+      "album": "Pocket Revolution.jpeg",
+      "title": "Pocket Revolution",
+      "composer": "Barman-Pawlowski-Janzoons-Misseghers-Gevaert",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2005"
     },
     {
       "filename": "Pocket Revolution A.mp3",
@@ -259,7 +414,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Pocket Revolution.jpeg"
+      "album": "Pocket Revolution.jpeg",
+      "title": "Pocket Revolution",
+      "composer": "Barman-Pawlowski-Janzoons-Misseghers-Gevaert",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2005"
     },
     {
       "filename": "Pocket Revolution B.mp3",
@@ -267,7 +427,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Pocket Revolution.jpeg"
+      "album": "Pocket Revolution.jpeg",
+      "title": "Pocket Revolution",
+      "composer": "Barman-Pawlowski-Janzoons-Misseghers-Gevaert",
+      "artist": "dEUS",
+      "publisher": "Universal/V2",
+      "year": "2005"
     },
     {
       "filename": "Caitlin's Trampoline.mp3",
@@ -276,7 +441,14 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Pacman.jpeg"
+      "album": "Pacman.jpeg",
+      "title": "Caitlin's Trampoline",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9"
     },
     {
       "filename": "De Beste Componist is de Dode Componist.mp3",
@@ -285,7 +457,11 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Pacman.jpeg"
+      "album": "Pacman.jpeg",
+      "title": "De Beste Componist is de Dode Componist",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013"
     },
     {
       "filename": "Een Andere Droom.mp3",
@@ -294,10 +470,19 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Pacman.jpeg"
+      "album": "Pacman.jpeg",
+      "title": "Een Andere Droom",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013"
     },
     {
       "filename": "Inventio 6.mp3",
+      "title": "Inventio 6",
+      "composer": "J.S. Bach (1685-1750)",
+      "artist": "Guy Van Nueten",
+      "publisher": "Bolli Records/62TV",
+      "year": "2009",
       "genres": [
         "Piano",
         "Baroque",
@@ -322,10 +507,18 @@
         "Contemporary",
         "Metal"
       ],
-      "album": "Pacman.jpeg"
+      "album": "Pacman.jpeg",
+      "title": "Korte Metaalstudie",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013"
     },
     {
       "filename": "Otesánek.mp3",
+      "title": "Otesa\u0301nek",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Classical",
@@ -335,6 +528,10 @@
     },
     {
       "filename": "Otesánek Variatie.mp3",
+      "title": "Otesa\u0301nek Variatie",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Classical",
@@ -344,6 +541,10 @@
     },
     {
       "filename": "Pacman I Tijdelijke Controle.mp3",
+      "title": "Pacman I. Tijdelijke Controle",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Classical",
@@ -353,6 +554,10 @@
     },
     {
       "filename": "Pacman II Wederopstanding.mp3",
+      "title": "Pacman II. Wederopstanding",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Classical",
@@ -362,6 +567,10 @@
     },
     {
       "filename": "Pacman III Droefheid.mp3",
+      "title": "Pacman III. Droefheid",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Old Styles",
@@ -371,6 +580,10 @@
     },
     {
       "filename": "Pacman IV Glorierijk Einde.mp3",
+      "title": "Pacman IV. Glorierijk Einde",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Classical",
@@ -396,7 +609,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Cream Routine",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Cream Routine2.mp3",
@@ -406,7 +626,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Cream Routine",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Darkscape.mp3",
@@ -415,7 +642,14 @@
         "Orchestral",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Darkscape",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Dysfunctional Family Climax.mp3",
@@ -424,7 +658,14 @@
         "Orchestral",
         "Film"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Dysfunctional Family Climax",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Dysfunctional Family Climax1.mp3",
@@ -443,7 +684,14 @@
         "Minimal",
         "Film"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Dysfunctional Family Theme",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Guy Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Inevitable Conclusion.mp3",
@@ -453,7 +701,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Inevitable Conclusion",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Mickey's Ruins1.mp3",
@@ -462,7 +717,14 @@
         "Orchestral",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Mickey's Ruins",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Mickey's Ruins2.mp3",
@@ -475,6 +737,12 @@
     },
     {
       "filename": "Milo Confrontatie papa.mp3",
+      "title": "Confrontatie",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "year": "2012",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
       "genres": [
         "Piano",
         "Orchestral",
@@ -485,6 +753,12 @@
     },
     {
       "filename": "Milo Vechtpartij.mp3",
+      "title": "Vechtpartij",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "year": "2012",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
       "genres": [
         "Piano",
         "Orchestral",
@@ -495,6 +769,12 @@
     },
     {
       "filename": "Milo Vechtpartij (normaal).mp3",
+      "title": "Vechtpartij",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "year": "2012",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
       "genres": [
         "Piano",
         "Orchestral",
@@ -510,7 +790,14 @@
         "Orchestral",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Mixed Celtic Emotions",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Nightfall.mp3",
@@ -520,7 +807,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Nightfall",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Reprimand1.mp3",
@@ -530,7 +824,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Reprimand",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Reprimand2.mp3",
@@ -540,7 +841,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Reprimand",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Talking to the Police.mp3",
@@ -550,7 +858,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Talking to the Police",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Guy Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Target Practice1.mp3",
@@ -560,7 +875,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Target Practice",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Target Practice2.mp3",
@@ -570,7 +892,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Target Practice",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "The Reveal.mp3",
@@ -580,7 +909,14 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "The Reveal",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Thirty Silver Coins1.mp3",
@@ -589,7 +925,14 @@
         "Orchestral",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Thirty Silver Coins",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Thirty Silver Coins2.mp3",
@@ -598,7 +941,14 @@
         "Orchestral",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "Thirty Silver Coins",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "We're Seeing Him Home.mp3",
@@ -608,10 +958,20 @@
         "Film",
         "Contemporary"
       ],
-      "album": "Music for a Small Orchestra.jpeg"
+      "album": "Music for a Small Orchestra.jpeg",
+      "title": "We're Seeing Him Home",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Adagio niet in B.mp3",
+      "title": "Adagio niet in B",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records/62TV",
+      "year": "2009",
       "genres": [
         "Piano",
         "Contemporary"
@@ -620,6 +980,10 @@
     },
     {
       "filename": "Agressie.mp3",
+      "title": "Agressie",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records/62TV",
+      "year": "2009",
       "genres": [
         "Piano"
       ],
@@ -643,6 +1007,10 @@
     },
     {
       "filename": "De Droom.mp3",
+      "title": "De Droom",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records/62TV",
+      "year": "2009",
       "genres": [
         " "
       ],
@@ -650,6 +1018,10 @@
     },
     {
       "filename": "Eva 1.mp3",
+      "title": "Eva",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records/62TV",
+      "year": "2009",
       "genres": [
         " "
       ],
@@ -657,6 +1029,10 @@
     },
     {
       "filename": "Eva 2.mp3",
+      "title": "Eva",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records/62TV",
+      "year": "2009",
       "genres": [
         " "
       ],
@@ -668,10 +1044,18 @@
         "Piano",
         "Old Styles"
       ],
-      "album": "Merg.jpg"
+      "album": "Merg.jpg",
+      "title": "Inventio 13",
+      "composer": "J.S. Bach (1685-1750)",
+      "publisher": "Bolli Records",
+      "year": "2013"
     },
     {
       "filename": "Merg Var II.mp3",
+      "title": "Merg Var II",
+      "composer": "Van Nueten",
+      "year": "2009",
+      "publisher": "Bolli Records/62TV",
       "genres": [
         " "
       ],
@@ -679,6 +1063,11 @@
     },
     {
       "filename": "Sarabande.mp3",
+      "title": "Sarabande",
+      "composer": "J.S. Bach (1685-1750)",
+      "year": "2009",
+      "artist": "Guy Van Nueten",
+      "publisher": "Bolli Records/62TV",
       "genres": [
         "Piano",
         "Old Styles",
@@ -693,7 +1082,12 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "After Midnight",
+      "composer": "J.J.Cale",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "After Midnight2.mp3",
@@ -702,7 +1096,12 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "After Midnight",
+      "composer": "J.J.Cale",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "HarryIrene.mp3",
@@ -715,6 +1114,11 @@
     },
     {
       "filename": "Le Poinçonneurs des Lilas (duo).mp3",
+      "title": "Le Poinc\u0327onneurs des Lilas",
+      "composer": "Serge Gainsbourg",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "publisher": "Universal",
+      "year": "2003",
       "genres": [
         "Live",
         "Pop",
@@ -729,7 +1133,12 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "Memory of a Free Festival",
+      "composer": "David Bowie",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Nothing Really Ends (duo).mp3",
@@ -738,7 +1147,14 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "Nothing",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2015",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
+      "publisher": "Universal"
     },
     {
       "filename": "River Man (duo).mp3",
@@ -747,7 +1163,12 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "River Man",
+      "composer": "Nick Drake",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Serpentine1.mp3",
@@ -756,7 +1177,12 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "Serpentine",
+      "composer": "Tom Barman",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Serpentine2.mp3",
@@ -765,7 +1191,12 @@
         "Pop",
         "Song"
       ],
-      "album": "Live.jpeg"
+      "album": "Live.jpeg",
+      "title": "Serpentine",
+      "composer": "Tom Barman",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Pegasus God Cloth.mp3",
@@ -773,7 +1204,12 @@
         "Song",
         "Pop"
       ],
-      "album": "III.jpeg"
+      "album": "III.jpeg",
+      "title": "Pegasus God Cloth",
+      "composer": "Faltakh-Tsakiridis-Vanhamel",
+      "artist": "The Hickey Underworld",
+      "publisher": "PIAS",
+      "year": "2015"
     },
     {
       "filename": "Sirens.mp3",
@@ -781,7 +1217,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Following Sea.jpeg"
+      "album": "Following Sea.jpeg",
+      "title": "Sirens",
+      "composer": "Barman-Pawlowski-Janzoons-Misseghers-Gevaert",
+      "artist": "dEUS",
+      "publisher": "PIAS",
+      "year": "2012"
     },
     {
       "filename": "Contact I. Contact.mp3",
@@ -790,7 +1231,11 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Contact I. Contact",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Contact II. Largo.mp3",
@@ -799,10 +1244,18 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Contact II. Largo",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Contact III Sudden and Unexpected Return of the Pacman1.mp3",
+      "title": "Contact III. Sudden and Unexpected Return of the Pacman",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -812,6 +1265,10 @@
     },
     {
       "filename": "Contact III Sudden and Unexpected Return of the Pacman2.mp3",
+      "title": "Contact III. Sudden and Unexpected Return of the Pacman",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -821,6 +1278,10 @@
     },
     {
       "filename": "Contact IV More Contact.mp3",
+      "title": "Contact IV. More Contact",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -829,7 +1290,11 @@
       "album": "Contact.jpeg"
     },
     {
-      "filename": "Dolor Y Pasión I Trop is Teveel1.mp3",
+      "filename": "Dolor Y Pasi\u00f3n I Trop is Teveel1.mp3",
+      "title": "Dolor Y Pasio\u0301n I. Trop is Teveel",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -838,7 +1303,11 @@
       "album": "Contact.jpeg"
     },
     {
-      "filename": "Dolor Y Pasión I Trop is Teveel2.mp3",
+      "filename": "Dolor Y Pasi\u00f3n I Trop is Teveel2.mp3",
+      "title": "Dolor Y Pasio\u0301n I. Trop is Teveel",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -847,7 +1316,11 @@
       "album": "Contact.jpeg"
     },
     {
-      "filename": "Dolor Y Pasión II Les Papillons1.mp3",
+      "filename": "Dolor Y Pasi\u00f3n II Les Papillons1.mp3",
+      "title": "Dolor Y Pasio\u0301n II. Les Papillons",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -856,7 +1329,11 @@
       "album": "Contact.jpeg"
     },
     {
-      "filename": "Dolor Y Pasión II Les Papillons2.mp3",
+      "filename": "Dolor Y Pasi\u00f3n II Les Papillons2.mp3",
+      "title": "Dolor Y Pasio\u0301n II. Les Papillons",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -865,7 +1342,10 @@
       "album": "Contact.jpeg"
     },
     {
-      "filename": "Dolor y Pasión II. Les Papillons (demo version).mp3",
+      "filename": "Dolor y Pasi\u00f3n II. Les Papillons (demo version).mp3",
+      "title": "Dolor y Pasio\u0301n II. Les Papillons (demo version)",
+      "composer": "Van Nueten",
+      "artist": "2016",
       "genres": [
         "Piano",
         "Solo",
@@ -882,10 +1362,18 @@
         "Contemporary",
         "Stage"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Hulde aan Dimitri",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Isomorfie Nr.2.mp3",
+      "title": "Isomorfie Nr.2 -  I. Voorspel",
+      "composer": "Van Nueten",
+      "publisher": "Bolli Records",
+      "year": "2013",
       "genres": [
         "Piano",
         "Old Styles",
@@ -895,6 +1383,10 @@
     },
     {
       "filename": "Isomorfie nr.3 II Afrikaans Allegro.mp3",
+      "title": "Isomorfie Nr.3 -  II. Afrikaans Allegro",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Old Styles",
@@ -909,7 +1401,11 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Lento Pacifico",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Mijnheer X.mp3",
@@ -918,7 +1414,11 @@
         "Old Styles",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Mijnheer X",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "The Night I. Finis Mundi.mp3",
@@ -927,10 +1427,20 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "The Night",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2016",
+      "publisher": "Sony Classical"
     },
     {
       "filename": "The Night II. Weeping Song.mp3",
+      "title": "The Night II. Weeping Song",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018",
       "genres": [
         "Piano",
         "Classical",
@@ -946,7 +1456,11 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Wals met Briljanten I. Rubato",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Wals met Briljanten II. Allegro Vivace.mp3",
@@ -955,7 +1469,11 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Wals met Briljanten II. Allegro Vivace",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Wals met Briljanten III. Allegretto.mp3",
@@ -964,7 +1482,11 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Wals met Briljanten III. Allegretto",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'.mp3",
@@ -973,10 +1495,19 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Contact.jpeg"
+      "album": "Contact.jpeg",
+      "title": "Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'",
+      "composer": "Van Nueten",
+      "publisher": "Sony Classical",
+      "year": "2018"
     },
     {
       "filename": "Too Good To Be True.mp3",
+      "title": "Too Good To Be True",
+      "composer": "Van Dijk-Van Nueten",
+      "artist": "Chitlin' Fooks",
+      "publisher": "Hidden Agenda Records-Palomine Records-Pias",
+      "year": "2002",
       "genres": [
         "Pop",
         "Song"
@@ -990,7 +1521,13 @@
         "Contemporary",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Bruxelles Circulation",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "publisher": "Royal Film Archive of Belgium",
+      "year": "2014"
     },
     {
       "filename": "Ca c'est Bruxelles1.mp3",
@@ -999,7 +1536,13 @@
         "Contemporary",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Ca c'est Bruxelles",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "publisher": "Royal Film Archive of Belgium",
+      "year": "2014"
     },
     {
       "filename": "Ca c'est Bruxelles2.mp3",
@@ -1008,27 +1551,45 @@
         "Contemporary",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Ca c'est Bruxelles",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "publisher": "Royal Film Archive of Belgium",
+      "year": "2014"
     },
     {
-      "filename": "Durch Brüssel.mp3",
+      "filename": "Durch Br\u00fcssel.mp3",
       "genres": [
         "Piano",
         "Old Styles",
         "Contemporary",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Durch Br\u00fcssel",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014",
+      "publisher": "Royal Film Archive of Belgium"
     },
     {
-      "filename": "Durch Brüssel2.mp3",
+      "filename": "Durch Br\u00fcssel2.mp3",
       "genres": [
         "Piano",
         "Old Styles",
         "Contemporary",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Durch Br\u00fcssel",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014",
+      "publisher": "Royal Film Archive of Belgium"
     },
     {
       "filename": "Politieke Promenades.mp3",
@@ -1036,7 +1597,13 @@
         "Piano",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Politieke Promenades",
+      "composer": "Van Nueten",
+      "content_type": "silent movie",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014",
+      "publisher": "Royal Film Archive of Belgium"
     },
     {
       "filename": "Promio.mp3",
@@ -1045,15 +1612,26 @@
         "Old Styles",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Promio",
+      "composer": "Van Nueten",
+      "content_type": "silent movie",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014",
+      "publisher": "Royal Film Archive of Belgium"
     },
     {
-      "filename": "Saïda.mp3",
+      "filename": "Sa\u00efda.mp3",
       "genres": [
         "Piano",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Sa\u00efda",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014"
     },
     {
       "filename": "Shopping.mp3",
@@ -1062,7 +1640,12 @@
         "Minimal",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Shopping",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014"
     },
     {
       "filename": "Toto.mp3",
@@ -1070,7 +1653,12 @@
         "Piano",
         "Film"
       ],
-      "album": "Bruxelles, Ville en Images.webp"
+      "album": "Bruxelles, Ville en Images.webp",
+      "title": "Toto",
+      "composer": "Van Nueten",
+      "content_type": "silent movie collection",
+      "project": "Bruxelles, Ville en Images",
+      "year": "2014"
     },
     {
       "filename": "Appetite1.mp3",
@@ -1079,7 +1667,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Appetite",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2002"
     },
     {
       "filename": "Appetite2.mp3",
@@ -1088,10 +1681,20 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Appetite",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2002"
     },
     {
-      "filename": "Bridge Burner.jpeg.mp3",
+      "filename": "Bridge Burner.mp3",
+      "title": "Bridge Burner",
+      "composer": "Stuyven",
+      "year": "2002",
+      "artist": "Daan",
+      "publisher": "Tracks",
       "genres": [
         "Pop",
         "Song",
@@ -1106,7 +1709,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Fireproof",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2002"
     },
     {
       "filename": "Fireproof2.mp3",
@@ -1115,7 +1723,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Fireproof",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2002"
     },
     {
       "filename": "Fuel1.mp3",
@@ -1124,7 +1737,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Fuel",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2002"
     },
     {
       "filename": "Fuel2.mp3",
@@ -1133,7 +1751,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Fuel",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2002"
     },
     {
       "filename": "Sons of Grey1.mp3",
@@ -1142,7 +1765,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Sons of Grey",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2003"
     },
     {
       "filename": "Sons of Grey2.mp3",
@@ -1151,7 +1779,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Sons of Grey",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2003"
     },
     {
       "filename": "Sunchild1.mp3",
@@ -1160,7 +1793,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Sunchild",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2003"
     },
     {
       "filename": "Sunchild2.mp3",
@@ -1169,7 +1807,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "Bridge Burner.jpeg"
+      "album": "Bridge Burner.jpeg",
+      "title": "Sunchild",
+      "composer": "Stuyven",
+      "artist": "Daan",
+      "publisher": "Tracks",
+      "year": "2003"
     },
     {
       "filename": "Beer1.mp3",
@@ -1177,7 +1820,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Boys Together Outrageously.jpeg"
+      "album": "Boys Together Outrageously.jpeg",
+      "title": "Beer",
+      "composer": "Pawlowski-Deweze-Houben",
+      "artist": "Mitsoobsishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Beer2.mp3",
@@ -1185,10 +1833,20 @@
         "Song",
         "Pop"
       ],
-      "album": "Boys Together Outrageously.jpeg"
+      "album": "Boys Together Outrageously.jpeg",
+      "title": "Beer",
+      "composer": "Pawlowski-Deweze-Houben",
+      "artist": "Mitsoobsishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Mitsoobishy Jacson.mp3",
+      "title": "Mitsoobishy Jackson",
+      "composer": "Houben-Deweze-Pawlowski",
+      "artist": "Mitsoobishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999",
       "genres": [
         " "
       ],
@@ -1196,6 +1854,11 @@
     },
     {
       "filename": "Mitsoobsishy Jacson2.mp3",
+      "title": "Mitsoobishy Jackson",
+      "composer": "Houben-Deweze-Pawlowski",
+      "artist": "Mitsoobishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999",
       "genres": [
         "Song",
         "Pop"
@@ -1208,7 +1871,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Boys Together Outrageously.jpeg"
+      "album": "Boys Together Outrageously.jpeg",
+      "title": "Put Your Love Jacket On",
+      "composer": "Pawlowski-Deweze-Houben",
+      "artist": "Mitsoobsishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Put Your Love Jacket On2.mp3",
@@ -1216,7 +1884,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Boys Together Outrageously.jpeg"
+      "album": "Boys Together Outrageously.jpeg",
+      "title": "Put Your Love Jacket On",
+      "composer": "Pawlowski-Deweze-Houben",
+      "artist": "Mitsoobsishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Put Your Love Jacket On3.mp3",
@@ -1224,7 +1897,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Boys Together Outrageously.jpeg"
+      "album": "Boys Together Outrageously.jpeg",
+      "title": "Put Your Love Jacket On",
+      "composer": "Pawlowski-Deweze-Houben",
+      "artist": "Mitsoobsishy Jacson",
+      "publisher": "Heavenhotel",
+      "year": "1999"
     },
     {
       "filename": "Annie1.mp3",
@@ -1232,7 +1910,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Blind Man's Son.jpeg"
+      "album": "Blind Man's Son.jpeg",
+      "title": "Annie",
+      "composer": "Deneckere",
+      "artist": "The Pink Flowers",
+      "publisher": "Boom! Records",
+      "year": "1993"
     },
     {
       "filename": "Annie2.mp3",
@@ -1240,47 +1923,83 @@
         "Song",
         "Pop"
       ],
-      "album": "Blind Man's Son.jpeg"
+      "album": "Blind Man's Son.jpeg",
+      "title": "Annie",
+      "composer": "Deneckere",
+      "artist": "The Pink Flowers",
+      "publisher": "Boom! Records",
+      "year": "1993"
     },
     {
       "filename": "Balalaika's 1.mp3",
+      "title": "Balalaika's",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Contemporary",
         "Electronic",
         "Stage",
         "Minimal"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Balalaika's 2.mp3",
+      "title": "Balalaika's",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Contemporary",
         "Electronic",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Cleaning 1.mp3",
+      "title": "Cleaning",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Contemporary",
         "Electronic",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Cleaning 2.mp3",
+      "title": "Cleaning",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Contemporary",
         "Electronic",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Corpus Christi Carol 1.mp3",
+      "title": "Corpus Christi Carol",
+      "composer": "Traditional/Benjamin Britten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "artist": "Guy Van Nueten & Steve Dugardin",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Song",
         "Old",
@@ -1288,99 +2007,164 @@
         "Stage",
         "Minimal"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Folklore 1.mp3",
+      "title": "Folklore",
+      "composer": "Anonymous-Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Electronic",
         "Pop",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Hark! The E'ching Air.mp3",
+      "title": "Hark! The E'ching Air",
+      "composer": "Settle (1648-1724)/Purcell (1659-1695)",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "artist": "Guy Van Nueten & Steve Dugardin",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Song",
         "Old Styles",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Here Let My Life 1.mp3",
+      "title": "Here Let My Life",
+      "composer": "Cowley (1618-1667)/Purcell (1659-1695)",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "artist": "Guy Van Nueten & Steve Dugardin",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Song",
         "Old Styles",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Mr. Stoffer's Solo 1.mp3",
+      "title": "Mr. Stoffer's Solo",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Contemporary",
         "Electronic",
         "Stage",
         "Minimal"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Music for a While 1.mp3",
+      "title": "Music for a While",
+      "composer": "Dryden-Lee/ Purcell (1659-1695)",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "artist": "Guy Van Nueten & Steve Dugardin",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Song",
         "Old Styles",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "O Solitude.mp3",
+      "title": "O Solitude",
+      "composer": "Philips (1631-1664)/Purcell (1659-1695)",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "artist": "Guy Van Nueten & Steve Dugardin",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Song",
         "Electronic",
         "Old Styles",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "The Final Workout 1.mp3",
+      "title": "The Final Workout",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Electronic",
         "Pop",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "The Final Workout 2.mp3",
+      "title": "The Final Workout",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Electronic",
         "Pop",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "The Goldbird has flown 1.mp3",
+      "title": "The Goldbird has flown",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Electronic",
         "Pop",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "The Sally Gardens 1.mp3",
+      "title": "The Sally Gardens",
+      "composer": "Yeats/Traditional",
+      "content_type": "dance performance",
+      "project": "b\u00e2che",
+      "artist": "Guy Van Nueten & Steve Dugardin",
+      "publisher": "Lowlands",
+      "year": "2005",
       "genres": [
         "Old Styles",
         "Song",
         "Stage"
       ],
-      "album": "bâche.png"
+      "album": "b\u00e2che.png"
     },
     {
       "filename": "Alibies 1.mp3",
@@ -1388,7 +2172,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Admiral Freebee.jpeg"
+      "album": "Admiral Freebee.jpeg",
+      "title": "Alibies",
+      "composer": "Van Laere",
+      "artist": "Admiral Freebee",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Alibies 2.mp3",
@@ -1396,7 +2185,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Admiral Freebee.jpeg"
+      "album": "Admiral Freebee.jpeg",
+      "title": "Alibies",
+      "composer": "Van Laere",
+      "artist": "Admiral Freebee",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Rags 'n' Run 1.mp3",
@@ -1404,7 +2198,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Admiral Freebee.jpeg"
+      "album": "Admiral Freebee.jpeg",
+      "title": "Rags 'n' Run",
+      "composer": "Tom Van Laere",
+      "artist": "Admiral Freebee",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Rags 'n' Run 2.mp3",
@@ -1412,7 +2211,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Admiral Freebee.jpeg"
+      "album": "Admiral Freebee.jpeg",
+      "title": "Rags 'n' Run",
+      "composer": "Tom Van Laere",
+      "artist": "Admiral Freebee",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Rags 'n' Run 3.mp3",
@@ -1420,7 +2224,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Admiral Freebee.jpeg"
+      "album": "Admiral Freebee.jpeg",
+      "title": "Rags 'n' Run",
+      "composer": "Tom Van Laere",
+      "artist": "Admiral Freebee",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Rebound Love.mp3",
@@ -1428,7 +2237,12 @@
         "Song",
         "Pop"
       ],
-      "album": "Admiral Freebee.jpeg"
+      "album": "Admiral Freebee.jpeg",
+      "title": "Rebound Love",
+      "composer": "Tom Van Laere",
+      "artist": "Admiral Freebee",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "A Trip Too Far.mp3",
@@ -1437,7 +2251,12 @@
         "Song",
         "Electronic"
       ],
-      "album": "500€ Coctail.jpeg"
+      "album": "500\u20ac Coctail.jpeg",
+      "title": "A Trip Too Far",
+      "composer": "Bolland",
+      "artist": "C.J. Bolland",
+      "publisher": "Wikkid Records",
+      "year": "2009"
     },
     {
       "filename": "Cry.mp3",
@@ -1446,65 +2265,110 @@
         "Song",
         "Electronic"
       ],
-      "album": "500€ Coctail.jpeg"
+      "album": "500\u20ac Coctail.jpeg",
+      "title": "Cry",
+      "composer": "Bolland",
+      "artist": "C.J. Bolland",
+      "publisher": "Wikkid Records",
+      "year": "2009"
     },
     {
       "filename": "April & June 1.mp3",
+      "title": "April & June",
+      "composer": "Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         "Pop",
         "Song"
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "April & June 2.mp3",
+      "title": "April & June",
+      "composer": "Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         "Pop",
         "Song"
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "Grain of Sand.mp3",
+      "title": "Grain of Sand",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         "Pop",
         "Song"
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "Hungry Again 1.mp3",
+      "title": "Hungry Again",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         "Pop",
         "Song"
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "Hungry Again 2.mp3",
+      "title": "Hungry Again",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         "Pop",
         "Song"
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "Josephine Baker.mp3",
+      "title": "Josephine Baker",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         "Pop",
         "Song"
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "Love.mp3",
+      "title": "Love",
+      "composer": "Vanderhaeghen-Van Nueten",
+      "artist": "The Sands",
+      "publisher": "Megadisc/MCA",
+      "year": "1996",
       "genres": [
         " "
       ],
-      "album": "…And Other True Stories.jpeg"
+      "album": "\u2026And Other True Stories.jpeg"
     },
     {
       "filename": "'s Morgens vroeg.mp3",
+      "title": "s Morgens vroeg",
+      "composer": "Van Nueten",
+      "content_type": "theatre piece",
+      "project": "Of Mice and Men",
+      "year": "2003",
       "genres": [
         "Pop",
         "Stage",
@@ -1515,6 +2379,11 @@
     },
     {
       "filename": "2 gitaren.mp3",
+      "title": "2 gitaren",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Pop",
         "Stage",
@@ -1524,6 +2393,12 @@
     },
     {
       "filename": "2 meisjes.mp3",
+      "title": "2 meisjes",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Verheest, Gevaert, Sondervan",
       "genres": [
         "Electronic",
         "Stage",
@@ -1538,7 +2413,10 @@
         "Pop",
         "Rock"
       ],
-      "album": ""
+      "album": "",
+      "title": "Aar en Bie",
+      "composer": "Van Nueten",
+      "artist": "Vanity Project (2015)"
     },
     {
       "filename": "Afraid.mp3",
@@ -1547,7 +2425,13 @@
         "Piano",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Afraid",
+      "composer": "Giancarlo Menotti (1911-2007)",
+      "content_type": "opera",
+      "project": "The Medium",
+      "year": "2014",
+      "artist": "Guy Van Nueten"
     },
     {
       "filename": "Afraid Impro.mp3",
@@ -1556,7 +2440,13 @@
         "Contemporary",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Afraid Impro",
+      "composer": "Menotti-Van Nueten",
+      "content_type": "opera",
+      "project": "The Medium",
+      "year": "2014",
+      "artist": "Guy Van Nueten"
     },
     {
       "filename": "All I Need.mp3",
@@ -1565,7 +2455,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "All I Need",
+      "composer": "Hirsch-Dunckel-Godin",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
       "filename": "Another Parasite.mp3",
@@ -1574,10 +2467,21 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Another Parasite",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2018"
     },
     {
       "filename": "Avaritia 1.mp3",
+      "title": "Avaritia",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "De 7 hoofdzonden",
+      "year": "2009",
+      "artist": "7 celli, directed by Katelijn Van Kerckhoven",
       "genres": [
         "Contemporary",
         "Orchestral",
@@ -1587,6 +2491,11 @@
     },
     {
       "filename": "Axa 1.mp3",
+      "title": "Ax",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2008",
       "genres": [
         "Film"
       ],
@@ -1594,6 +2503,11 @@
     },
     {
       "filename": "Axa 2.mp3",
+      "title": "Ax",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2008",
       "genres": [
         "Film"
       ],
@@ -1607,10 +2521,19 @@
         "Song",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Babysitteuse Dub",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010",
+      "artist": "Wauters, Gevaert, Van Nueten"
     },
     {
       "filename": "Backscratcher.mp3",
+      "title": "Scratch my Back",
+      "composer": "Slim Harpo (1924-1970)",
+      "artist": "44 Rave",
       "genres": [
         "Live",
         "Rock",
@@ -1621,6 +2544,12 @@
     },
     {
       "filename": "Bad Timing extension 1.mp3",
+      "title": "Bad Timing extension",
+      "composer": "dEUS",
+      "content_type": "fashion show",
+      "project": "Dries Van Noten",
+      "year": "2007",
+      "artist": "Guy Van Nueten & dEUS",
       "genres": [
         "Contemporary",
         "Piano",
@@ -1630,6 +2559,12 @@
     },
     {
       "filename": "Barcelona Loop.mp3",
+      "title": "Barcelona Loop",
+      "composer": "Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Verheest, Gevaert, Sondervan",
       "genres": [
         "Electronic",
         "Stage"
@@ -1642,7 +2577,10 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Bearded Men",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project (2017)"
     },
     {
       "filename": "Bearded Men 2.mp3",
@@ -1650,7 +2588,10 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Bearded Men",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project (2017)"
     },
     {
       "filename": "Bearded Men 3.mp3",
@@ -1658,7 +2599,10 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Bearded Men",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project (2017)"
     },
     {
       "filename": "Bearded Men 4.mp3",
@@ -1666,7 +2610,10 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Bearded Men",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project (2017)"
     },
     {
       "filename": "Between The Bars.mp3",
@@ -1675,10 +2622,16 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Between The Bars",
+      "composer": "Elliott Smith",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
       "filename": "Bevrijd Ons van het Nationalisme.mp3",
+      "title": "Bevrijd Ons van het Nationalisme",
+      "composer": "Gevaert-Van Nueten",
+      "artist": "Vanity Project",
       "genres": [
         "Rock",
         "Live",
@@ -1693,7 +2646,12 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Bird of Death",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Bird of Death Outro.mp3",
@@ -1702,7 +2660,12 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Bird of Death",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Black Swan.mp3",
@@ -1712,10 +2675,21 @@
         "Contemporary",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Black Swan",
+      "composer": "Giancarlo Menotti (1911-2007)",
+      "content_type": "opera",
+      "project": "The Medium",
+      "year": "2014"
     },
     {
       "filename": "Botermelk.mp3",
+      "title": "Botermelk",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Charlotte Vandermeersch & The Soup Group",
       "genres": [
         "Electronic",
         "Stage",
@@ -1726,6 +2700,12 @@
     },
     {
       "filename": "Boudewijn.mp3",
+      "title": "Boudewijn",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Ex-Drummer",
+      "year": "2006",
+      "artist": "Guy Van Nueten & Kirke String Quartet",
       "genres": [
         "Old Styles",
         "Contemporary",
@@ -1739,10 +2719,21 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Box-Shaped Lullaby",
+      "composer": "Deweze",
+      "artist": "Sukilove",
+      "publisher": "Hidden Agenda Records",
+      "year": "2002"
     },
     {
       "filename": "Brand en zn Pa sample.mp3",
+      "title": "Brand and his Dad",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "year": "2012",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
       "genres": [
         "Old Styles",
         "Contemporary",
@@ -1753,6 +2744,11 @@
     },
     {
       "filename": "Cabb 1.mp3",
+      "title": "Cabb",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
       "genres": [
         "Electronic",
         "Stage"
@@ -1761,6 +2757,9 @@
     },
     {
       "filename": "Can't You Hear Me Cryin'.mp3",
+      "title": "Can't Ya Hear Me Cryin'",
+      "composer": "Howlin' Wolf (1910-1976)",
+      "artist": "44 Rave",
       "genres": [
         "Live",
         "Rock",
@@ -1771,6 +2770,11 @@
     },
     {
       "filename": "Carrousel.mp3",
+      "title": "Carrousel",
+      "composer": "Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
       "genres": [
         "Electronic",
         "Contemporary"
@@ -1779,6 +2783,12 @@
     },
     {
       "filename": "Corporate 1.mp3",
+      "title": "Corporate",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2007",
+      "artist": "Vanhamel, Gevaert, Van Nueten, Van den Berghe",
       "genres": [
         "Film"
       ],
@@ -1786,6 +2796,12 @@
     },
     {
       "filename": "Corporate 2.mp3",
+      "title": "Corporate",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2007",
+      "artist": "Vanhamel, Gevaert, Van Nueten, Van den Berghe",
       "genres": [
         "Film"
       ],
@@ -1798,10 +2814,18 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Crystalised",
+      "composer": "Qureshi - Smith - Sim - Croft",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
       "filename": "Dansstudie II 1.mp3",
+      "title": "Dansstudie II",
+      "composer": "Van Nueten",
+      "content_type": "composition assignment",
+      "year": "1999",
+      "artist": "Van Calster, Mertens, Van Bulck",
       "genres": [
         "Contemporary",
         "Live"
@@ -1810,6 +2834,11 @@
     },
     {
       "filename": "Dansstudie II 2.mp3",
+      "title": "Dansstudie II",
+      "composer": "Van Nueten",
+      "content_type": "composition assignment",
+      "year": "1999",
+      "artist": "Van Calster, Mertens, Van Bulck",
       "genres": [
         "Contemporary",
         "Live"
@@ -1818,6 +2847,11 @@
     },
     {
       "filename": "Dansstudie II 3.mp3",
+      "title": "Dansstudie II",
+      "composer": "Van Nueten",
+      "content_type": "composition assignment",
+      "year": "1999",
+      "artist": "Van Calster, Mertens, Van Bulck",
       "genres": [
         "Contemporary",
         "Live"
@@ -1826,6 +2860,11 @@
     },
     {
       "filename": "Dansstudie II 4.mp3",
+      "title": "Dansstudie II",
+      "composer": "Van Nueten",
+      "content_type": "composition assignment",
+      "year": "1999",
+      "artist": "Van Calster, Mertens, Van Bulck",
       "genres": [
         "Contemporary",
         "Live"
@@ -1839,10 +2878,20 @@
         "Minimal",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "David+Chairdance",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "David+Chairdance2.mp3",
+      "title": "David+Chairdance",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Solitary Confinement",
+      "year": "2013",
       "genres": [
         "Electronic",
         "Minimal",
@@ -1852,6 +2901,12 @@
     },
     {
       "filename": "De Vadertjes.mp3",
+      "title": "De Vadertjes",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Charlotte Vandermeersch, Gert Jochems & The Soup Group",
       "genres": [
         "Song",
         "Pop",
@@ -1863,6 +2918,11 @@
     },
     {
       "filename": "Diabo do Belho.mp3",
+      "title": "Diabo do Belho",
+      "composer": "Traditional/Van Nueten",
+      "content_type": "musical theatre",
+      "year": "2007",
+      "artist": "Octopus Chamber Choir directed by Bart Van Reyn",
       "genres": [
         "Stage",
         "Traditional",
@@ -1872,6 +2932,11 @@
     },
     {
       "filename": "Diabo do Belho1.mp3",
+      "title": "Diabo do Belho",
+      "composer": "Traditional/Van Nueten",
+      "content_type": "musical theatre",
+      "year": "2007",
+      "artist": "Octopus Chamber Choir directed by Bart Van Reyn",
       "genres": [
         "Old Styles",
         "Contemporary",
@@ -1883,6 +2948,11 @@
     },
     {
       "filename": "Diabo do Belho2.mp3",
+      "title": "Diabo do Belho",
+      "composer": "Traditional/Van Nueten",
+      "content_type": "musical theatre",
+      "year": "2007",
+      "artist": "Octopus Chamber Choir directed by Bart Van Reyn",
       "genres": [
         "Old Styles",
         "Contemporary",
@@ -1897,7 +2967,12 @@
         "Pop",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "DiscoMisdaadAfraid",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2014"
     },
     {
       "filename": "DiscoMisdaadAfraid2.mp3",
@@ -1905,10 +2980,20 @@
         "Electronic",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "DiscoMisdaadAfraid",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2014"
     },
     {
       "filename": "Dit is Oorlog! 1.mp3",
+      "title": "Dit is Oorlog!",
+      "composer": "Van Nueten",
+      "content_type": "puppet theatre",
+      "project": "t Beest",
+      "year": "2000",
       "genres": [
         "Electronic",
         "Pop",
@@ -1918,6 +3003,12 @@
     },
     {
       "filename": "Divina Commedia 1.mp3",
+      "title": "Divina Commedia",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "De 7 hoofdzonden",
+      "year": "2009",
+      "artist": "7 celli, directed by Katelijn Van Kerckhoven",
       "genres": [
         "Classical",
         "Contemporary",
@@ -1927,6 +3018,10 @@
     },
     {
       "filename": "Divina Commedia1.mp3",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "De 7 hoofdzonden",
+      "year": "2009",
       "genres": [
         "Contemporary",
         "Orchestral",
@@ -1936,6 +3031,12 @@
     },
     {
       "filename": "Doe de Doodlig.mp3",
+      "title": "Doe de Doodlig",
+      "composer": "Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Charlotte Vandermeersch, Gert Jochems & The Soup Group",
       "genres": [
         "Live",
         "Stage",
@@ -1951,7 +3052,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Doll Parts",
+      "composer": "Courtney Love",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
       "filename": "Donny Boy1.mp3",
@@ -1962,7 +3066,10 @@
         "Rock",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "Donny Boy",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project"
     },
     {
       "filename": "Donny Boy2.mp3",
@@ -1973,7 +3080,10 @@
         "Rock",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "Donny Boy",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project"
     },
     {
       "filename": "Drops.mp3",
@@ -1982,7 +3092,12 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Drops",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Drops2.mp3",
@@ -1991,10 +3106,20 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Drops",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Eindeloze Reverb.mp3",
+      "title": "Eindeloze Reverb",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Stage",
@@ -2011,7 +3136,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Epiloog",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Epilogue",
+      "year": "2010"
     },
     {
       "filename": "Epiloog (Begingeneriek).mp3",
@@ -2021,7 +3151,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Epiloog",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Epilogue",
+      "year": "2010"
     },
     {
       "filename": "Epiloog2.mp3",
@@ -2030,7 +3165,12 @@
         "Neo-classical",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Epiloog",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Epilogue",
+      "year": "2010"
     },
     {
       "filename": "Fed-Up 1.mp3",
@@ -2038,7 +3178,10 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Fed-Up",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project (2016)"
     },
     {
       "filename": "Fed-Up 2.mp3",
@@ -2046,16 +3189,25 @@
         "Electronic",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Fed-Up",
+      "composer": "Criscietello-Van Nueten",
+      "artist": "Vanity Project (2016)"
     },
     {
-      "filename": "Fin du Générique de Fin.mp3",
+      "filename": "Fin du G\u00e9n\u00e9rique de Fin.mp3",
       "genres": [
         "Electronic",
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "G\u00e9n\u00e9rique de Fin",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010",
+      "artist": "Mauro Pawlovski & Guy Van Nueten"
     },
     {
       "filename": "Firewall.mp3",
@@ -2064,10 +3216,21 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Firewall",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Ford Mustang.mp3",
+      "title": "Ford Mustang",
+      "composer": "Van Nueten",
+      "content_type": "theatre piece",
+      "project": "Of Mice and Men",
+      "year": "2003",
+      "artist": "Jur van der Lecq & Guy Van Nueten",
       "genres": [
         "Pop",
         "Stage"
@@ -2082,7 +3245,10 @@
         "Pop",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "Fruit Tree",
+      "composer": "Nick Drake",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic"
     },
     {
       "filename": "Fruit Tree 2.mp3",
@@ -2092,10 +3258,16 @@
         "Pop",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "Fruit Tree",
+      "composer": "Nick Drake",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic"
     },
     {
       "filename": "GarageElectroEnnioSurf.mp3",
+      "title": "GarageElectroEnnioSurf",
+      "composer": "Gevaert-Van Nueten",
+      "artist": "Vanity Project (2015)",
       "genres": [
         "Rock",
         "Pop"
@@ -2109,10 +3281,19 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Garden of Weeds",
+      "composer": "Vanhamel",
+      "year": "2008",
+      "artist": "Tim Vanhamel"
     },
     {
-      "filename": "Générique de Fin1.mp3",
+      "filename": "G\u00e9n\u00e9rique de Fin1.mp3",
+      "title": "G\u00e9n\u00e9rique",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017",
       "genres": [
         "Electronic",
         "Orchestral",
@@ -2121,7 +3302,12 @@
       "album": ""
     },
     {
-      "filename": "Générique de Fin2.mp3",
+      "filename": "G\u00e9n\u00e9rique de Fin2.mp3",
+      "title": "G\u00e9n\u00e9rique",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017",
       "genres": [
         "Electronic",
         "Orchestral",
@@ -2131,6 +3317,12 @@
     },
     {
       "filename": "Gentle Creature 1.mp3",
+      "title": "Gentle Creature",
+      "composer": "Van Nueten",
+      "content_type": "short movie",
+      "project": "Gentle Creature",
+      "year": "2009",
+      "artist": "Solists of the Flemish Opera, directed by Bart Van Reyn",
       "genres": [
         "Contemporary",
         "Film",
@@ -2140,6 +3332,12 @@
     },
     {
       "filename": "Gentle Creature 2.mp3",
+      "title": "Gentle Creature",
+      "composer": "Van Nueten",
+      "content_type": "short movie",
+      "project": "Gentle Creature",
+      "year": "2009",
+      "artist": "Solists of the Flemish Opera, directed by Bart Van Reyn",
       "genres": [
         "Contemporary",
         "Film",
@@ -2149,6 +3347,11 @@
     },
     {
       "filename": "Goeie Golf 1.mp3",
+      "title": "Goeie Golf",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
       "genres": [
         "Electronic",
         "Film"
@@ -2157,6 +3360,11 @@
     },
     {
       "filename": "Gooi Weg Die Schone Jeugd 1.mp3",
+      "title": "Gooi Weg Die Schone Jeugd",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Merg",
+      "year": "2006",
       "genres": [
         "Electronic",
         "Contemporary",
@@ -2167,6 +3375,11 @@
     },
     {
       "filename": "Gooi Weg Die Schone Jeugd 2.mp3",
+      "title": "Gooi Weg Die Schone Jeugd",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Merg",
+      "year": "2006",
       "genres": [
         "Electronic",
         "Contemporary",
@@ -2182,7 +3395,13 @@
         "Orchestral",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Guillaume et Guy",
+      "composer": "Guillaume Lekeu (1870-1894)",
+      "content_type": "documentary",
+      "project": "Le Choix de Peindre: Vincent van Gogh",
+      "year": "2014",
+      "artist": "Guy Van Nueten"
     },
     {
       "filename": "Happy Family.mp3",
@@ -2190,7 +3409,12 @@
         "Electronic",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Happy Family",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2008"
     },
     {
       "filename": "Happy Family2.mp3",
@@ -2198,7 +3422,12 @@
         "Electronic",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Happy Family",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2008"
     },
     {
       "filename": "Helende Loop.mp3",
@@ -2206,7 +3435,10 @@
         "Rock",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Helende Loop",
+      "composer": "Gevaert-Van Nueten",
+      "artist": "Vanity Project (2015)"
     },
     {
       "filename": "Hello Quincy.mp3",
@@ -2214,7 +3446,10 @@
         "Rock",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Hello Quincy",
+      "composer": "Van Nueten",
+      "artist": "Vanity Project (2015)"
     },
     {
       "filename": "HipHop 'The Fucker'.mp3",
@@ -2223,7 +3458,12 @@
         "Pop",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "HipHop 'The Fucker'",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Holltone.mp3",
@@ -2241,7 +3481,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "How Many More Years",
+      "composer": "Howlin' Wolf (1910-1976)",
+      "artist": "44 Rave"
     },
     {
       "filename": "Hulde aan Dimitri (demo version).mp3",
@@ -2250,7 +3493,10 @@
         "Classical",
         "Contemporary"
       ],
-      "album": ""
+      "album": "",
+      "title": "Hulde aan Dimitri (demo version)",
+      "composer": "Van Nueten",
+      "artist": "2016"
     },
     {
       "filename": "I Want You Too.mp3",
@@ -2259,7 +3505,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "I Want You Too",
+      "composer": "Van Nueten",
+      "artist": "Vanity Project (2015)"
     },
     {
       "filename": "I'm on My Way.mp3",
@@ -2268,10 +3517,18 @@
         "Pop",
         "Rock"
       ],
-      "album": ""
+      "album": "",
+      "title": "I'm on My Way",
+      "composer": "Traditional",
+      "artist": "Gregory Frateur & Guy Van Nueten"
     },
     {
       "filename": "Interludium 2 1.mp3",
+      "title": "Interludium",
+      "composer": "Van Nueten",
+      "content_type": "puppet theatre",
+      "project": "'t Beest",
+      "year": "2000",
       "genres": [
         "Electronic",
         "Stage"
@@ -2280,6 +3537,12 @@
     },
     {
       "filename": "Into the Woods.mp3",
+      "title": "Into The Woods",
+      "composer": "Van Nueten",
+      "content_type": "short movie",
+      "project": "Gentle Creature",
+      "year": "2009",
+      "artist": "Solists of the Flemish Opera, directed by Bart Van Reyn",
       "genres": [
         "Contemporary",
         "Orchestral",
@@ -2289,6 +3552,12 @@
     },
     {
       "filename": "Into The Woods (alt version.mp3",
+      "title": "Into The Woods (alt version)",
+      "composer": "Van Nueten",
+      "content_type": "short movie",
+      "project": "Gentle Creature",
+      "year": "2009",
+      "artist": "Solists of the Flemish Opera, directed by Bart Van Reyn",
       "genres": [
         "Contemporary",
         "Film",
@@ -2298,6 +3567,12 @@
     },
     {
       "filename": "Intro thuiskomst.mp3",
+      "title": "Thuiskomst",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "year": "2012",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
       "genres": [
         "Old Styles",
         "Contemporary",
@@ -2317,6 +3592,11 @@
     },
     {
       "filename": "Iokanan 7A.mp3",
+      "title": "Iokanan 7A",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Contemporary",
@@ -2327,6 +3607,11 @@
     },
     {
       "filename": "Iokanan 8.mp3",
+      "title": "Iokanan 8",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Film",
@@ -2336,6 +3621,11 @@
     },
     {
       "filename": "Iokanan 14.mp3",
+      "title": "Iokanan 14",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Pop",
@@ -2345,6 +3635,11 @@
     },
     {
       "filename": "Iokanan 18.mp3",
+      "title": "Iokanan 18",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Stage",
@@ -2358,7 +3653,12 @@
         "Electronic",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Iplus",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2008"
     },
     {
       "filename": "It's not the Drug1.mp3",
@@ -2367,7 +3667,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "It's not the Drug",
+      "composer": "Vanhamel",
+      "artist": "Tim Vanhamel"
     },
     {
       "filename": "It's not the Drug2.mp3",
@@ -2376,10 +3679,18 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "It's not the Drug",
+      "composer": "Vanhamel",
+      "artist": "Tim Vanhamel"
     },
     {
       "filename": "Jaguar 1.mp3",
+      "title": "Jaguar",
+      "composer": "Van Nueten",
+      "content_type": "short movie",
+      "project": "Jaguar",
+      "year": "2003",
       "genres": [
         "Pop",
         "Film"
@@ -2388,6 +3699,11 @@
     },
     {
       "filename": "Klaaglied.mp3",
+      "title": "Klaaglied (demo version)",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017",
       "genres": [
         "Piano",
         "Contemporary",
@@ -2402,7 +3718,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "La Vie Continue",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "Laat Me Nu Toch Niet Alleen.mp3",
@@ -2411,10 +3732,18 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Laat Me Nu Toch Niet Alleen",
+      "composer": "Carlos Avila",
+      "artist": "Gregory Frateur & Guy Van Nueten"
     },
     {
-      "filename": "Lalalàla 1.mp3",
+      "filename": "Lalal\u00e0la 1.mp3",
+      "title": "Lalal\u00e0la",
+      "composer": "Van Nueten",
+      "content_type": "puppet theatre",
+      "project": "'t Beest",
+      "year": "2000",
       "genres": [
         "Electronic",
         "Stage"
@@ -2422,7 +3751,10 @@
       "album": ""
     },
     {
-      "filename": "Le Poinçonneur des Lilas 1.mp3",
+      "filename": "Le Poin\u00e7onneur des Lilas 1.mp3",
+      "title": "Le Poinc\u0327onneur des Lilas",
+      "composer": "Serge Gainsbourg",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
       "genres": [
         "Song",
         "Orchestral",
@@ -2432,7 +3764,10 @@
       "album": ""
     },
     {
-      "filename": "Le Poinçonneur des Lilas 2.mp3",
+      "filename": "Le Poin\u00e7onneur des Lilas 2.mp3",
+      "title": "Le Poinc\u0327onneur des Lilas",
+      "composer": "Serge Gainsbourg",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
       "genres": [
         "Song",
         "Orchestral",
@@ -2442,7 +3777,10 @@
       "album": ""
     },
     {
-      "filename": "Le Poinçonneur des Lilas 3.mp3",
+      "filename": "Le Poin\u00e7onneur des Lilas 3.mp3",
+      "title": "Le Poinc\u0327onneur des Lilas",
+      "composer": "Serge Gainsbourg",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
       "genres": [
         "Song",
         "Orchestral",
@@ -2453,6 +3791,11 @@
     },
     {
       "filename": "Leer Mij Dansen.mp3",
+      "title": "Leer Mij Dansen",
+      "composer": "Van Nueten",
+      "content_type": "puppet theatre",
+      "project": "t Beest",
+      "year": "2000",
       "genres": [
         "Electronic",
         "Pop"
@@ -2466,10 +3809,19 @@
         "Classical",
         "Contemporary"
       ],
-      "album": "Lento Pacifico.jpeg"
+      "album": "Lento Pacifico.jpeg",
+      "title": "Lento Pacifico (demo version)",
+      "composer": "Van Nueten",
+      "artist": "2016"
     },
     {
       "filename": "Lichtlied.mp3",
+      "title": "Lichtlied",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Tine Embrechts, Simone Milsdochter & The Soup Group",
       "genres": [
         "Pop",
         "Old Styles",
@@ -2486,7 +3838,13 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Lied van de Fee",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Het Takkenkind",
+      "year": "2010",
+      "artist": "Tine Embrechts & Guy Van Nueten"
     },
     {
       "filename": "Little Girl Blue.mp3",
@@ -2495,7 +3853,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Little Girl Blue",
+      "composer": "Rodgers-Hart",
+      "artist": "Gregory Frateur & Guy Van Nueten"
     },
     {
       "filename": "Magritte.mp3",
@@ -2504,10 +3865,21 @@
         "Pop",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Magritte",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "Maria Klimop.mp3",
+      "title": "Maria Klimop",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2004",
+      "artist": "Gert Jochems & The Soup Group",
       "genres": [
         "Pop",
         "Stage",
@@ -2522,7 +3894,12 @@
         "Piano",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Maurice",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Maurice (korter).mp3",
@@ -2530,10 +3907,19 @@
         "Piano",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Maurice",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Meester Luc.mp3",
+      "title": "Meester Luc",
+      "composer": "Van Nueten",
+      "year": "2007",
+      "artist": "Little Graduates & Guy Van Nueten",
       "genres": [
         "Pop",
         "Stage",
@@ -2543,6 +3929,10 @@
     },
     {
       "filename": "Merk Toch Hoe Sterk 1.mp3",
+      "title": "Merk Toch Hoe Sterk",
+      "composer": "Traditional",
+      "year": "2006",
+      "artist": "Guy Van Nueten (2006)",
       "genres": [
         "Old Styles",
         "Song"
@@ -2551,6 +3941,9 @@
     },
     {
       "filename": "Merk Toch Hoe Sterk 2.mp3",
+      "title": "Merk Toch Hoe Sterk",
+      "composer": "Traditional",
+      "artist": "Guy Van Nueten (2006)",
       "genres": [
         "Old Styles",
         "Song"
@@ -2559,6 +3952,12 @@
     },
     {
       "filename": "Milo en Sterre.mp3",
+      "title": "Milo en Sterre",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "year": "2012",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
       "genres": [
         "Old Styles",
         "Contemporary",
@@ -2575,7 +3974,14 @@
         "Orchestral",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Milo Exit Music",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Milo's Theme1.mp3",
@@ -2585,7 +3991,14 @@
         "Orchestral",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Milo's Theme",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Milo's Theme2.mp3",
@@ -2595,10 +4008,22 @@
         "Orchestral",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Milo's Theme",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Milo",
+      "artist": "Milo Chamber Orchestra, directed by Dirk De Caluw\u00e9",
+      "publisher": "Bolli Records",
+      "year": "2015"
     },
     {
       "filename": "Moleirinha house.mp3",
+      "title": "Moleirinha House",
+      "composer": "Traditional",
+      "content_type": "musical theatre",
+      "project": "Hotel Tomilho",
+      "year": "2004",
       "genres": [
         " "
       ],
@@ -2606,11 +4031,16 @@
     },
     {
       "filename": "Montage 1.mp3",
+      "title": "Montage",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Import/Export",
       "genres": [
         "Electronic",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "year": "2017"
     },
     {
       "filename": "MoogPuls.mp3",
@@ -2619,7 +4049,12 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "MoogPuls",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "MoogPuls 4.mp3",
@@ -2628,7 +4063,12 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "MoogPuls 4",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Mummified.mp3",
@@ -2636,7 +4076,12 @@
         "Electronic",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Mummified",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Mummy.mp3",
@@ -2645,7 +4090,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Mummy",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "My Funny Valentine 1.mp3",
@@ -2655,7 +4105,10 @@
         "Pop",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "My Funny Valentine",
+      "composer": "Rodgers-Hart",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic"
     },
     {
       "filename": "My Funny Valentine 2.mp3",
@@ -2665,10 +4118,18 @@
         "Pop",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "My Funny Valentine",
+      "composer": "Rodgers-Hart",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic"
     },
     {
       "filename": "Nachtwandeling 1.mp3",
+      "title": "Nachtwandeling",
+      "composer": "Van Nueten",
+      "content_type": "film",
+      "project": "Eva Reste Au Placard Les Nuits de Pleine Lune",
+      "year": "2006",
       "genres": [
         "Piano",
         "Film"
@@ -2677,6 +4138,12 @@
     },
     {
       "filename": "Nel Mezzo del Camin.mp3",
+      "title": "Nel Mezzo del Camin",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "De 7 hoofdzonden",
+      "year": "2009",
+      "artist": "Nikki Van Lierop, Vocamabile & 7 celli",
       "genres": [
         "Contemporary",
         "Orchestral",
@@ -2686,6 +4153,12 @@
     },
     {
       "filename": "Nel Mezzo del Camin 1.mp3",
+      "title": "Nel Mezzo del Camin",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "De 7 hoofdzonden",
+      "year": "2009",
+      "artist": "Darling Nikki, Vocamabile & 7 celli",
       "genres": [
         "Contemporary",
         "Orchestral",
@@ -2700,7 +4173,12 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Nightmare",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Nightmare2.mp3",
@@ -2709,7 +4187,12 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Nightmare",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Nothing.mp3",
@@ -2717,7 +4200,12 @@
         "Contemporary",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Nothing",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2015"
     },
     {
       "filename": "Nothing Really Ends.mp3",
@@ -2727,10 +4215,21 @@
         "Pop",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "Nothing Really Ends",
+      "composer": "Barman",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Ombre de Mon Amant 1.mp3",
+      "title": "Ombre de Mon Amant",
+      "composer": "Michel Lambert (1610-1696)",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
+      "artist": "Kirke String Quartet",
       "genres": [
         "Old Styles",
         "Stage"
@@ -2739,6 +4238,11 @@
     },
     {
       "filename": "Opening Stereo 1.mp3",
+      "title": "Opening Stereo",
+      "composer": "Van Nueten",
+      "content_type": "theatre piece",
+      "project": "Het Beest",
+      "year": "2000",
       "genres": [
         "Electronic",
         "Minimal",
@@ -2748,6 +4252,12 @@
     },
     {
       "filename": "Orkest 1 take 2.mp3",
+      "title": "Orkest 1 take 2",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
+      "artist": "Guy Van Nueten",
       "genres": [
         "Electronic",
         "Stage",
@@ -2761,7 +4271,12 @@
         "Electronic",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Ouverture",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2015"
     },
     {
       "filename": "Paques au Tisons (Thema 2).mp3",
@@ -2774,6 +4289,11 @@
     },
     {
       "filename": "Patriciascape.mp3",
+      "title": "Patriciascape",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Hotel Tomilho",
+      "year": "2004",
       "genres": [
         " "
       ],
@@ -2786,7 +4306,12 @@
         "Minimal",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "PianoBarbeAube",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Le Choix de Peindre: Vincent van Gogh",
+      "year": "2014"
     },
     {
       "filename": "Prequel.mp3",
@@ -2795,7 +4320,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Prequel",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2016"
     },
     {
       "filename": "Pulsar1.mp3",
@@ -2804,7 +4334,12 @@
         "Classical",
         "Contemporary"
       ],
-      "album": ""
+      "album": "",
+      "title": "Pulsar",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Pulsar2.mp3",
@@ -2813,7 +4348,12 @@
         "Classical",
         "Contemporary"
       ],
-      "album": ""
+      "album": "",
+      "title": "Pulsar",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "PulsTrioKraak1.mp3",
@@ -2822,7 +4362,12 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "PulsTrioKraak",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "PulsTrioKraak2.mp3",
@@ -2831,7 +4376,12 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "PulsTrioKraak",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Quincy.mp3",
@@ -2850,7 +4400,12 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Raoul Dessine",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "Raoul Dessine1.mp3",
@@ -2859,10 +4414,15 @@
         "Minimal",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Raoul Dessine",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
-      "filename": "Raoul Générique 1ère prise.mp3",
+      "filename": "Raoul G\u00e9n\u00e9rique 1\u00e8re prise.mp3",
       "genres": [
         "Piano",
         "Contemporary",
@@ -2887,7 +4447,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Montage",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "Raoul Montage Piano.mp3",
@@ -2896,7 +4461,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Montage",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "Raoul Variation Optimiste.mp3",
@@ -2905,7 +4475,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Variation Optimiste",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "Reggae Geel.mp3",
@@ -2914,7 +4489,12 @@
         "Stage",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Reggae Geel",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Repelsteeltje after Dark.mp3",
@@ -2923,7 +4503,12 @@
         "Contemporary",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Repelsteeltje after Dark",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2014"
     },
     {
       "filename": "Repelsteeltje Deel 3.mp3",
@@ -2931,7 +4516,12 @@
         "Piano",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Repelsteeltje Deel 3",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2015"
     },
     {
       "filename": "River Man.mp3",
@@ -2941,7 +4531,12 @@
         "Pop",
         "Live"
       ],
-      "album": ""
+      "album": "",
+      "title": "River Man",
+      "composer": "Nick Drake",
+      "artist": "Tom Barman, Guy Van Nueten & The Royal Flemish Philharmonic",
+      "publisher": "Universal",
+      "year": "2003"
     },
     {
       "filename": "Roeskapoeskaprot.mp3",
@@ -2958,7 +4553,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "S.O.S.",
+      "composer": "Andersson - Ulvaeus - Stig Anderson",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
       "filename": "S.O.S.1.mp3",
@@ -2967,19 +4565,32 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "S.O.S.",
+      "composer": "Andersson - Ulvaeus - Stig Anderson",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
-      "filename": "Séance.mp3",
+      "filename": "S\u00e9ance.mp3",
       "genres": [
         "Electronic",
         "Contemporary",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "S\u00e9ance",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2014"
     },
     {
       "filename": "Sekwens Nr.1.mp3",
+      "title": "Sekwens Nr.1",
+      "composer": "Van Nueten",
+      "content_type": "theatre piece",
+      "project": "Of Mice and Men",
+      "year": "2003",
       "genres": [
         "Electronic",
         "Stage",
@@ -2994,7 +4605,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "She's so Beautiful",
+      "composer": "44 Rave",
+      "artist": "44 Rave"
     },
     {
       "filename": "Six o'Clock Blues.mp3",
@@ -3003,7 +4617,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Six o' Clock Blues",
+      "composer": "44 Rave",
+      "artist": "44 Rave"
     },
     {
       "filename": "Slomo.mp3",
@@ -3013,7 +4630,12 @@
         "Contemporary",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Slomo",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Solitary Space.mp3",
@@ -3021,7 +4643,12 @@
         "Electronic",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Solitary Space",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Some Kinda Love 1.mp3",
@@ -3030,7 +4657,11 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Some Kinda Love",
+      "composer": "Lou Reed",
+      "year": "2004",
+      "artist": "Tom Barman & Guy Van Nueten"
     },
     {
       "filename": "Some Kinda Love 2.mp3",
@@ -3039,7 +4670,11 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Some Kinda Love",
+      "composer": "Lou Reed",
+      "year": "2004",
+      "artist": "Tom Barman & Guy Van Nueten"
     },
     {
       "filename": "Some Refuse the Treatment+VO.mp3",
@@ -3048,7 +4683,13 @@
         "Pop",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Some Refuse the Treatment",
+      "composer": "Verhelst-Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017",
+      "artist": "Johan Leysen & Guy Van Nueten"
     },
     {
       "filename": "Sometimes I Wanna Run.mp3",
@@ -3057,7 +4698,11 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Sometimes I Wanna Run",
+      "composer": "Vanhamel",
+      "year": "2008",
+      "artist": "Tim Vanhamel"
     },
     {
       "filename": "Soul Decoder.mp3",
@@ -3066,10 +4711,20 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Soul Decoder",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Syncdelay.mp3",
+      "title": "Syncdelay",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Contemporary",
@@ -3085,7 +4740,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Take Me Home",
+      "composer": "Tim Vanhamel",
+      "artist": "Tim Vanhamel"
     },
     {
       "filename": "Take Me Home2.mp3",
@@ -3094,7 +4752,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Take Me Home",
+      "composer": "Tim Vanhamel",
+      "artist": "Tim Vanhamel"
     },
     {
       "filename": "Takhiti.mp3",
@@ -3103,7 +4764,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Takhiti",
+      "composer": "Van Nueten",
+      "artist": "Vanity Project feat. Alan Gevaert"
     },
     {
       "filename": "Tell Me.mp3",
@@ -3112,7 +4776,11 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tell Me",
+      "composer": "Vanhamel",
+      "artist": "Tim Vanhamel",
+      "year": "2008"
     },
     {
       "filename": "The Build Up.mp3",
@@ -3121,7 +4789,10 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "The Build Up",
+      "composer": "Boe - Oeye - Feist",
+      "artist": "Lara Chedraoui & Guy Van Nueten"
     },
     {
       "filename": "The Night.mp3",
@@ -3131,7 +4802,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "The Night",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2016"
     },
     {
       "filename": "The Parasite.mp3",
@@ -3141,7 +4817,12 @@
         "Minimal",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "The Parasite",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017"
     },
     {
       "filename": "Thema 1.mp3",
@@ -3151,7 +4832,13 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema 1",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2015",
+      "artist": "Johan Leysen & Guy Van Nueten"
     },
     {
       "filename": "Thema 1 piano.mp3",
@@ -3160,7 +4847,13 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema 1",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2015",
+      "artist": "Johan Leysen & Guy Van Nueten"
     },
     {
       "filename": "Thema 1+voice-over.mp3",
@@ -3169,7 +4862,13 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema 1",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2015",
+      "artist": "Johan Leysen & Guy Van Nueten"
     },
     {
       "filename": "Thema Driehoek.mp3",
@@ -3178,7 +4877,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema Driehoek",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2016"
     },
     {
       "filename": "Thema Q.mp3",
@@ -3187,7 +4891,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema Q",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2016"
     },
     {
       "filename": "Thema Z.mp3",
@@ -3196,7 +4905,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema Z",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2016"
     },
     {
       "filename": "Thema Z naar Thema 1 pp.mp3",
@@ -3205,7 +4919,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema Z naar Thema 1",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017"
     },
     {
       "filename": "Thema Z naar Thema 2.mp3",
@@ -3215,7 +4934,12 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema Z naar Thema 2",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017"
     },
     {
       "filename": "Thema Z naar Thema 2 ff.mp3",
@@ -3225,10 +4949,21 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thema Z naar Thema 2",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017"
     },
     {
       "filename": "Thema1 ext+VO.mp3",
+      "title": "Thema 1 extended",
+      "composer": "Verhelst-Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017",
+      "artist": "Johan Leysen & Guy Van Nueten",
       "genres": [
         "Electronic",
         "Piano",
@@ -3239,6 +4974,11 @@
     },
     {
       "filename": "Thema1 extended.mp3",
+      "title": "Thema 1 extended",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017",
       "genres": [
         "Piano",
         "Classical",
@@ -3248,17 +4988,28 @@
       "album": ""
     },
     {
-      "filename": "Thème Lent et Vide.mp3",
+      "filename": "Th\u00e8me Lent et Vide.mp3",
       "genres": [
         "Piano",
         "Minimal",
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Th\u00e8me Lent et Vide",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
       "filename": "This Place 1.mp3",
+      "title": "This Place",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2007",
+      "artist": "Vanhamel, Gevaert, Van Nueten, Van den Berghe",
       "genres": [
         "Pop",
         "Film"
@@ -3267,6 +5018,12 @@
     },
     {
       "filename": "This Place 2.mp3",
+      "title": "This Place",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2007",
+      "artist": "Vanhamel, Gevaert, Van Nueten, Van den Berghe",
       "genres": [
         "Pop",
         "Film"
@@ -3275,6 +5032,12 @@
     },
     {
       "filename": "This Place 3.mp3",
+      "title": "This Place",
+      "composer": "Van Nueten",
+      "content_type": "advertisement",
+      "project": "X",
+      "year": "2007",
+      "artist": "Vanhamel, Gevaert, Van Nueten, Van den Berghe",
       "genres": [
         "Pop",
         "Film"
@@ -3288,7 +5051,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thru",
+      "composer": "44 Rave",
+      "artist": "44 Rave"
     },
     {
       "filename": "Thunder.mp3",
@@ -3297,7 +5063,12 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Thunder",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Tigerpants1.mp3",
@@ -3306,7 +5077,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tigerpants",
+      "composer": "44 Rave",
+      "artist": "44 Rave"
     },
     {
       "filename": "Tigerpants2.mp3",
@@ -3315,7 +5089,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tigerpants",
+      "composer": "44 Rave",
+      "artist": "44 Rave"
     },
     {
       "filename": "Tigerpants3.mp3",
@@ -3324,7 +5101,10 @@
         "Live",
         "Pop"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tigerpants",
+      "composer": "44 Rave",
+      "artist": "44 Rave"
     },
     {
       "filename": "Tiptoe through the Tulips.mp3",
@@ -3333,10 +5113,19 @@
         "Pop",
         "Song"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tiptoe through the Tulips",
+      "composer": "Dubin-Burke",
+      "artist": "Gregory Frateur & Guy Van Nueten"
     },
     {
       "filename": "To Hit A Dog Just Find A 1.mp3",
+      "title": "To Hit A Dog Just Find A Stick",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
+      "artist": "Kirke String Quartet",
       "genres": [
         "Contemporary",
         "Chamber",
@@ -3346,6 +5135,12 @@
     },
     {
       "filename": "To Hit A Dog Just Find A 2.mp3",
+      "title": "To Hit A Dog Just Find A Stick",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
+      "artist": "Kirke String Quartet",
       "genres": [
         "Contemporary",
         "Stage"
@@ -3354,6 +5149,12 @@
     },
     {
       "filename": "To Hit A Dog Just Find A 3.mp3",
+      "title": "To Hit A Dog Just Find A Stick",
+      "composer": "Van Nueten",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
+      "artist": "Kirke String Quartet",
       "genres": [
         "Contemporary",
         "Stage"
@@ -3367,7 +5168,12 @@
         "Minimal",
         "Stage"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tobydrone",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2015"
     },
     {
       "filename": "Tortel.mp3",
@@ -3375,10 +5181,20 @@
         "Piano",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Tortel",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Transformatie 1.mp3",
+      "title": "Transformatie",
+      "composer": "Van Nueten",
+      "content_type": "film",
+      "project": "Eva Reste au Placard les Nuits de Pleine Lune",
+      "year": "2006",
       "genres": [
         "Orchestral",
         "Film"
@@ -3387,6 +5203,11 @@
     },
     {
       "filename": "Trap.mp3",
+      "title": "Trap",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Ex-Drummer",
+      "year": "2006",
       "genres": [
         "Electronic",
         "Contemporary",
@@ -3397,6 +5218,12 @@
     },
     {
       "filename": "Troostlied.mp3",
+      "title": "Troostlied",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2004",
+      "artist": "Tine Embrechts & The Soup Group",
       "genres": [
         "Pop",
         "Song",
@@ -3411,10 +5238,20 @@
         "Film",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Trust and Control",
+      "composer": "Van Nueten",
+      "content_type": "feature film",
+      "project": "Pulsar",
+      "year": "2010"
     },
     {
       "filename": "Une Femme Comme Moi 1.mp3",
+      "title": "Une Femme Comme Moi",
+      "composer": "Van Nueten",
+      "content_type": "theatre piece",
+      "project": "Beautiful Red Dress",
+      "year": "2001",
       "genres": [
         "Pop",
         "Electronic",
@@ -3424,6 +5261,11 @@
     },
     {
       "filename": "Verb3.mp3",
+      "title": "Verb Nr.3",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "The Medium",
+      "year": "2014",
       "genres": [
         "Electronic",
         "Stage"
@@ -3448,10 +5290,21 @@
         "Contemporary",
         "Film"
       ],
-      "album": ""
+      "album": "",
+      "title": "Vide un peu effrayant",
+      "composer": "Van Nueten",
+      "content_type": "documentary",
+      "project": "Raoul Servais: M\u00e9moires d'un Artisan",
+      "year": "2017"
     },
     {
-      "filename": "Vos Mépris 1.mp3",
+      "filename": "Vos M\u00e9pris 1.mp3",
+      "title": "Vos M\u00e9pris",
+      "composer": "Michel Lambert (1610-1696)",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
+      "artist": "Kirke String Quartet",
       "genres": [
         "Old Styles",
         "Arrangement",
@@ -3460,7 +5313,13 @@
       "album": ""
     },
     {
-      "filename": "Vos Mépris 2.mp3",
+      "filename": "Vos M\u00e9pris 2.mp3",
+      "title": "Vos M\u00e9pris",
+      "composer": "Michel Lambert (1610-1696)",
+      "content_type": "dance performance",
+      "project": "Import/Export",
+      "year": "2006",
+      "artist": "Kirke String Quartet",
       "genres": [
         "Old Styles",
         "Arrangement",
@@ -3475,10 +5334,21 @@
         "Stage",
         "Minimal"
       ],
-      "album": ""
+      "album": "",
+      "title": "Waves The Mermaid",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Solitary Confinement",
+      "year": "2013"
     },
     {
       "filename": "Who Am I.mp3",
+      "title": "Who am I?",
+      "composer": "Verhelst-Van Nueten",
+      "content_type": "feature film",
+      "project": "Night Has Come",
+      "year": "2017",
+      "artist": "Johan Leysen & Guy Van Nueten",
       "genres": [
         "Electronic",
         "Pop",
@@ -3488,6 +5358,12 @@
     },
     {
       "filename": "Wiegelied.mp3",
+      "title": "Wiegelied",
+      "composer": "Van Nueten",
+      "content_type": "musical",
+      "project": "Takkenkind",
+      "year": "2004",
+      "artist": "Guy Van Nueten",
       "genres": [
         "Piano"
       ],
@@ -3495,6 +5371,11 @@
     },
     {
       "filename": "Wilde Take.mp3",
+      "title": "Wilde Take",
+      "composer": "Van Nueten",
+      "content_type": "musical theatre",
+      "project": "Maria Magdalena",
+      "year": "2008",
       "genres": [
         "Electronic",
         "Stage",
@@ -3504,6 +5385,11 @@
     },
     {
       "filename": "Zij 1.mp3",
+      "title": "Zij",
+      "composer": "Van Nueten",
+      "content_type": "film",
+      "project": "Jaguar",
+      "year": "2003",
       "genres": [
         "Minimal",
         "Pop",
@@ -3513,6 +5399,12 @@
     },
     {
       "filename": "Zomerstranden.mp3",
+      "title": "Zomerstranden",
+      "composer": "Dendooven-Van Nueten",
+      "content_type": "musical",
+      "project": "Soepkinders",
+      "year": "2005",
+      "artist": "Charlotte Vandermeersch, Koen Van Impe & The Soup Group",
       "genres": [
         "Pop",
         "Song"
