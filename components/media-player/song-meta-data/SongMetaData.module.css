@@ -37,18 +37,9 @@
   text-overflow: ellipsis;
 }
 
-.song-genre {
-  background-color: var(--gray-700);
-  color: white;
-  padding: var(--space-xs) var(--space-s);
-  border-radius: 16px;
-  font-size: 12px;
-}
-
 .music-info,
-.song-details,
-.production-info,
 .url {
   display: flex;
+  flex-direction: column;
   gap: var(--space-s);
 }
