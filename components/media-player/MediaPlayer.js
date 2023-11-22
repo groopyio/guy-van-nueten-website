@@ -1,8 +1,8 @@
 import { useAlbumCoverAndFirstIndex } from "@hooks/useAlbumCoverAndFirstIndex";
 import { useAudioPlayer } from "@hooks/useAudioPlayer";
 import { useGenreChange } from "@hooks/useGenreChange";
-import { useLoadID3Tags } from "@hooks/useLoadID3Tags";
 import { useShuffledIndex } from "@hooks/useShuffledIndex";
+import { useSongData } from "@hooks/useSongData";
 import { AudioMetaContext, GenreContext } from "pages";
 import { useContext } from "react";
 import styles from "./MediaPlayer.module.css";
@@ -30,7 +30,7 @@ export default function MediaPlayer() {
     setIsOnFirstIndex,
   } = useAudioPlayer(audioFiles, shuffledIndices, genre);
 
-  useLoadID3Tags(audioUrl, setSong);
+  useSongData(audioFiles, audioUrl, setSong);
   useAlbumCoverAndFirstIndex(
     currentIndex,
     audioFiles,
