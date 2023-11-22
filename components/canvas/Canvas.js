@@ -1,14 +1,12 @@
 import { useCanvasImages } from "@hooks/useCanvasImages";
-import { useCanvasInteraction } from "@hooks/useCanvasInteraction";
 import { AudioMetaContext } from "pages";
 import { useContext, useRef } from "react";
 import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const canvasRef = useRef(null);
-  const { setUrl, albumCover } = useContext(AudioMetaContext);
-  const { images } = useCanvasImages(canvasRef);
-  useCanvasInteraction(canvasRef, images, setUrl);
+  const { albumCover } = useContext(AudioMetaContext);
+  useCanvasImages(canvasRef);
 
   return (
     <>

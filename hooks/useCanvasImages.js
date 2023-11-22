@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { AudioMetaContext } from "pages";
+import { useContext, useEffect, useState } from "react";
 
 export const useCanvasImages = (canvasRef) => {
   const [images, setImages] = useState([]);
+  const { setUrl } = useContext(AudioMetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
 
   useEffect(() => {
@@ -129,6 +131,42 @@ export const useCanvasImages = (canvasRef) => {
 
     window.addEventListener("resize", resizeCanvas);
 
+    canvas.addEventListener("click", (e) => {
+      const clickX = e.clientX - canvas.getBoundingClientRect().left;
+      const clickY = e.clientY - canvas.getBoundingClientRect().top;
+
+      images.forEach((image) => {
+        if (
+          clickX >= image.x &&
+          clickX <= image.x + image.element.width &&
+          clickY >= image.y &&
+          clickY <= image.y + image.element.height
+        ) {
+          window.open(image.url, "_blank");
+        }
+      });
+    });
+
+    canvas.addEventListener("mousemove", (e) => {
+      const canvasX = e.clientX - canvas.getBoundingClientRect().left;
+      const canvasY = e.clientY - canvas.getBoundingClientRect().top;
+      canvas.style.cursor = "default";
+      setUrl(null);
+      images.forEach((image) => {
+        image.frozen = false;
+        if (
+          canvasX >= image.x &&
+          canvasX <= image.x + image.element.width &&
+          canvasY >= image.y &&
+          canvasY <= image.y + image.element.height
+        ) {
+          image.frozen = true;
+          canvas.style.cursor = "pointer";
+          setUrl(image.url);
+        }
+      });
+    });
+
     const updateCanvas = () => {
       drawImages();
       requestAnimationFrame(updateCanvas);
@@ -136,6 +174,4 @@ export const useCanvasImages = (canvasRef) => {
 
     requestAnimationFrame(updateCanvas);
   }, [initialisedImages]);
-
-  return { images };
 };
