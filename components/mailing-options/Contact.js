@@ -13,7 +13,8 @@ export default function MailReferences() {
   };
   const mailReferences = [
     { country: "Belgium", email: "daan@daan.agency" },
-    { country: "Netherlands", email: "b.jansen@mojo.nl" },
+    { country: "Netherlands", email: "daan@daan.agency" },
+    { country: "Luxembourg", email: "daan@daan.agency" },
     { country: "Territories", email: "w.swinnen@telenet.be" },
   ];
   return (
