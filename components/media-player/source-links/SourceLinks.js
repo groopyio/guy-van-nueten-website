@@ -5,7 +5,11 @@ export function SourceLinks({ song }) {
   return (
     <div className={styles["sources"]}>
       {song?.spotify ? (
-        <a href={song.spotify} target="_blank">
+        <a
+          href={song.spotify}
+          target="_blank"
+          aria-label={`Listen to ${song.title} on Spotify`}
+        >
           <Spotify className={styles["enabled"]} color="#1db954" />
         </a>
       ) : (
@@ -13,7 +17,11 @@ export function SourceLinks({ song }) {
       )}
 
       {song?.youtube ? (
-        <a href={song.youtube} target="_blank">
+        <a
+          href={song.youtube}
+          target="_blank"
+          aria-label={`Watch ${song.title} on YouTube`}
+        >
           <Youtube className={styles["enabled"]} color="#ff0000" />
         </a>
       ) : (
