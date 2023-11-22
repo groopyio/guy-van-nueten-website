@@ -50,7 +50,7 @@ export default function MediaPlayer() {
         handlePrevious={handlePrevious}
       />
 
-      <SongMetadata song={song} url={url} />
+      {song && <SongMetadata song={song} url={url} />}
 
       <SourceLinks song={song} genre={genre} />
 

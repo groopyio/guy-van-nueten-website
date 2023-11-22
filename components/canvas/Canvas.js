@@ -4,7 +4,7 @@ import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const [images, setImages] = useState([]);
-  const { setUrl, song, albumCover } = useContext(AudioMetaContext);
+  const { setUrl, albumCover } = useContext(AudioMetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
   const canvasRef = useRef(null);
 
@@ -26,15 +26,15 @@ export default function Canvas() {
     const initialImages = () => {
       const images = [];
       const refs = [
-        { src: "box028-2.png", url: "https://www.youtube.com/user/GuyVN" },
+        { src: "box028-2.webp", url: "https://www.youtube.com/user/GuyVN" },
         {
-          src: "CC_JB_ill-2022.png",
+          src: "CC_JB_ill-2022.webp",
           url: "https://www.facebook.com/guyvannueten/",
         },
-        { src: "CC2_JB_ill-3023.png", url: "http://rockoco.be" },
-        { src: "Intonarumorus.png", url: "https://sonyclassical.com" },
+        { src: "CC2_JB_ill-3023.webp", url: "http://rockoco.be" },
+        { src: "Intonarumorus.webp", url: "https://sonyclassical.com" },
         {
-          src: "Synth.png",
+          src: "Synth.webp",
           url: "https://open.spotify.com/artist/6LQRyga459hm5w9HCzARFu?si=5EZBv86GTnuViiYJsEQyvQ",
         },
       ];
@@ -181,17 +181,19 @@ export default function Canvas() {
     <>
       <canvas className={styles["bouncing-images"]} ref={canvasRef} />
       {albumCover && (
-        <img
-          className={styles["album-cover"]}
-          src={albumCover}
-          alt="album cover"
-        />
+        <>
+          <img
+            className={styles["album-cover"]}
+            src={`${albumCover}.webp`}
+            alt="album cover"
+          />
+          <img
+            className={styles["background-image"]}
+            src="Blank-LP-Cover.webp"
+            alt="Blank LP Cover"
+          />
+        </>
       )}
-      <img
-        className={styles["background-image"]}
-        src="Blank-LP-Cover.png"
-        alt="Blank LP Cover"
-      />
     </>
   );
 }
