@@ -605,7 +605,7 @@
     {
       "album": "Pacman.jpeg",
       "artist": "",
-      "composer": "",
+      "composer": "Van Nueten",
       "content_type": "",
       "filename": "Isomorfie nr3 III Middeleeuws Naspel.mp3",
       "genres": [
@@ -614,10 +614,10 @@
         "Contemporary",
         "Baroque"
       ],
-      "publisher": "",
+      "publisher": "Sony Classical",
       "spotify": "",
-      "title": "",
-      "year": "",
+      "title": "Isomorfie Nr3 - III. Middeleeuws Naspel",
+      "year": "2018",
       "youtube": ""
     },
     {
@@ -1376,8 +1376,8 @@
     },
     {
       "album": "Live.jpeg",
-      "artist": "",
-      "composer": "",
+      "artist": "Tom Barman & Guy Van Nueten",
+      "composer": "Captain Beefheart",
       "content_type": "",
       "filename": "HarryIrene.mp3",
       "genres": [
@@ -1385,10 +1385,10 @@
         "Pop",
         "Song"
       ],
-      "publisher": "",
+      "publisher": "Universal",
       "spotify": "",
-      "title": "",
-      "year": "",
+      "title": "Harry Irene",
+      "year": "2003",
       "youtube": ""
     },
     {
@@ -1816,6 +1816,23 @@
       "publisher": "Sony Classical",
       "spotify": "",
       "title": "The Night II. Weeping Song",
+      "year": "2018",
+      "youtube": ""
+    },
+    {
+      "album": "Contact.jpeg",
+      "artist": "",
+      "composer": "Van Nueten",
+      "content_type": "",
+      "filename": "Wals met Briljanten I-II.mp3",
+      "genres": [
+        "Piano",
+        "Classical",
+        "Contemporary"
+      ],
+      "publisher": "Sony Classical",
+      "spotify": "",
+      "title": "Wals met Briljanten I. Rubato",
       "year": "2018",
       "youtube": ""
     },
@@ -5409,19 +5426,20 @@
     },
     {
       "album": "",
-      "artist": "",
-      "composer": "",
-      "content_type": "",
+      "artist": "Zon and Zero",
+      "composer": "Mercelis-Van Nueten",
+      "content_type": "movie",
       "filename": "Paques au Tisons (Thema 2).mp3",
       "genres": [
         "Electronic",
         "Film",
         "Minimal"
       ],
+      "project": "Pâques au Tison",
       "publisher": "",
       "spotify": "",
-      "title": "",
-      "year": "",
+      "title": "Pâques au Tisons",
+      "year": "2002",
       "youtube": ""
     },
     {
