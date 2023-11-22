@@ -6,19 +6,31 @@ export function useSongData(audioFiles, audioUrl, setSong) {
       if (!audioUrl) return;
       const filename = audioUrl.split("/").pop();
       const songData = audioFiles.find((obj) => obj.filename === filename);
+      const {
+        album,
+        artist,
+        composer,
+        content_type,
+        project,
+        publisher,
+        spotify,
+        title,
+        year,
+        youtube,
+      } = songData;
 
       if (songData) {
         setSong({
-          album: songData.album.replace(/\.[^/.]+$/, ""),
-          artist: songData.artist,
-          composer: songData.composer,
-          content_type: songData.content_type,
-          project: songData.project,
-          publisher: songData.publisher,
-          spotify: songData.spotify,
-          title: songData.title,
-          year: songData.year,
-          youtube: songData.youtube,
+          album: album.replace(/\.[^/.]+$/, ""),
+          artist,
+          composer,
+          content_type,
+          project,
+          publisher,
+          spotify,
+          title,
+          year,
+          youtube,
         });
       } else {
         setSong({
