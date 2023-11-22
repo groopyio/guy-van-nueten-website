@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "iconoir-react": "^7.0.0",
-    "jsmediatags": "^3.9.7",
     "lodash": "^4.17.21",
     "next": "^12.1.5",
     "react": "^18.0.0",
