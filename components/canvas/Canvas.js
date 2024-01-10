@@ -12,18 +12,13 @@ export default function Canvas() {
     <>
       <canvas className={styles["bouncing-images"]} ref={canvasRef} />
       {albumCover && (
-        <>
+        <div className={styles["album-cover-container"]}>
           <img
             className={styles["album-cover"]}
             src={`${albumCover}.webp`}
             alt="album cover"
           />
-          <img
-            className={styles["background-image"]}
-            src="Blank-LP-Cover.webp"
-            alt="Blank LP Cover"
-          />
-        </>
+        </div>
       )}
     </>
   );
