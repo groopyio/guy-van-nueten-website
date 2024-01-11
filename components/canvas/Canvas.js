@@ -1,25 +1,34 @@
+import SongKickWidget from "@components/songkick/widget/SongkickWidget";
 import { useCanvasImages } from "@hooks/useCanvasImages";
-import { AudioMetaContext } from "pages";
+import { AudioMetaContext, ConcertContext } from "pages";
 import { useContext, useRef } from "react";
 import styles from "./Canvas.module.css";
 
 export default function Canvas() {
   const canvasRef = useRef(null);
   const { albumCover } = useContext(AudioMetaContext);
+  const { concertsIsToggled } = useContext(ConcertContext);
   useCanvasImages(canvasRef);
 
   return (
     <>
       <canvas className={styles["bouncing-images"]} ref={canvasRef} />
-      {albumCover && (
-        <div className={styles["album-cover-container"]}>
+      <div className={styles["album-cover-container"]}>
+        <div
+          className={`${styles["songkick-widget"]} ${
+            concertsIsToggled ? styles["enabled"] : styles["disabled"]
+          }`}
+        >
+          <SongKickWidget />
+        </div>
+        {albumCover && !concertsIsToggled && (
           <img
             className={styles["album-cover"]}
             src={`${albumCover}.webp`}
             alt="album cover"
           />
-        </div>
-      )}
+        )}
+      </div>
     </>
   );
 }

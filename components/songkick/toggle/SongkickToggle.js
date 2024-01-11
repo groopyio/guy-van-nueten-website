@@ -1,15 +1,17 @@
 import { Eye, EyeClosed } from "iconoir-react";
-import { useState } from "react";
+import { ConcertContext } from "pages";
+import { useContext } from "react";
 import styles from "./SongKickToggle.module.css";
 
 export default function SongKickToggle() {
-  const [isToggled, setIsToggled] = useState(false);
+  const { concertsIsToggled, setConcertsIsToggled } =
+    useContext(ConcertContext);
   return (
     <div
       className={styles["toggle-container"]}
-      onClick={() => setIsToggled(!isToggled)}
+      onClick={() => setConcertsIsToggled(!concertsIsToggled)}
     >
-      {isToggled ? (
+      {concertsIsToggled ? (
         <Eye className={styles["icon"]} />
       ) : (
         <EyeClosed className={styles["icon"]} />
