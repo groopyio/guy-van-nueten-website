@@ -20,25 +20,26 @@ export function SongMetadata({ song, url }) {
             <samp>
               {title} ({composer})
             </samp>
-            {isLive ? (
-              <>
-                <samp>Live at {venue_date}</samp>
-              </>
-            ) : (
-              <div className={styles["music-info"]}>
-                {artist && composer !== artist && (
-                  <samp>Performed by {artist}</samp>
-                )}
-                {project && (
-                  <samp>
-                    from {origin} '{project}'
-                  </samp>
-                )}
+
+            <div className={styles["music-info"]}>
+              {artist && composer !== artist && (
+                <samp>Performed by {artist}</samp>
+              )}
+              {project && (
+                <samp>
+                  from {origin} '{project}'
+                </samp>
+              )}
+              {isLive && venue_date ? (
+                <>
+                  <samp>Live at {venue_date}</samp>
+                </>
+              ) : (
                 <samp>
                   {year} {publisher}
                 </samp>
-              </div>
-            )}
+              )}
+            </div>
           </div>
         ) : (
           <div className={styles["url"]}>

@@ -1,0 +1,20 @@
+.toggle-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-s);
+  height: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.icon {
+  width: 16px + var(--space-s);
+}
+
+.label {
+  all: unset;
+  font-size: 15px;
+}

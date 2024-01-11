@@ -23,7 +23,7 @@ export default function MailReferences() {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      {isHovered ? (
+      {isHovered && (
         <div
           className={`${styles["country-email-container"]} ${
             isHovered && styles["visible"]
@@ -35,8 +35,6 @@ export default function MailReferences() {
             </Link>
           ))}
         </div>
-      ) : (
-        <p className={styles["placeholder"]}>Contact</p>
       )}
       <Mail
         className={`${styles["mail-icon"]} ${isHovered && styles["on-bottom"]}`}

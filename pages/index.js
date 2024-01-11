@@ -5,12 +5,14 @@ import Head from "next/head";
 import { createContext, useState } from "react";
 export const AudioMetaContext = createContext(null);
 export const GenreContext = createContext(null);
+export const ConcertContext = createContext(null);
 
 export default function Home() {
   const [song, setSong] = useState(null);
   const [url, setUrl] = useState(null);
   const [albumCover, setAlbumCover] = useState(null);
   const [genre, setGenre] = useState("All");
+  const [concertsIsToggled, setConcertsIsToggled] = useState(false);
 
   return (
     <div className="container">
@@ -95,8 +97,15 @@ export default function Home() {
             setAlbumCover,
           }}
         >
-          <Canvas />
-          <Footer />
+          <ConcertContext.Provider
+            value={{
+              concertsIsToggled,
+              setConcertsIsToggled,
+            }}
+          >
+            <Canvas />
+            <Footer />
+          </ConcertContext.Provider>
         </AudioMetaContext.Provider>
       </GenreContext.Provider>
     </div>

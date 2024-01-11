@@ -9,6 +9,7 @@
 }
 
 .footer-icons {
+  position: relative;
   width: 100%;
   display: flex;
   gap: var(--space-xl);

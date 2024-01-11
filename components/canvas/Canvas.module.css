@@ -12,7 +12,18 @@
   place-content: center;
 }
 
+.songkick-widget,
 .album-cover {
   width: 450px;
   height: 450px;
+}
+
+.enabled {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.disabled {
+  display: none;
 }
