@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function SongKickWidget() {
+export default function SongkickWidget() {
   useEffect(() => {
     const loadScript = () => {
       const script = document.createElement("script");

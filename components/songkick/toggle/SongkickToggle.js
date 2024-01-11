@@ -1,9 +1,9 @@
 import { Eye, EyeClosed } from "iconoir-react";
 import { ConcertContext } from "pages";
 import { useContext } from "react";
-import styles from "./SongKickToggle.module.css";
+import styles from "./SongkickToggle.module.css";
 
-export default function SongKickToggle() {
+export default function SongkickToggle() {
   const { concertsIsToggled, setConcertsIsToggled } =
     useContext(ConcertContext);
   return (

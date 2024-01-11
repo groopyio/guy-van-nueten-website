@@ -1,4 +1,4 @@
-import SongKickWidget from "@components/songkick/widget/SongkickWidget";
+import SongkickWidget from "@components/songkick/widget/SongkickWidget";
 import { useCanvasImages } from "@hooks/useCanvasImages";
 import { AudioMetaContext, ConcertContext } from "pages";
 import { useContext, useRef } from "react";
@@ -19,7 +19,7 @@ export default function Canvas() {
             concertsIsToggled ? styles["enabled"] : styles["disabled"]
           }`}
         >
-          <SongKickWidget />
+          <SongkickWidget />
         </div>
         {albumCover && !concertsIsToggled && (
           <img
