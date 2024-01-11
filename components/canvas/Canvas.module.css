@@ -5,21 +5,14 @@
   z-index: 2;
 }
 
-.album-cover {
-  z-index: 1;
-  position: absolute;
-  margin-right: 280px;
-  margin-bottom: 12px;
-  border-radius: 2px;
-  width: 572px;
-  height: 632px;
-  opacity: 1;
-  transform: perspective(940px) skewY(1deg) rotateY(-31deg) scale(0.73);
+.album-cover-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
 }
 
-.background-image {
-  position: absolute;
-  height: 100%;
-  width: 750px;
-  height: 750px;
+.album-cover {
+  width: 450px;
+  height: 450px;
 }
