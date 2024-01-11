@@ -60,3 +60,8 @@ samp {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+iframe {
+  z-index: 2;
+  border-radius: 8px;
+}
