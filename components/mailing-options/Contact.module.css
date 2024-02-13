@@ -53,3 +53,9 @@
 .on-bottom {
   align-self: flex-end;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    display: none;
+  }
+}
