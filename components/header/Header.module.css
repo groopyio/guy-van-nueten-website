@@ -43,3 +43,21 @@
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
+
+@media only screen and (max-width: 600px) {
+  .category-selection-list {
+    padding: var(--space-l);
+    column-gap: var(--space-l);
+    flex-wrap: wrap;
+    background-color: white;
+    height: auto;
+  }
+
+  .category-button {
+    font-size: 15px;
+  }
+
+  .divider {
+    display: none;
+  }
+}

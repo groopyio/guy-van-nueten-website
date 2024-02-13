@@ -32,7 +32,9 @@ export default function Header() {
           >
             {genreItem}
           </button>
-          {index !== genres.length - 1 && <span>|</span>}
+          {index !== genres.length - 1 && (
+            <span className={styles["divider"]}>|</span>
+          )}
         </React.Fragment>
       ))}
     </div>
