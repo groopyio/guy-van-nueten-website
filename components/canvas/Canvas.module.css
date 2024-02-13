@@ -28,7 +28,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .bouncing-images {
     display: none;
   }
@@ -42,10 +42,9 @@
   }
 
   .album-cover {
-    position: absolute;
     object-fit: cover;
-    width: 100%;
-    min-height: 100%;
-    height: 100%;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
   }
 }
