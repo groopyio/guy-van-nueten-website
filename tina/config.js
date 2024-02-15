@@ -29,28 +29,148 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "samples",
+        label: "Samples",
+        path: "content/samples",
+        format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+            label: "Files",
+            name: "files",
+            type: "object",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.title };
+              },
+            },
+            fields: [
+              {
+                label: "Title",
+                name: "title",
+                type: "string",
+              },
+              {
+                label: "Composer",
+                name: "composer",
+                type: "string",
+              },
+              {
+                label: "Origin",
+                name: "origin",
+                type: "string",
+              },
+              {
+                label: "Project",
+                name: "project",
+                type: "string",
+              },
+              {
+                label: "Year",
+                name: "year",
+                type: "string",
+              },
+              {
+                label: "Artist",
+                name: "artist",
+                type: "string",
+              },
+              {
+                label: "Album",
+                name: "album",
+                type: "string",
+              },
+              {
+                label: "Publisher",
+                name: "publisher",
+                type: "string",
+              },
+              {
+                label: "Venue Date",
+                name: "venue_date",
+                type: "string",
+              },
+              {
+                label: "Spotify",
+                name: "spotify",
+                type: "string",
+              },
+              {
+                label: "Youtube",
+                name: "youtube",
+                type: "string",
+              },
+              {
+                label: "Filename",
+                name: "filename",
+                type: "string",
+              },
+              {
+                label: "Genres",
+                name: "genres",
+                type: "string",
+                list: true,
+                options: [
+                  {
+                    label: "Piano",
+                    value: "piano",
+                  },
+                  {
+                    label: "Electronic",
+                    value: "electronic",
+                  },
+                  {
+                    label: "Orchestral",
+                    value: "orchestral",
+                  },
+                  {
+                    label: "Song",
+                    value: "song",
+                  },
+                  {
+                    label: "Contemporary",
+                    value: "contemporary",
+                  },
+                  {
+                    label: "Old Styles",
+                    value: "old_styles",
+                  },
+                  {
+                    label: "Pop",
+                    value: "pop",
+                  },
+                  {
+                    label: "Live",
+                    value: "live",
+                  },
+                  {
+                    label: "Stage",
+                    value: "stage",
+                  },
+                  {
+                    label: "Film",
+                    value: "film",
+                  },
+                  {
+                    label: "Minimal",
+                    value: "minimal",
+                  },
+                ],
+              },
+              {
+                label: "Is Live",
+                name: "is_live",
+                type: "boolean",
+              },
+            ],
           },
         ],
-        ui: {
-          // This is an DEMO router. You can remove this to fit your site
-          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
-        },
       },
     ],
   },
