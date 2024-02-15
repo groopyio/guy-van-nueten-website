@@ -24,6 +24,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #f8faf9;
+  overflow-x: hidden;
 }
 
 * {
@@ -64,4 +65,14 @@ samp {
 iframe {
   z-index: 2;
   border-radius: 8px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 0;
+  }
+
+  .divider {
+    display: none;
+  }
 }
