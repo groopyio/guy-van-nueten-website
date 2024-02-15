@@ -14,3 +14,11 @@
 .audioplayer {
   display: none;
 }
+
+@media only screen and (max-width: 1000px) {
+  .mediaplayer-container {
+    border: none;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+}

@@ -1,11 +1,10 @@
 .footer {
-  width: 100%;
+  width: 925px;
   display: flex;
   flex-direction: column;
   gap: var(--space-m);
   justify-content: center;
   align-items: flex-end;
-  width: 925px;
 }
 
 .footer-icons {
@@ -16,4 +15,16 @@
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    width: 100%;
+    padding: var(--space-l);
+    background-color: white;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
 }
