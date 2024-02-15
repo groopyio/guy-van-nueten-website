@@ -15,7 +15,7 @@ export default function Socials() {
 
       <a
         className={styles["icon"]}
-        href="https://www.discogs.com/artist/385715-Guy-Van-Nueten?filter_anv=0&type=Credits"
+        href="https://www.discogs.com/sell/list?artist_id=385715&ev=ab&page=2"
         target="_blank"
         aria-label="View Guy van Nueten's credits on Discogs"
       >
@@ -23,7 +23,7 @@ export default function Socials() {
       </a>
 
       <a
-        href="https://www.instagram.com/guy.van.nueten/"
+        href="https://www.instagram.com/guy.van.nueten?utm_source=qr&igsh=OXp6bXUzaXUya3Q="
         target="_blank"
         aria-label="Follow Guy van Nueten on Instagram"
       >

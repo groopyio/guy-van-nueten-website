@@ -21,6 +21,7 @@ export default function MediaPlayer() {
     currentIndex,
     audioUrl,
     isPlaying,
+    setIsPlaying,
     isOnFirstIndex,
     audioRef,
     handlePlayPause,
@@ -52,7 +53,7 @@ export default function MediaPlayer() {
 
       {song && <SongMetadata song={song} url={url} />}
 
-      <SourceLinks song={song} genre={genre} />
+      <SourceLinks song={song} setIsPlaying={setIsPlaying} />
 
       <audio
         ref={audioRef}
