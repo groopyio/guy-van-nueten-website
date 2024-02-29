@@ -25,6 +25,7 @@ export default defineConfig({
       publicFolder: "public",
     },
   },
+
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
@@ -34,6 +35,7 @@ export default defineConfig({
         path: "content/samples",
         format: "json",
         ui: {
+          global: true,
           allowedActions: {
             create: false,
             delete: false,
@@ -41,13 +43,13 @@ export default defineConfig({
         },
         fields: [
           {
-            label: "Files",
-            name: "files",
+            label: "List",
+            name: "list",
             type: "object",
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.title };
+                return { label: item?.filename };
               },
             },
             fields: [
@@ -100,16 +102,65 @@ export default defineConfig({
                 label: "Spotify",
                 name: "spotify",
                 type: "string",
+                ui: {
+                  validate: (value) => {
+                    if (value === "") return;
+                    const urlPattern = new RegExp(
+                      "^(https?:\\/\\/)?" + // protocol
+                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
+                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+                        "(\\#[-a-z\\d_]*)?$",
+                      "i"
+                    );
+                    if (!urlPattern.test(value)) {
+                      return "Please enter a valid URL.";
+                    }
+                  },
+                },
               },
               {
                 label: "Youtube",
                 name: "youtube",
                 type: "string",
+                ui: {
+                  validate: (value) => {
+                    if (value === "") return;
+                    const urlPattern = new RegExp(
+                      "^(https?:\\/\\/)?" + // protocol
+                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
+                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+                        "(\\#[-a-z\\d_]*)?$",
+                      "i"
+                    );
+                    if (!urlPattern.test(value)) {
+                      return "Please enter a valid URL.";
+                    }
+                  },
+                },
               },
               {
                 label: "Filename",
                 name: "filename",
-                type: "string",
+                type: "image",
+                ui: {
+                  component: "image",
+                  uploadDir: () => "/audio/",
+                  format(value) {
+                    return value && value.split("/").pop();
+                  },
+                  parse(value) {
+                    return value && value.split("/").pop();
+                  },
+                  validate: (value) => {
+                    if (!value.endsWith(".mp3")) {
+                      return "The file must be an MP3 file.";
+                    }
+                  },
+                },
               },
               {
                 label: "Genres",
