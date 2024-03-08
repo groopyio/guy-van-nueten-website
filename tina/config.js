@@ -11,7 +11,7 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: "eac00539-07f1-4372-88d8-9ab5f192d2d1",
   // Get this from tina.io
   token: process.env.TINA_TOKEN,
 
