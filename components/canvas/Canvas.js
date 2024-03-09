@@ -24,7 +24,7 @@ export default function Canvas() {
         {albumCover && !concertsIsToggled && (
           <img
             className={styles["album-cover"]}
-            src={`${albumCover}.webp`}
+            src={`albumcovers/${albumCover}.webp`}
             alt="album cover"
           />
         )}
