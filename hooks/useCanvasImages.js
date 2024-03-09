@@ -25,23 +25,23 @@ export const useCanvasImages = (canvasRef) => {
       const images = [];
       const refs = [
         {
-          src: "box028-2.webp",
+          src: "flying objects/box028-2.webp",
           url: "https://3voor12.vpro.nl/update~52ea8e37-5694-455b-89e2-761b5c2d581f~cb18-guy-van-nueten~.html",
         },
         {
-          src: "CC_JB_ill-2022.webp",
+          src: "flying objects/CC_JB_ill-2022.webp",
           url: "https://variety.com/2010/film/markets-festivals/pulsar-1117943358/",
         },
         {
-          src: "CC2_JB_ill-3023.webp",
+          src: "flying objects/CC2_JB_ill-3023.webp",
           url: "https://www.dansendeberen.be/2019/06/30/gent-jazz-festivaldag-1-de-piano-in-de-spotlights/",
         },
         {
-          src: "Intonarumorus.webp",
+          src: "flying objects/Intonarumorus.webp",
           url: "https://houbi.com/belpop/groups/sands.htm",
         },
         {
-          src: "Synth.webp",
+          src: "flying objects/Synth.webp",
           url: "https://matrix-new-music.be/nl/publicaties/componistenfiches/van-nueten-guy/",
         },
       ];

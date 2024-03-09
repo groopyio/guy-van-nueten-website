@@ -7,6 +7,9 @@ const branch =
   process.env.HEAD ||
   "main";
 
+const regex =
+  /^https:\/\/assets\.tina\.io\/eac00539-07f1-4372-88d8-9ab5f192d2d1(.+)$/;
+
 export default defineConfig({
   branch,
 
@@ -49,7 +52,11 @@ export default defineConfig({
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.filename };
+                return {
+                  label: item?.filename?.match(regex)
+                    ? item?.filename?.match(regex)[1].replace("/audio/", "")
+                    : item?.filename.replace("/audio/", ""),
+                };
               },
             },
             fields: [
@@ -87,6 +94,15 @@ export default defineConfig({
                 label: "Album",
                 name: "album",
                 type: "string",
+              },
+              {
+                label: "Album Cover",
+                name: "albumcover",
+                type: "image",
+                ui: {
+                  component: "image",
+                  uploadDir: () => "/albumcovers/",
+                },
               },
               {
                 label: "Publisher",
@@ -149,12 +165,6 @@ export default defineConfig({
                 ui: {
                   component: "image",
                   uploadDir: () => "/audio/",
-                  format(value) {
-                    return value && value.split("/").pop();
-                  },
-                  parse(value) {
-                    return value && value.split("/").pop();
-                  },
                   validate: (value) => {
                     if (!value.endsWith(".mp3")) {
                       return "The file must be an MP3 file.";
