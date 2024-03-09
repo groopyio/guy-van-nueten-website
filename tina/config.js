@@ -54,8 +54,8 @@ export default defineConfig({
               itemProps: (item) => {
                 return {
                   label: item?.filename?.match(regex)
-                    ? item?.filename?.match(regex)[1]
-                    : item?.filename,
+                    ? item?.filename?.match(regex)[1].replace("/audio/", "")
+                    : item?.filename.replace("/audio/", ""),
                 };
               },
             },
@@ -94,6 +94,15 @@ export default defineConfig({
                 label: "Album",
                 name: "album",
                 type: "string",
+              },
+              {
+                label: "Album Cover",
+                name: "albumcover",
+                type: "image",
+                ui: {
+                  component: "image",
+                  uploadDir: () => "/albumcovers/",
+                },
               },
               {
                 label: "Publisher",
@@ -156,12 +165,6 @@ export default defineConfig({
                 ui: {
                   component: "image",
                   uploadDir: () => "/audio/",
-                  format(value) {
-                    return value && value.split("/").pop();
-                  },
-                  parse(value) {
-                    return value && value.split("/").pop();
-                  },
                   validate: (value) => {
                     if (!value.endsWith(".mp3")) {
                       return "The file must be an MP3 file.";
