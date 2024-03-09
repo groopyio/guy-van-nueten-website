@@ -1,7 +1,7 @@
 import { AudioMetaContext } from "pages";
 import { useContext, useEffect, useState } from "react";
 
-export const useCanvasImages = (canvasRef) => {
+export const useCanvasImages = (canvasRef, imageRefs) => {
   const [images, setImages] = useState([]);
   const { setUrl } = useContext(AudioMetaContext);
   const [initialisedImages, setInitialisedImages] = useState(false);
@@ -23,30 +23,8 @@ export const useCanvasImages = (canvasRef) => {
 
     const initialImages = () => {
       const images = [];
-      const refs = [
-        {
-          src: "flying objects/box028-2.webp",
-          url: "https://3voor12.vpro.nl/update~52ea8e37-5694-455b-89e2-761b5c2d581f~cb18-guy-van-nueten~.html",
-        },
-        {
-          src: "flying objects/CC_JB_ill-2022.webp",
-          url: "https://variety.com/2010/film/markets-festivals/pulsar-1117943358/",
-        },
-        {
-          src: "flying objects/CC2_JB_ill-3023.webp",
-          url: "https://www.dansendeberen.be/2019/06/30/gent-jazz-festivaldag-1-de-piano-in-de-spotlights/",
-        },
-        {
-          src: "flying objects/Intonarumorus.webp",
-          url: "https://houbi.com/belpop/groups/sands.htm",
-        },
-        {
-          src: "flying objects/Synth.webp",
-          url: "https://matrix-new-music.be/nl/publicaties/componistenfiches/van-nueten-guy/",
-        },
-      ];
 
-      refs.forEach((ref) => {
+      imageRefs.forEach((ref) => {
         const img = new Image();
         img.src = ref.src;
         img.style.zIndex = "2";
@@ -65,7 +43,7 @@ export const useCanvasImages = (canvasRef) => {
     };
 
     setImages(initialImages());
-    setInitialisedImages(true);
+    initialImages().length > 0 && setInitialisedImages(true);
 
     const clearCanvas = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -182,5 +160,5 @@ export const useCanvasImages = (canvasRef) => {
     };
 
     requestAnimationFrame(updateCanvas);
-  }, [initialisedImages]);
+  }, [initialisedImages, imageRefs]);
 };

@@ -5,8 +5,6 @@ export function useSongData(audioFiles, audioUrl, setSong) {
     const loadSongData = () => {
       if (!audioUrl) return;
       const songData = audioFiles.find((obj) => obj.filename === audioUrl);
-      console.log(audioUrl);
-      console.log(songData);
       const {
         title,
         composer,
