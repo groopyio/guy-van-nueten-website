@@ -180,47 +180,47 @@ export default defineConfig({
                 options: [
                   {
                     label: "Piano",
-                    value: "piano",
+                    value: "Piano",
                   },
                   {
                     label: "Electronic",
-                    value: "electronic",
+                    value: "Electronic",
                   },
                   {
                     label: "Orchestral",
-                    value: "orchestral",
+                    value: "Orchestral",
                   },
                   {
                     label: "Song",
-                    value: "song",
+                    value: "Song",
                   },
                   {
                     label: "Contemporary",
-                    value: "contemporary",
+                    value: "Contemporary",
                   },
                   {
                     label: "Old Styles",
-                    value: "old_styles",
+                    value: "Old Styles",
                   },
                   {
                     label: "Pop",
-                    value: "pop",
+                    value: "Pop",
                   },
                   {
                     label: "Live",
-                    value: "live",
+                    value: "Live",
                   },
                   {
                     label: "Stage",
-                    value: "stage",
+                    value: "Stage",
                   },
                   {
                     label: "Film",
-                    value: "film",
+                    value: "Film",
                   },
                   {
                     label: "Minimal",
-                    value: "minimal",
+                    value: "Minimal",
                   },
                 ],
               },
