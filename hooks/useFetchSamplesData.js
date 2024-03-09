@@ -7,10 +7,12 @@ export function useFetchSamplesData() {
   useEffect(() => {
     const fetchSamplesData = async () => {
       try {
-        const result = await client.queries.samples({
-          relativePath: "audio_list.json",
+        const result = await client.queries.samplesConnection({
+          first: 1000,
         });
-        setAudioFiles(result.data.samples.list);
+        setAudioFiles(
+          result.data.samplesConnection.edges.map((post) => post.node)
+        );
       } catch (error) {
         console.error("Error fetching data:", error);
       }
