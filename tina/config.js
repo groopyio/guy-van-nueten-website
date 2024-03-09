@@ -7,6 +7,9 @@ const branch =
   process.env.HEAD ||
   "main";
 
+const regex =
+  /^https:\/\/assets\.tina\.io\/eac00539-07f1-4372-88d8-9ab5f192d2d1(.+)$/;
+
 export default defineConfig({
   branch,
 
@@ -49,7 +52,11 @@ export default defineConfig({
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.filename };
+                return {
+                  label: item?.filename?.match(regex)
+                    ? item?.filename?.match(regex)[1]
+                    : item?.filename,
+                };
               },
             },
             fields: [
