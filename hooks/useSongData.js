@@ -4,8 +4,9 @@ export function useSongData(audioFiles, audioUrl, setSong) {
   useEffect(() => {
     const loadSongData = () => {
       if (!audioUrl) return;
-      const filename = audioUrl.split("/").pop();
-      const songData = audioFiles.find((obj) => obj.filename === filename);
+      const songData = audioFiles.find((obj) => obj.filename === audioUrl);
+      console.log(audioUrl);
+      console.log(songData);
       const {
         title,
         composer,

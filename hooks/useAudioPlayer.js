@@ -9,9 +9,7 @@ export function useAudioPlayer(audioList, shuffledIndices, genre) {
 
   useEffect(() => {
     if (audioList.length > 0 && shuffledIndices && shuffledIndices.length > 0) {
-      setAudioUrl(
-        `audio/${audioList[shuffledIndices[currentIndex]]?.filename}`
-      );
+      setAudioUrl(`${audioList[shuffledIndices[currentIndex]]?.filename}`);
     }
   }, [currentIndex, audioList, shuffledIndices]);
 

@@ -9,7 +9,7 @@ export function useAlbumCoverAndFirstIndex(
 ) {
   useEffect(() => {
     if (audioFiles.length > 0 && shuffledIndices.length > 0) {
-      setAlbumCover(audioFiles[shuffledIndices[currentIndex]].album);
+      setAlbumCover(audioFiles[shuffledIndices[currentIndex]].albumcover);
       setIsOnFirstIndex(currentIndex === 0);
     }
   }, [
