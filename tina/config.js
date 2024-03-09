@@ -247,6 +247,48 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "flying_object",
+        label: "Flying Objects",
+        path: "content/flying_objects",
+        format: "json",
+        ui: {
+          global: true,
+        },
+        fields: [
+          {
+            label: "Image",
+            name: "src",
+            type: "image",
+            ui: {
+              component: "image",
+              uploadDir: () => "/flying objects/",
+            },
+          },
+          {
+            label: "Url",
+            name: "url",
+            type: "string",
+            ui: {
+              validate: (value) => {
+                if (value === "") return;
+                const urlPattern = new RegExp(
+                  "^(https?:\\/\\/)?" + // protocol
+                    "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
+                    "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+                    "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+                    "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+                    "(\\#[-a-z\\d_]*)?$",
+                  "i"
+                );
+                if (!urlPattern.test(value)) {
+                  return "Please enter a valid URL.";
+                }
+              },
+            },
+          },
+        ],
+      },
     ],
   },
 });
