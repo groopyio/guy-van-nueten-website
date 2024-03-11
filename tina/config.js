@@ -159,11 +159,11 @@ export default defineConfig({
             ui: {
               component: "image",
               uploadDir: () => "/audio/",
-              // validate: (value) => {
-              //   if (!value.endsWith(".mp3")) {
-              //     return "The file must be an MP3 file.";
-              //   }
-              // },
+              validate: (value) => {
+                if (!value.endsWith(".mp3")) {
+                  return "The file must be an MP3 file.";
+                }
+              },
             },
           },
           {
@@ -226,9 +226,9 @@ export default defineConfig({
         ],
       },
       {
-        name: "start_sample",
-        label: "Start Sample",
-        path: "content/start_sample",
+        name: "initial_content",
+        label: "Initial Content",
+        path: "content/initial_content",
         format: "json",
         list: false,
         ui: {
@@ -240,10 +240,24 @@ export default defineConfig({
         },
         fields: [
           {
-            label: "sample",
-            name: "Sample",
+            label: "Start Sample",
+            name: "start_sample",
             type: "reference",
             collections: ["samples"],
+          },
+          {
+            label: "Promotional Album Cover",
+            name: "promotional_album_cover",
+            type: "image",
+            ui: {
+              component: "image",
+              uploadDir: () => "/albumcovers/",
+            },
+          },
+          {
+            label: "Introductory Text",
+            name: "introductory_text",
+            type: "string",
           },
         ],
       },
