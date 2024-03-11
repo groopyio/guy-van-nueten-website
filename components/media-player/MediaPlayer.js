@@ -18,7 +18,6 @@ export default function MediaPlayer() {
   const [initialContent] = useFetchTinaCollectionData("initial_content");
   const startSample = initialContent?.start_sample;
   const promotionalAlbumCover = initialContent?.promotional_album_cover;
-  console.log(promotionalAlbumCover);
   const shuffledIndices = useShuffledIndices(audioFiles, startSample);
 
   const {
