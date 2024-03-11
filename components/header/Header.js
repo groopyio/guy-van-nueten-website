@@ -1,42 +1,15 @@
-import { GenreContext } from "pages";
-import React, { useContext } from "react";
+import CategorySelector from "@components/category_selector/CategorySelector";
+import IntroductoryText from "@components/introductory_text/IntroductoryText";
+import { useFetchTinaCollectionData } from "@hooks/useFetchTinaCollectionData";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const { genre, setGenre } = useContext(GenreContext);
-
-  const genres = [
-    "Piano",
-    "Electronic",
-    "Orchestral",
-    "Song",
-    "Contemporary",
-    "Old Styles",
-    "Pop",
-    "Live",
-    "Stage",
-    "Film",
-    "Minimal",
-    "All",
-  ];
+  const [initialContent] = useFetchTinaCollectionData("initial_content");
+  const introductoryText = initialContent?.introductory_text;
   return (
-    <div className={styles["category-selection-list"]}>
-      {genres.map((genreItem, index) => (
-        <React.Fragment key={genreItem}>
-          <button
-            className={`${styles["category-button"]} ${
-              genreItem === genre ? styles["active"] : ""
-            }`}
-            onClick={() => setGenre(genreItem)}
-            key={genreItem}
-          >
-            {genreItem}
-          </button>
-          {index !== genres.length - 1 && (
-            <span className={styles["divider"]}>|</span>
-          )}
-        </React.Fragment>
-      ))}
+    <div className={styles["header-wrapper"]}>
+      <CategorySelector />
+      {introductoryText && <IntroductoryText text={introductoryText} />}
     </div>
   );
 }

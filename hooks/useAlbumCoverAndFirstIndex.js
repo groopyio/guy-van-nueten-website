@@ -5,12 +5,18 @@ export function useAlbumCoverAndFirstIndex(
   audioFiles,
   shuffledIndices,
   setAlbumCover,
-  setIsOnFirstIndex
+  setIsOnFirstIndex,
+  isPlaying,
+  promotionalAlbumCover
 ) {
   useEffect(() => {
     if (audioFiles.length > 0 && shuffledIndices.length > 0) {
-      setAlbumCover(audioFiles[shuffledIndices[currentIndex]].albumcover);
-      setIsOnFirstIndex(currentIndex === 0);
+      if (!isPlaying) {
+        setAlbumCover(promotionalAlbumCover);
+      } else {
+        setAlbumCover(audioFiles[shuffledIndices[currentIndex]].albumcover);
+        setIsOnFirstIndex(currentIndex === 0);
+      }
     }
   }, [
     currentIndex,
@@ -18,5 +24,7 @@ export function useAlbumCoverAndFirstIndex(
     shuffledIndices,
     setAlbumCover,
     setIsOnFirstIndex,
+    isPlaying,
+    promotionalAlbumCover,
   ]);
 }

@@ -2,7 +2,7 @@ import { useAlbumCoverAndFirstIndex } from "@hooks/useAlbumCoverAndFirstIndex";
 import { useAudioPlayer } from "@hooks/useAudioPlayer";
 import { useFetchTinaCollectionData } from "@hooks/useFetchTinaCollectionData";
 import { useGenreChange } from "@hooks/useGenreChange";
-import { useShuffledIndex } from "@hooks/useShuffledIndex";
+import { useShuffledIndices } from "@hooks/useShuffledIndices";
 import { useSongData } from "@hooks/useSongData";
 import { AudioMetaContext, GenreContext } from "pages";
 import { useContext } from "react";
@@ -15,7 +15,10 @@ export default function MediaPlayer() {
   const { song, setSong, url, setAlbumCover } = useContext(AudioMetaContext);
   const { genre } = useContext(GenreContext);
   const audioFiles = useFetchTinaCollectionData("samples");
-  const shuffledIndices = useShuffledIndex(audioFiles.length);
+  const [initialContent] = useFetchTinaCollectionData("initial_content");
+  const startSample = initialContent?.start_sample;
+  const promotionalAlbumCover = initialContent?.promotional_album_cover;
+  const shuffledIndices = useShuffledIndices(audioFiles, startSample);
 
   const {
     currentIndex,
@@ -29,7 +32,7 @@ export default function MediaPlayer() {
     handlePrevious,
     setCurrentIndex,
     setIsOnFirstIndex,
-  } = useAudioPlayer(audioFiles, shuffledIndices, genre);
+  } = useAudioPlayer(audioFiles, shuffledIndices, genre, startSample);
 
   useSongData(audioFiles, audioUrl, setSong);
   useAlbumCoverAndFirstIndex(
@@ -37,7 +40,9 @@ export default function MediaPlayer() {
     audioFiles,
     shuffledIndices,
     setAlbumCover,
-    setIsOnFirstIndex
+    setIsOnFirstIndex,
+    isPlaying,
+    promotionalAlbumCover
   );
   useGenreChange(genre, audioFiles, shuffledIndices, setCurrentIndex);
 
