@@ -29,6 +29,15 @@ export default defineConfig({
     },
   },
 
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
+      stopwordLanguages: ["eng"],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
+  },
+
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
@@ -46,190 +55,237 @@ export default defineConfig({
         },
         fields: [
           {
-            label: "List",
-            name: "list",
-            type: "object",
-            list: true,
+            label: "Title",
+            name: "title",
+            type: "string",
+          },
+          {
+            label: "Composer",
+            name: "composer",
+            type: "string",
+          },
+          {
+            label: "Origin",
+            name: "origin",
+            type: "string",
+          },
+          {
+            label: "Project",
+            name: "project",
+            type: "string",
+          },
+          {
+            label: "Year",
+            name: "year",
+            type: "string",
+          },
+          {
+            label: "Artist",
+            name: "artist",
+            type: "string",
+          },
+          {
+            label: "Album",
+            name: "album",
+            type: "string",
+          },
+          {
+            label: "Album Cover",
+            name: "albumcover",
+            type: "image",
             ui: {
-              itemProps: (item) => {
-                return {
-                  label: item?.filename?.match(regex)
-                    ? item?.filename?.match(regex)[1].replace("/audio/", "")
-                    : item?.filename.replace("/audio/", ""),
-                };
+              component: "image",
+              uploadDir: () => "/albumcovers/",
+            },
+          },
+          {
+            label: "Publisher",
+            name: "publisher",
+            type: "string",
+          },
+          {
+            label: "Venue Date",
+            name: "venue_date",
+            type: "string",
+          },
+          {
+            label: "Spotify",
+            name: "spotify",
+            type: "string",
+            ui: {
+              validate: (value) => {
+                if (value === "") return;
+                const urlPattern = new RegExp(
+                  "^(https?:\\/\\/)?" + // protocol
+                    "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
+                    "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+                    "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+                    "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+                    "(\\#[-a-z\\d_]*)?$",
+                  "i"
+                );
+                if (!urlPattern.test(value)) {
+                  return "Please enter a valid URL.";
+                }
               },
             },
-            fields: [
+          },
+          {
+            label: "Youtube",
+            name: "youtube",
+            type: "string",
+            ui: {
+              validate: (value) => {
+                if (value === "") return;
+                const urlPattern = new RegExp(
+                  "^(https?:\\/\\/)?" + // protocol
+                    "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
+                    "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+                    "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+                    "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+                    "(\\#[-a-z\\d_]*)?$",
+                  "i"
+                );
+                if (!urlPattern.test(value)) {
+                  return "Please enter a valid URL.";
+                }
+              },
+            },
+          },
+          {
+            label: "Filename",
+            name: "filename",
+            type: "image",
+            ui: {
+              component: "image",
+              uploadDir: () => "/audio/",
+              // validate: (value) => {
+              //   if (!value.endsWith(".mp3")) {
+              //     return "The file must be an MP3 file.";
+              //   }
+              // },
+            },
+          },
+          {
+            label: "Genres",
+            name: "genres",
+            type: "string",
+            list: true,
+            options: [
               {
-                label: "Title",
-                name: "title",
-                type: "string",
+                label: "Piano",
+                value: "Piano",
               },
               {
-                label: "Composer",
-                name: "composer",
-                type: "string",
+                label: "Electronic",
+                value: "Electronic",
               },
               {
-                label: "Origin",
-                name: "origin",
-                type: "string",
+                label: "Orchestral",
+                value: "Orchestral",
               },
               {
-                label: "Project",
-                name: "project",
-                type: "string",
+                label: "Song",
+                value: "Song",
               },
               {
-                label: "Year",
-                name: "year",
-                type: "string",
+                label: "Contemporary",
+                value: "Contemporary",
               },
               {
-                label: "Artist",
-                name: "artist",
-                type: "string",
+                label: "Old Styles",
+                value: "Old Styles",
               },
               {
-                label: "Album",
-                name: "album",
-                type: "string",
+                label: "Pop",
+                value: "Pop",
               },
               {
-                label: "Album Cover",
-                name: "albumcover",
-                type: "image",
-                ui: {
-                  component: "image",
-                  uploadDir: () => "/albumcovers/",
-                },
+                label: "Live",
+                value: "Live",
               },
               {
-                label: "Publisher",
-                name: "publisher",
-                type: "string",
+                label: "Stage",
+                value: "Stage",
               },
               {
-                label: "Venue Date",
-                name: "venue_date",
-                type: "string",
+                label: "Film",
+                value: "Film",
               },
               {
-                label: "Spotify",
-                name: "spotify",
-                type: "string",
-                ui: {
-                  validate: (value) => {
-                    if (value === "") return;
-                    const urlPattern = new RegExp(
-                      "^(https?:\\/\\/)?" + // protocol
-                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
-                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
-                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
-                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
-                        "(\\#[-a-z\\d_]*)?$",
-                      "i"
-                    );
-                    if (!urlPattern.test(value)) {
-                      return "Please enter a valid URL.";
-                    }
-                  },
-                },
-              },
-              {
-                label: "Youtube",
-                name: "youtube",
-                type: "string",
-                ui: {
-                  validate: (value) => {
-                    if (value === "") return;
-                    const urlPattern = new RegExp(
-                      "^(https?:\\/\\/)?" + // protocol
-                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
-                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
-                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
-                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
-                        "(\\#[-a-z\\d_]*)?$",
-                      "i"
-                    );
-                    if (!urlPattern.test(value)) {
-                      return "Please enter a valid URL.";
-                    }
-                  },
-                },
-              },
-              {
-                label: "Filename",
-                name: "filename",
-                type: "image",
-                ui: {
-                  component: "image",
-                  uploadDir: () => "/audio/",
-                  validate: (value) => {
-                    if (!value.endsWith(".mp3")) {
-                      return "The file must be an MP3 file.";
-                    }
-                  },
-                },
-              },
-              {
-                label: "Genres",
-                name: "genres",
-                type: "string",
-                list: true,
-                options: [
-                  {
-                    label: "Piano",
-                    value: "piano",
-                  },
-                  {
-                    label: "Electronic",
-                    value: "electronic",
-                  },
-                  {
-                    label: "Orchestral",
-                    value: "orchestral",
-                  },
-                  {
-                    label: "Song",
-                    value: "song",
-                  },
-                  {
-                    label: "Contemporary",
-                    value: "contemporary",
-                  },
-                  {
-                    label: "Old Styles",
-                    value: "old_styles",
-                  },
-                  {
-                    label: "Pop",
-                    value: "pop",
-                  },
-                  {
-                    label: "Live",
-                    value: "live",
-                  },
-                  {
-                    label: "Stage",
-                    value: "stage",
-                  },
-                  {
-                    label: "Film",
-                    value: "film",
-                  },
-                  {
-                    label: "Minimal",
-                    value: "minimal",
-                  },
-                ],
-              },
-              {
-                label: "Is Live",
-                name: "is_live",
-                type: "boolean",
+                label: "Minimal",
+                value: "Minimal",
               },
             ],
+          },
+          {
+            label: "Is Live",
+            name: "is_live",
+            type: "boolean",
+          },
+        ],
+      },
+      {
+        name: "start_sample",
+        label: "Start Sample",
+        path: "content/start_sample",
+        format: "json",
+        list: false,
+        ui: {
+          global: true,
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            label: "sample",
+            name: "Sample",
+            type: "reference",
+            collections: ["samples"],
+          },
+        ],
+      },
+      {
+        name: "flying_object",
+        label: "Flying Objects",
+        path: "content/flying_objects",
+        format: "json",
+        ui: {
+          global: true,
+        },
+        fields: [
+          {
+            label: "Image",
+            name: "src",
+            type: "image",
+            ui: {
+              component: "image",
+              uploadDir: () => "/flying objects/",
+            },
+          },
+          {
+            label: "Url",
+            name: "url",
+            type: "string",
+            ui: {
+              validate: (value) => {
+                if (value === "") return;
+                const urlPattern = new RegExp(
+                  "^(https?:\\/\\/)?" + // protocol
+                    "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name and extension
+                    "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+                    "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+                    "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+                    "(\\#[-a-z\\d_]*)?$",
+                  "i"
+                );
+                if (!urlPattern.test(value)) {
+                  return "Please enter a valid URL.";
+                }
+              },
+            },
           },
         ],
       },

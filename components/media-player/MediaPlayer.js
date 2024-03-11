@@ -1,6 +1,6 @@
 import { useAlbumCoverAndFirstIndex } from "@hooks/useAlbumCoverAndFirstIndex";
 import { useAudioPlayer } from "@hooks/useAudioPlayer";
-import { useFetchSamplesData } from "@hooks/useFetchSamplesData";
+import { useFetchTinaCollectionData } from "@hooks/useFetchTinaCollectionData";
 import { useGenreChange } from "@hooks/useGenreChange";
 import { useShuffledIndex } from "@hooks/useShuffledIndex";
 import { useSongData } from "@hooks/useSongData";
@@ -14,7 +14,7 @@ import { SourceLinks } from "./source-links/SourceLinks";
 export default function MediaPlayer() {
   const { song, setSong, url, setAlbumCover } = useContext(AudioMetaContext);
   const { genre } = useContext(GenreContext);
-  const audioFiles = useFetchSamplesData();
+  const audioFiles = useFetchTinaCollectionData("samples");
   const shuffledIndices = useShuffledIndex(audioFiles.length);
 
   const {
