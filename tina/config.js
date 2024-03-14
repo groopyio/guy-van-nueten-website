@@ -48,10 +48,6 @@ export default defineConfig({
         format: "json",
         ui: {
           global: true,
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
         },
         fields: [
           {
@@ -159,11 +155,11 @@ export default defineConfig({
             ui: {
               component: "image",
               uploadDir: () => "/audio/",
-              validate: (value) => {
-                if (!value.endsWith(".mp3")) {
-                  return "The file must be an MP3 file.";
-                }
-              },
+              // validate: (value) => {
+              //   if (!value.endsWith(".mp3")) {
+              //     return "The file must be an MP3 file.";
+              //   }
+              // },
             },
           },
           {
