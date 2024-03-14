@@ -1,5 +1,6 @@
 import { useAlbumCoverAndFirstIndex } from "@hooks/useAlbumCoverAndFirstIndex";
 import { useAudioPlayer } from "@hooks/useAudioPlayer";
+import { useDeviceQuery } from "@hooks/useDeviceQuery";
 import { useFetchTinaCollectionData } from "@hooks/useFetchTinaCollectionData";
 import { useGenreChange } from "@hooks/useGenreChange";
 import { useShuffledIndices } from "@hooks/useShuffledIndices";
@@ -19,6 +20,7 @@ export default function MediaPlayer() {
   const startSample = initialContent?.start_sample;
   const promotionalAlbumCover = initialContent?.promotional_album_cover;
   const shuffledIndices = useShuffledIndices(audioFiles, startSample);
+  const { isDesktop } = useDeviceQuery();
 
   const {
     currentIndex,
@@ -58,7 +60,7 @@ export default function MediaPlayer() {
 
       {song && <SongMetadata song={song} url={url} />}
 
-      <SourceLinks song={song} setIsPlaying={setIsPlaying} />
+      {isDesktop && <SourceLinks song={song} setIsPlaying={setIsPlaying} />}
 
       <audio
         ref={audioRef}
