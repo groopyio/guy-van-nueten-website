@@ -3,7 +3,7 @@ import {
   FacebookTag,
   Instagram,
   MusicDoubleNote,
-  Shop,
+  SimpleCart,
   Tiktok,
 } from "iconoir-react";
 import styles from "./Socials.module.css";
@@ -15,7 +15,7 @@ export default function Socials() {
         href="https://guyvannueten.myshopify.com/"
         aria-label="Shop Guy van Nueten's latest merchandise"
       >
-        <Shop className={styles["icon"]} />
+        <SimpleCart className={styles["icon"]} />
       </a>
 
       <a
