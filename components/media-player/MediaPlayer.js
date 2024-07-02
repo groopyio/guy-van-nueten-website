@@ -60,7 +60,7 @@ export default function MediaPlayer() {
 
         {song && <SongMetadata song={song} url={url} />}
 
-        <Media at="desktop">
+        <Media greaterThanOrEqual="desktop">
           <SourceLinks song={song} setIsPlaying={setIsPlaying} />
         </Media>
 

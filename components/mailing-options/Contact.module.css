@@ -1,6 +1,7 @@
 .contact-container {
   z-index: 3;
-  position: relative;
+  position: absolute;
+  right: 0;
   display: flex;
   gap: var(--space-s);
   font-size: 15px;
@@ -10,6 +11,14 @@
 
 .contact-container:hover {
   gap: var(--space-m);
+}
+
+.contact-container:hover .mail-icon {
+  cursor: pointer;
+  transform: scale(1.15);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .country-email-container {
@@ -31,6 +40,7 @@
 }
 
 .country-link {
+  z-index: 50;
   all: unset;
   transform: scale(1);
   transition-property: transform;
@@ -48,6 +58,10 @@
 
 .mail-icon {
   width: 24px + var(--space-s);
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .on-bottom {
