@@ -5,18 +5,22 @@ import styles from "./Contact.module.css";
 
 export default function MailReferences() {
   const [isHovered, setIsHovered] = useState(false);
+
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
+
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
+
   const mailReferences = [
     { country: "Belgium", email: "daan@daan.agency" },
     { country: "Netherlands", email: "daan@daan.agency" },
     { country: "Luxembourg", email: "daan@daan.agency" },
     { country: "Territories", email: "w.swinnen@telenet.be" },
   ];
+
   return (
     <div
       className={styles["contact-container"]}
@@ -30,8 +34,12 @@ export default function MailReferences() {
           }`}
         >
           {mailReferences.map((reference) => (
-            <Link href={`mailto:${reference.email}`} key={reference.country}>
-              <p className={styles["country-link"]}>{reference.country}</p>
+            <Link
+              href={`mailto:${reference.email}`}
+              key={reference.country}
+              className={styles["country-link"]}
+            >
+              {reference.country}
             </Link>
           ))}
         </div>
