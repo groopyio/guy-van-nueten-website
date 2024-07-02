@@ -12,7 +12,7 @@ export default function Socials() {
   return (
     <nav className={styles["icon-container"]}>
       <a
-        href="https://www.shop.guyvannueten.com"
+        href="https://guyvannueten.myshopify.com/"
         aria-label="Shop Guy van Nueten's latest merchandise"
       >
         <Shop className={styles["icon"]} />
