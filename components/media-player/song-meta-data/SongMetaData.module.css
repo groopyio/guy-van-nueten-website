@@ -28,7 +28,6 @@
 .song-meta {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xs);
   justify-content: center;
   height: 100%;
   width: 100%;
@@ -41,7 +40,6 @@
 .url {
   display: flex;
   flex-direction: column;
-  gap: var(--space-s);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -49,5 +47,29 @@
     border: none;
     padding: 0;
     text-align: center;
+  }
+}
+
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.scrolling-text {
+  display: inline-block;
+  animation: scroll-text 18s linear infinite;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(100%);
   }
 }
