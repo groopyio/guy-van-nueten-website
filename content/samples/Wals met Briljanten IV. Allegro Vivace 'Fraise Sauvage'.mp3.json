@@ -1,20 +1,20 @@
 {
-    "title": "Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'",
-    "composer": "Van Nueten",
-    "origin": "",
-    "project": "",
-    "year": "2018",
-    "artist": "",
-    "album": "Contact",
-    "albumcover": "/albumcovers/Contact.webp",
-    "publisher": "Sony Classical",
-    "venue_date": "",
-    "spotify": "",
-    "youtube": "",
-    "filename": "/audio/Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'.mp3",
-    "genres": [
-        "Piano",
-        "Classical",
-        "Contemporary"
-    ]
+  "title": "Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'",
+  "composer": "Van Nueten",
+  "origin": "",
+  "project": "",
+  "year": "2018",
+  "artist": "",
+  "album": "Contact",
+  "albumcover": "/albumcovers/Contact.webp",
+  "publisher": "Sony Classical",
+  "venue_date": "",
+  "spotify": "https://open.spotify.com/track/402pR1gsmxJeYax3PeR81a?si=f4e532a675c9413b",
+  "youtube": "https://youtu.be/cwieQWVHbdw",
+  "filename": "/audio/Wals met Briljanten IV. Allegro Vivace 'Fraise Sauvage'.mp3",
+  "genres": [
+    "Piano",
+    "Classical",
+    "Contemporary"
+  ]
 }
