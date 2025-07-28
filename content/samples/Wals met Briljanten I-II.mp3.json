@@ -1,20 +1,20 @@
 {
-    "title": "Wals met Briljanten I. Rubato",
-    "composer": "Van Nueten",
-    "origin": "",
-    "project": "",
-    "year": "2018",
-    "artist": "",
-    "album": "Contact",
-    "albumcover": "/albumcovers/Contact.webp",
-    "publisher": "Sony Classical",
-    "venue_date": "",
-    "spotify": "",
-    "youtube": "",
-    "filename": "/audio/Wals met Briljanten I-II.mp3",
-    "genres": [
-        "Piano",
-        "Classical",
-        "Contemporary"
-    ]
+  "title": "Wals met Briljanten I. Rubato",
+  "composer": "Van Nueten",
+  "origin": "",
+  "project": "",
+  "year": "2018",
+  "artist": "",
+  "album": "Contact",
+  "albumcover": "/albumcovers/Contact.webp",
+  "publisher": "Sony Classical",
+  "venue_date": "",
+  "spotify": "https://open.spotify.com/track/0kcHFsigk1FDwEmEMzFMmj?si=8e2fb605f44b469e",
+  "youtube": "",
+  "filename": "/audio/Wals met Briljanten I-II.mp3",
+  "genres": [
+    "Piano",
+    "Classical",
+    "Contemporary"
+  ]
 }
