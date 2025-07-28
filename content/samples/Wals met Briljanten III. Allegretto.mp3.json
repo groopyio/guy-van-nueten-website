@@ -1,20 +1,20 @@
 {
-    "title": "Wals met Briljanten III. Allegretto",
-    "composer": "Van Nueten",
-    "origin": "",
-    "project": "",
-    "year": "2018",
-    "artist": "",
-    "album": "Contact",
-    "albumcover": "/albumcovers/Contact.webp",
-    "publisher": "Sony Classical",
-    "venue_date": "",
-    "spotify": "",
-    "youtube": "",
-    "filename": "/audio/Wals met Briljanten III. Allegretto.mp3",
-    "genres": [
-        "Piano",
-        "Classical",
-        "Contemporary"
-    ]
+  "title": "Wals met Briljanten III. Allegretto",
+  "composer": "Van Nueten",
+  "origin": "",
+  "project": "",
+  "year": "2018",
+  "artist": "",
+  "album": "Contact",
+  "albumcover": "/albumcovers/Contact.webp",
+  "publisher": "Sony Classical",
+  "venue_date": "",
+  "spotify": "https://open.spotify.com/track/5AbCbTqpo7NRgw5qNXyKvP?si=d0c450f426824ce1",
+  "youtube": "",
+  "filename": "/audio/Wals met Briljanten III. Allegretto.mp3",
+  "genres": [
+    "Piano",
+    "Classical",
+    "Contemporary"
+  ]
 }
