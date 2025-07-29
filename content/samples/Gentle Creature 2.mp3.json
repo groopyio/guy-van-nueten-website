@@ -1,18 +1,19 @@
 {
-    "title": "Gentle Creature",
-    "composer": "Van Nueten",
-    "origin": "short movie",
-    "project": "Gentle Creature",
-    "year": "2009",
-    "artist": "Solists of the Flemish Opera, directed by Bart Van Reyn",
-    "publisher": "",
-    "venue_date": "",
-    "spotify": "",
-    "youtube": "",
-    "filename": "/audio/Gentle Creature 2.mp3",
-    "genres": [
-        "Contemporary",
-        "Film",
-        "Orchestral"
-    ]
+  "title": "Gentle Creature",
+  "composer": "Van Nueten",
+  "origin": "short movie",
+  "project": "Gentle Creature",
+  "year": "2009",
+  "artist": "Solists of the Flemish Opera, directed by Bart Van Reyn",
+  "albumcover": "/albumcovers/AS PLAYED BY_DEF_A.jpg",
+  "publisher": "",
+  "venue_date": "",
+  "spotify": "https://open.spotify.com/track/6TJG6zIz95v7gVAUiiR8XO?si=664604f466e247e1",
+  "youtube": "https://youtu.be/CQW9t6H_YVs?feature=shared",
+  "filename": "/audio/Gentle Creature 2.mp3",
+  "genres": [
+    "Contemporary",
+    "Film",
+    "Orchestral"
+  ]
 }
