@@ -1,18 +1,19 @@
 {
-    "title": "Diabo do Belho",
-    "composer": "Traditonal-Van Nueten",
-    "origin": "",
-    "project": "",
-    "year": "2007",
-    "artist": "Octopus Chamber Choir, directed by Bart Van Reyn",
-    "publisher": "",
-    "venue_date": "",
-    "spotify": "",
-    "youtube": "",
-    "filename": "/audio/Diabo do Belho.mp3",
-    "genres": [
-        "Stage",
-        "Traditional",
-        "Orchestral"
-    ]
+  "title": "Diabo do Belho",
+  "composer": "Traditonal-Van Nueten",
+  "origin": "",
+  "project": "",
+  "year": "2007",
+  "artist": "Octopus Chamber Choir, directed by Bart Van Reyn",
+  "albumcover": "/albumcovers/AS PLAYED BY_DEF_A.jpg",
+  "publisher": "",
+  "venue_date": "",
+  "spotify": "https://open.spotify.com/album/6s8SsPlYh5DishZhQVZda6?si=bYVvhxOjT16oT9jABzzatw",
+  "youtube": "https://youtu.be/evo6CcextO4?feature=shared",
+  "filename": "/audio/Diabo do Belho.mp3",
+  "genres": [
+    "Stage",
+    "Traditional",
+    "Orchestral"
+  ]
 }
