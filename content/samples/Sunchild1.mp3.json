@@ -1,19 +1,20 @@
 {
-    "title": "Sunchild",
-    "composer": "Stuyven",
-    "origin": "",
-    "project": "",
-    "year": "2003",
-    "artist": "Daan",
-    "album": "Bridge Burner",
-    "publisher": "Tracks",
-    "venue_date": "",
-    "spotify": "",
-    "youtube": "https://youtu.be/8peCdX4CS0E",
-    "filename": "/audio/Sunchild1.mp3",
-    "genres": [
-        "Pop",
-        "Song",
-        "Electronic"
-    ]
+  "title": "Sunchild",
+  "composer": "Stuyven",
+  "origin": "",
+  "project": "",
+  "year": "2003",
+  "artist": "Daan",
+  "album": "Bridge Burner",
+  "publisher": "Tracks",
+  "venue_date": "",
+  "spotify": "",
+  "youtube": "https://youtu.be/5CoykZwoV1c?feature=shared",
+  "filename": "/audio/Sunchild1.mp3",
+  "genres": [
+    "Pop",
+    "Song",
+    "Electronic",
+    "Stage"
+  ]
 }
