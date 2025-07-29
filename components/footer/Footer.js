@@ -1,8 +1,8 @@
+import ConcertsToggle from "@components/bandsintown/toggle/ConcertsToggle";
 import Contact from "@components/mailing-options/Contact";
 import MediaPlayer from "@components/media-player/MediaPlayer";
 import { SourceLinks } from "@components/media-player/source-links/SourceLinks";
 import Socials from "@components/socials/Socials";
-import SongkickToggle from "@components/songkick/toggle/SongkickToggle";
 import { Media, MediaContextProvider } from "@hooks/useMediaStyle";
 import { AudioMetaContext } from "pages";
 import { useContext } from "react";
@@ -18,7 +18,7 @@ export default function Footer() {
           <Media at="mobile">
             <SourceLinks song={song} />
           </Media>
-          <SongkickToggle />
+          <ConcertsToggle />
           <Contact />
         </div>
         <MediaPlayer />

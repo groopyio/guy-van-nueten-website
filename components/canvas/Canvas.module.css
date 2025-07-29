@@ -12,15 +12,50 @@
   place-content: center;
 }
 
-.songkick-widget,
+.bandsintown-events,
 .album-cover {
   width: 450px;
   height: 450px;
 }
 
-.enabled {
+.bandsintown-events {
+  background-color: white;
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: var(--space-m);
+  padding: var(--space-m) var(--space-m);
+  background: var(--gray-100);
+  border-radius: 8px 8px 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 20px;
+  gap: var(--space-xl);
+}
+
+.followButton {
+  border: 1px solid var(--gray-300);
+  color: var(--gray-800);
+  padding: var(--space-s) var(--space-m);
+  font-size: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.enabled {
   z-index: 2;
 }
 

@@ -23,8 +23,7 @@ export function SongMetadata({ song, url }) {
     { id: "project", text: project ? `from ${origin} '${project}'` : null },
     {
       id: "live",
-      text:
-        isLive && venue_date ? `Live at ${venue_date}` : `${year} ${publisher}`,
+      text: venue_date ? `Live at ${venue_date}` : `${year} ${publisher}`,
     },
   ].filter((item) => item.text !== null);
 
