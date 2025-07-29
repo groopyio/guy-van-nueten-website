@@ -4,7 +4,11 @@ const { parse } = require("path");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
 const inputDir = path.join(__dirname, "..", "content/samples");
-const outputFile = path.join(__dirname, "..", "content/samples_export.csv");
+const outputFile = path.join(
+  __dirname,
+  "..",
+  "scripts/sample_data/samples_export.csv"
+);
 
 const files = fs.readdirSync(inputDir).filter((f) => f.endsWith(".json"));
 
