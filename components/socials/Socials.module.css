@@ -4,10 +4,14 @@
   align-items: center;
   gap: var(--space-s);
   height: 24px;
-  stroke: black;
+}
+
+.icon-url {
+  all: unset;
 }
 
 .icon {
+  stroke: black;
   transform: scale(1);
   transition-property: transform;
   transition-duration: 0.3s;

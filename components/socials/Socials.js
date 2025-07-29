@@ -12,6 +12,7 @@ export default function Socials() {
   return (
     <nav className={styles["icon-container"]}>
       <a
+        className={styles["icon-url"]}
         href="https://guyvannueten.myshopify.com/"
         aria-label="Shop Guy van Nueten's latest merchandise"
       >
@@ -19,6 +20,7 @@ export default function Socials() {
       </a>
 
       <a
+        className={styles["icon-url"]}
         href="https://www.facebook.com/guyvannueten/"
         target="_blank"
         aria-label="Guy van Nueten on Facebook"
@@ -27,7 +29,7 @@ export default function Socials() {
       </a>
 
       <a
-        className={styles["icon-container"]}
+        className={styles["icon-url"]}
         href="https://www.discogs.com/sell/list?artist_id=385715&ev=ab&page=2"
         target="_blank"
         aria-label="Guy van Nueten on Discogs"
@@ -36,6 +38,7 @@ export default function Socials() {
       </a>
 
       <a
+        className={styles["icon-url"]}
         href="https://www.instagram.com/guy.van.nueten?utm_source=qr&igsh=OXp6bXUzaXUya3Q="
         target="_blank"
         aria-label="Guy van Nueten on Instagram"
@@ -43,6 +46,7 @@ export default function Socials() {
         <Instagram className={styles["icon"]} />
       </a>
       <a
+        className={styles["icon-url"]}
         href="https://www.tiktok.com/@guy.van.nueten?_t=8nZuzHK6IZl&_r=1"
         target="_blank"
         aria-label="Guy van Nueten on TikTok"
@@ -50,6 +54,7 @@ export default function Socials() {
         <Tiktok className={styles["icon"]} />
       </a>
       <a
+        className={styles["icon-url"]}
         href="https://music.apple.com/be/artist/guy-van-nueten/5298371"
         target="_blank"
         aria-label="Guy van Nueten on Apple Music"
